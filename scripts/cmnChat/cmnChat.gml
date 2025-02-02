@@ -211,9 +211,8 @@ function cmn_chat_add(argument0, argument1)
 {
     var l_item = 
     {
-		// i THINK its this
         text: argument0,
-        time: current_time,
+        time: current_time + global.cmn_chat_log_fade_delay,
         width: undefined,
         height: undefined,
         data: argument1
@@ -421,7 +420,7 @@ function cmn_chat_comp_add_ext(argument0, argument1, argument2, argument3 = 1)
     
     var l_item = 
     {
-        chain: argument0,
+        chain: cmn_chat_string_split(argument0, " "),
         args: argument1,
         comp: l_comp,
         argsJoined: l_argsJoined,
@@ -1959,7 +1958,7 @@ function cmn_chat_key_pressed(argument0, argument1 = 1)
             {
                 l_item = 
                 {
-                    key: argument[0],
+                    key: argument0,
                     pressed: 0,
                     time: 0
                 };
@@ -2139,7 +2138,7 @@ function cmn_chat_log_draw(argument0, argument1, argument2, argument3)
         }
         else
         {
-            var l_bw = string_width_ext(l_s, -1, l_mw) + l_x1 + l_x2;//-------------------
+            var l_bw = string_width_ext(l_s, -1, l_mw) + l_x1 + l_x2;
             l_item.width = l_bw;
             l_bh = string_height_ext(l_s, -1, l_mw) + l_y1 + l_y2;
             l_item.height = l_bh;
