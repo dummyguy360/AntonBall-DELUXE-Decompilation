@@ -1,10 +1,11 @@
 # AntonBall DELUXE Decompilation
 A Decompilation of AntonBall DELUXE (Day 1 Build)
 <br><br>
-by burnedpopcorn180
-<br>
-and the PT Decomp Discord Server maybe if they want to 
+Collaboratively Made by 
+<br>- burnedpopcorn180
+<br>- Catmateo
+<br>- Minty
 <br><br>
-For any collaborators
+GameMaker Version used: 2022.1.0.609
 <br>
-put yo name here and in the end I'll formally list them
+Note that this is INCOMPATIBLE with any other version
