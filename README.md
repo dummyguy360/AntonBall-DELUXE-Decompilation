@@ -6,6 +6,6 @@ Collaboratively Made by
 <br>- Catmateo
 <br>- Minty
 <br><br>
-GameMaker Version used: 2022.1.0.609
+GameMaker Version Used: ```2022.1.0.609```
 <br>
 Note that this is INCOMPATIBLE with any other version
