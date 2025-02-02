@@ -107,11 +107,8 @@ function initialize_serialized_values()
     global.inputKeyData = [undefined, undefined, undefined, undefined, undefined];
     unlocks_init();
     global.currency = false ? 999999 : 0;
-    global.scores = 
-    {
-        arcade: [],
-        punchball: []
-    }
+	global.scores_arcade = [];
+	global.scores_punchball = [];
     global.options = 
     {
         screenScale: 4,

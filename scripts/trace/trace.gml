@@ -17,3 +17,5 @@ function trace()
     show_debug_message(s);
     return s;
 }
+
+global.trace_buf = buffer_create(1024, buffer_grow, 1);

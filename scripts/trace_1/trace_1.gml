@@ -1,9 +1,5 @@
-function trace_1(argument0, argument1, argument2)
-{
-    var b = argument0;
-    var v = argument1;
-    var d = argument2;
-    
+function trace_1(b, v, d)
+{    
     if (is_array(v))
     {
         if (d > 8)
