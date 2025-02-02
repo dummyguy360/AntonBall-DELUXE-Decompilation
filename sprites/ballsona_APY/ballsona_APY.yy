@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "ballsona_APY",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 16,
   "height": 32,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"be778093-fce4-439c-9c54-b6f7aa3cedad",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"91e337bb-9192-4aa5-b975-3c0c878a4d0e",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0cde2f2a-8331-47ce-a947-aa4b16bf873a",},
+    {"compositeImage":{"FrameId":{"name":"be778093-fce4-439c-9c54-b6f7aa3cedad","path":"sprites/ballsona_APY/ballsona_APY.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"be778093-fce4-439c-9c54-b6f7aa3cedad","path":"sprites/ballsona_APY/ballsona_APY.yy",},"LayerId":{"name":"aafdd8c5-1066-4983-a144-b1e14e02d218","path":"sprites/ballsona_APY/ballsona_APY.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_APY","path":"sprites/ballsona_APY/ballsona_APY.yy",},"resourceVersion":"1.0","name":"be778093-fce4-439c-9c54-b6f7aa3cedad","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"91e337bb-9192-4aa5-b975-3c0c878a4d0e","path":"sprites/ballsona_APY/ballsona_APY.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"91e337bb-9192-4aa5-b975-3c0c878a4d0e","path":"sprites/ballsona_APY/ballsona_APY.yy",},"LayerId":{"name":"aafdd8c5-1066-4983-a144-b1e14e02d218","path":"sprites/ballsona_APY/ballsona_APY.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_APY","path":"sprites/ballsona_APY/ballsona_APY.yy",},"resourceVersion":"1.0","name":"91e337bb-9192-4aa5-b975-3c0c878a4d0e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0cde2f2a-8331-47ce-a947-aa4b16bf873a","path":"sprites/ballsona_APY/ballsona_APY.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0cde2f2a-8331-47ce-a947-aa4b16bf873a","path":"sprites/ballsona_APY/ballsona_APY.yy",},"LayerId":{"name":"aafdd8c5-1066-4983-a144-b1e14e02d218","path":"sprites/ballsona_APY/ballsona_APY.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_APY","path":"sprites/ballsona_APY/ballsona_APY.yy",},"resourceVersion":"1.0","name":"0cde2f2a-8331-47ce-a947-aa4b16bf873a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "ballsona_APY",
+    "spriteId": {"name":"ballsona_APY","path":"sprites/ballsona_APY/ballsona_APY.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"39a2b96e-70b3-459a-a534-e16594eaa44c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"be778093-fce4-439c-9c54-b6f7aa3cedad","path":"sprites/ballsona_APY/ballsona_APY.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fa4a193d-44b7-417a-ace2-b068761c6f15","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"91e337bb-9192-4aa5-b975-3c0c878a4d0e","path":"sprites/ballsona_APY/ballsona_APY.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"91974a4f-cd7d-48fe-9e8a-39ab3e2fec6d","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0cde2f2a-8331-47ce-a947-aa4b16bf873a","path":"sprites/ballsona_APY/ballsona_APY.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"ballsona_APY","path":"sprites/ballsona_APY/ballsona_APY.yy",},
+    "resourceVersion": "1.3",
+    "name": "ballsona_APY",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"aafdd8c5-1066-4983-a144-b1e14e02d218","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"aafdd8c5-1066-4983-a144-b1e14e02d218","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "ballsona_APY",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_danthonysorbLottery",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 8,
   "height": 8,
   "textureGroupId": {
@@ -28,13 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d384064e-3b94-47d3-ac6a-ef03ee33f810",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6c3283ff-13b9-4ba5-ac87-17f88c3beee7",},
+    {"compositeImage":{"FrameId":{"name":"d384064e-3b94-47d3-ac6a-ef03ee33f810","path":"sprites/spr_danthonysorbLottery/spr_danthonysorbLottery.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d384064e-3b94-47d3-ac6a-ef03ee33f810","path":"sprites/spr_danthonysorbLottery/spr_danthonysorbLottery.yy",},"LayerId":{"name":"652c699b-5a84-4620-8013-3b59155ab061","path":"sprites/spr_danthonysorbLottery/spr_danthonysorbLottery.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_danthonysorbLottery","path":"sprites/spr_danthonysorbLottery/spr_danthonysorbLottery.yy",},"resourceVersion":"1.0","name":"d384064e-3b94-47d3-ac6a-ef03ee33f810","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6c3283ff-13b9-4ba5-ac87-17f88c3beee7","path":"sprites/spr_danthonysorbLottery/spr_danthonysorbLottery.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6c3283ff-13b9-4ba5-ac87-17f88c3beee7","path":"sprites/spr_danthonysorbLottery/spr_danthonysorbLottery.yy",},"LayerId":{"name":"652c699b-5a84-4620-8013-3b59155ab061","path":"sprites/spr_danthonysorbLottery/spr_danthonysorbLottery.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_danthonysorbLottery","path":"sprites/spr_danthonysorbLottery/spr_danthonysorbLottery.yy",},"resourceVersion":"1.0","name":"6c3283ff-13b9-4ba5-ac87-17f88c3beee7","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_danthonysorbLottery",
+    "spriteId": {"name":"spr_danthonysorbLottery","path":"sprites/spr_danthonysorbLottery/spr_danthonysorbLottery.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 5.0,
@@ -45,10 +43,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"a58fa88c-c730-4e87-9a8c-6305787bde34","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d384064e-3b94-47d3-ac6a-ef03ee33f810","path":"sprites/spr_danthonysorbLottery/spr_danthonysorbLottery.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8a6ef8f1-a9d3-4526-96c9-e5c6abe699da","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6c3283ff-13b9-4ba5-ac87-17f88c3beee7","path":"sprites/spr_danthonysorbLottery/spr_danthonysorbLottery.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -64,13 +62,22 @@
     "yorigin": 11,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_danthonysorbLottery","path":"sprites/spr_danthonysorbLottery/spr_danthonysorbLottery.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_danthonysorbLottery",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"652c699b-5a84-4620-8013-3b59155ab061","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"652c699b-5a84-4620-8013-3b59155ab061","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_danthonysorbLottery",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

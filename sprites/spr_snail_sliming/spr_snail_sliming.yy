@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_snail_sliming",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 16,
   "height": 14,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fa0eeef3-066b-4104-b9da-52550f85fd60",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8856e4ec-9385-48a3-b1aa-c27fffeb1429",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a0eed5f9-f941-4ffb-b642-c04c7e7f8a83",},
+    {"compositeImage":{"FrameId":{"name":"fa0eeef3-066b-4104-b9da-52550f85fd60","path":"sprites/spr_snail_sliming/spr_snail_sliming.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fa0eeef3-066b-4104-b9da-52550f85fd60","path":"sprites/spr_snail_sliming/spr_snail_sliming.yy",},"LayerId":{"name":"7a8a619a-9008-4c18-8d34-3416e50aa477","path":"sprites/spr_snail_sliming/spr_snail_sliming.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_snail_sliming","path":"sprites/spr_snail_sliming/spr_snail_sliming.yy",},"resourceVersion":"1.0","name":"fa0eeef3-066b-4104-b9da-52550f85fd60","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8856e4ec-9385-48a3-b1aa-c27fffeb1429","path":"sprites/spr_snail_sliming/spr_snail_sliming.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8856e4ec-9385-48a3-b1aa-c27fffeb1429","path":"sprites/spr_snail_sliming/spr_snail_sliming.yy",},"LayerId":{"name":"7a8a619a-9008-4c18-8d34-3416e50aa477","path":"sprites/spr_snail_sliming/spr_snail_sliming.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_snail_sliming","path":"sprites/spr_snail_sliming/spr_snail_sliming.yy",},"resourceVersion":"1.0","name":"8856e4ec-9385-48a3-b1aa-c27fffeb1429","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a0eed5f9-f941-4ffb-b642-c04c7e7f8a83","path":"sprites/spr_snail_sliming/spr_snail_sliming.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a0eed5f9-f941-4ffb-b642-c04c7e7f8a83","path":"sprites/spr_snail_sliming/spr_snail_sliming.yy",},"LayerId":{"name":"7a8a619a-9008-4c18-8d34-3416e50aa477","path":"sprites/spr_snail_sliming/spr_snail_sliming.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_snail_sliming","path":"sprites/spr_snail_sliming/spr_snail_sliming.yy",},"resourceVersion":"1.0","name":"a0eed5f9-f941-4ffb-b642-c04c7e7f8a83","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_snail_sliming",
+    "spriteId": {"name":"spr_snail_sliming","path":"sprites/spr_snail_sliming/spr_snail_sliming.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"59f8a7ea-aea5-4b09-9810-7c52c0810589","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fa0eeef3-066b-4104-b9da-52550f85fd60","path":"sprites/spr_snail_sliming/spr_snail_sliming.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a0fd2823-d257-4a9b-998d-ba251b716608","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8856e4ec-9385-48a3-b1aa-c27fffeb1429","path":"sprites/spr_snail_sliming/spr_snail_sliming.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ef85f278-d8ef-46a8-9753-82646c7e7fe1","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a0eed5f9-f941-4ffb-b642-c04c7e7f8a83","path":"sprites/spr_snail_sliming/spr_snail_sliming.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 7,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_snail_sliming","path":"sprites/spr_snail_sliming/spr_snail_sliming.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_snail_sliming",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7a8a619a-9008-4c18-8d34-3416e50aa477","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7a8a619a-9008-4c18-8d34-3416e50aa477","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_snail_sliming",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

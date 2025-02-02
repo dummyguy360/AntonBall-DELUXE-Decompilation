@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "bg_beachbrawlreflection",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 256,
   "height": 144,
   "textureGroupId": {
@@ -28,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2c879e1f-7559-4546-bea3-6b3acdee0adb",},
+    {"compositeImage":{"FrameId":{"name":"2c879e1f-7559-4546-bea3-6b3acdee0adb","path":"sprites/bg_beachbrawlreflection/bg_beachbrawlreflection.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2c879e1f-7559-4546-bea3-6b3acdee0adb","path":"sprites/bg_beachbrawlreflection/bg_beachbrawlreflection.yy",},"LayerId":{"name":"d548b841-0305-4fa5-88bb-4cd6bc913efb","path":"sprites/bg_beachbrawlreflection/bg_beachbrawlreflection.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"bg_beachbrawlreflection","path":"sprites/bg_beachbrawlreflection/bg_beachbrawlreflection.yy",},"resourceVersion":"1.0","name":"2c879e1f-7559-4546-bea3-6b3acdee0adb","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "bg_beachbrawlreflection",
+    "spriteId": {"name":"bg_beachbrawlreflection","path":"sprites/bg_beachbrawlreflection/bg_beachbrawlreflection.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -44,9 +40,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"725a9637-69bb-446b-a628-b637d442e74c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2c879e1f-7559-4546-bea3-6b3acdee0adb","path":"sprites/bg_beachbrawlreflection/bg_beachbrawlreflection.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,13 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"bg_beachbrawlreflection","path":"sprites/bg_beachbrawlreflection/bg_beachbrawlreflection.yy",},
+    "resourceVersion": "1.3",
+    "name": "bg_beachbrawlreflection",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d548b841-0305-4fa5-88bb-4cd6bc913efb","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d548b841-0305-4fa5-88bb-4cd6bc913efb","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "bg_beachbrawlreflection",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_cooperlife",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 12,
   "height": 13,
   "textureGroupId": {
@@ -28,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"df6ab71a-297d-4c46-a639-9d32110d33d9",},
+    {"compositeImage":{"FrameId":{"name":"df6ab71a-297d-4c46-a639-9d32110d33d9","path":"sprites/spr_cooperlife/spr_cooperlife.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"df6ab71a-297d-4c46-a639-9d32110d33d9","path":"sprites/spr_cooperlife/spr_cooperlife.yy",},"LayerId":{"name":"5993b2c0-6bec-4c8a-bb79-7d27e58cf8a6","path":"sprites/spr_cooperlife/spr_cooperlife.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_cooperlife","path":"sprites/spr_cooperlife/spr_cooperlife.yy",},"resourceVersion":"1.0","name":"df6ab71a-297d-4c46-a639-9d32110d33d9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_cooperlife",
+    "spriteId": {"name":"spr_cooperlife","path":"sprites/spr_cooperlife/spr_cooperlife.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -44,9 +40,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"a05569f0-73bd-40aa-bb8b-0ee1fb138d2f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"df6ab71a-297d-4c46-a639-9d32110d33d9","path":"sprites/spr_cooperlife/spr_cooperlife.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,13 +58,22 @@
     "yorigin": 1,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_cooperlife","path":"sprites/spr_cooperlife/spr_cooperlife.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_cooperlife",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5993b2c0-6bec-4c8a-bb79-7d27e58cf8a6","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5993b2c0-6bec-4c8a-bb79-7d27e58cf8a6","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_cooperlife",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

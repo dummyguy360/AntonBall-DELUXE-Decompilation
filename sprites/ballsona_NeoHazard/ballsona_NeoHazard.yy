@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "ballsona_NeoHazard",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 16,
   "height": 18,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"563661e4-c262-4e04-a141-d9d75c6b674b",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"676d4512-754e-42c3-8b2d-cc6ace76da42",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a7c13cc9-43a3-4659-9156-2f72183ab2ba",},
+    {"compositeImage":{"FrameId":{"name":"563661e4-c262-4e04-a141-d9d75c6b674b","path":"sprites/ballsona_NeoHazard/ballsona_NeoHazard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"563661e4-c262-4e04-a141-d9d75c6b674b","path":"sprites/ballsona_NeoHazard/ballsona_NeoHazard.yy",},"LayerId":{"name":"b6f0acbe-cf00-449a-a9eb-a0d071d47165","path":"sprites/ballsona_NeoHazard/ballsona_NeoHazard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_NeoHazard","path":"sprites/ballsona_NeoHazard/ballsona_NeoHazard.yy",},"resourceVersion":"1.0","name":"563661e4-c262-4e04-a141-d9d75c6b674b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"676d4512-754e-42c3-8b2d-cc6ace76da42","path":"sprites/ballsona_NeoHazard/ballsona_NeoHazard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"676d4512-754e-42c3-8b2d-cc6ace76da42","path":"sprites/ballsona_NeoHazard/ballsona_NeoHazard.yy",},"LayerId":{"name":"b6f0acbe-cf00-449a-a9eb-a0d071d47165","path":"sprites/ballsona_NeoHazard/ballsona_NeoHazard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_NeoHazard","path":"sprites/ballsona_NeoHazard/ballsona_NeoHazard.yy",},"resourceVersion":"1.0","name":"676d4512-754e-42c3-8b2d-cc6ace76da42","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a7c13cc9-43a3-4659-9156-2f72183ab2ba","path":"sprites/ballsona_NeoHazard/ballsona_NeoHazard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a7c13cc9-43a3-4659-9156-2f72183ab2ba","path":"sprites/ballsona_NeoHazard/ballsona_NeoHazard.yy",},"LayerId":{"name":"b6f0acbe-cf00-449a-a9eb-a0d071d47165","path":"sprites/ballsona_NeoHazard/ballsona_NeoHazard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_NeoHazard","path":"sprites/ballsona_NeoHazard/ballsona_NeoHazard.yy",},"resourceVersion":"1.0","name":"a7c13cc9-43a3-4659-9156-2f72183ab2ba","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "ballsona_NeoHazard",
+    "spriteId": {"name":"ballsona_NeoHazard","path":"sprites/ballsona_NeoHazard/ballsona_NeoHazard.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"8ed1f54a-6567-400d-b41b-04ee1423b30f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"563661e4-c262-4e04-a141-d9d75c6b674b","path":"sprites/ballsona_NeoHazard/ballsona_NeoHazard.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"528cbb34-57f8-4a74-bd05-c69106a35802","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"676d4512-754e-42c3-8b2d-cc6ace76da42","path":"sprites/ballsona_NeoHazard/ballsona_NeoHazard.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"60d35cc5-267f-4c67-98d0-e19bda82c7fa","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a7c13cc9-43a3-4659-9156-2f72183ab2ba","path":"sprites/ballsona_NeoHazard/ballsona_NeoHazard.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 18,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"ballsona_NeoHazard","path":"sprites/ballsona_NeoHazard/ballsona_NeoHazard.yy",},
+    "resourceVersion": "1.3",
+    "name": "ballsona_NeoHazard",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b6f0acbe-cf00-449a-a9eb-a0d071d47165","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b6f0acbe-cf00-449a-a9eb-a0d071d47165","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "ballsona_NeoHazard",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

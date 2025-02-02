@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "ballsona_GeneralCliizara",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 16,
   "height": 22,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ac853c37-87c3-40cc-8f4e-a39288f168be",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"31c30b75-2cda-443a-8dd4-9e9d5c80728f",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"30f46273-1de9-444c-b0c2-86604fde7a11",},
+    {"compositeImage":{"FrameId":{"name":"ac853c37-87c3-40cc-8f4e-a39288f168be","path":"sprites/ballsona_GeneralCliizara/ballsona_GeneralCliizara.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ac853c37-87c3-40cc-8f4e-a39288f168be","path":"sprites/ballsona_GeneralCliizara/ballsona_GeneralCliizara.yy",},"LayerId":{"name":"d0a037cf-c14f-4f7f-88f3-22efafc8231f","path":"sprites/ballsona_GeneralCliizara/ballsona_GeneralCliizara.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_GeneralCliizara","path":"sprites/ballsona_GeneralCliizara/ballsona_GeneralCliizara.yy",},"resourceVersion":"1.0","name":"ac853c37-87c3-40cc-8f4e-a39288f168be","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"31c30b75-2cda-443a-8dd4-9e9d5c80728f","path":"sprites/ballsona_GeneralCliizara/ballsona_GeneralCliizara.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"31c30b75-2cda-443a-8dd4-9e9d5c80728f","path":"sprites/ballsona_GeneralCliizara/ballsona_GeneralCliizara.yy",},"LayerId":{"name":"d0a037cf-c14f-4f7f-88f3-22efafc8231f","path":"sprites/ballsona_GeneralCliizara/ballsona_GeneralCliizara.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_GeneralCliizara","path":"sprites/ballsona_GeneralCliizara/ballsona_GeneralCliizara.yy",},"resourceVersion":"1.0","name":"31c30b75-2cda-443a-8dd4-9e9d5c80728f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"30f46273-1de9-444c-b0c2-86604fde7a11","path":"sprites/ballsona_GeneralCliizara/ballsona_GeneralCliizara.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"30f46273-1de9-444c-b0c2-86604fde7a11","path":"sprites/ballsona_GeneralCliizara/ballsona_GeneralCliizara.yy",},"LayerId":{"name":"d0a037cf-c14f-4f7f-88f3-22efafc8231f","path":"sprites/ballsona_GeneralCliizara/ballsona_GeneralCliizara.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_GeneralCliizara","path":"sprites/ballsona_GeneralCliizara/ballsona_GeneralCliizara.yy",},"resourceVersion":"1.0","name":"30f46273-1de9-444c-b0c2-86604fde7a11","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "ballsona_GeneralCliizara",
+    "spriteId": {"name":"ballsona_GeneralCliizara","path":"sprites/ballsona_GeneralCliizara/ballsona_GeneralCliizara.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"6206ba97-c7d3-498b-bb68-2cd73d6a97bf","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ac853c37-87c3-40cc-8f4e-a39288f168be","path":"sprites/ballsona_GeneralCliizara/ballsona_GeneralCliizara.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5a9a9cb3-9374-4168-85b7-ee4ef7aadaa9","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"31c30b75-2cda-443a-8dd4-9e9d5c80728f","path":"sprites/ballsona_GeneralCliizara/ballsona_GeneralCliizara.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6c7c42fb-b442-475d-adab-9c763b75b82d","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"30f46273-1de9-444c-b0c2-86604fde7a11","path":"sprites/ballsona_GeneralCliizara/ballsona_GeneralCliizara.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 22,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"ballsona_GeneralCliizara","path":"sprites/ballsona_GeneralCliizara/ballsona_GeneralCliizara.yy",},
+    "resourceVersion": "1.3",
+    "name": "ballsona_GeneralCliizara",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d0a037cf-c14f-4f7f-88f3-22efafc8231f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d0a037cf-c14f-4f7f-88f3-22efafc8231f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "ballsona_GeneralCliizara",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

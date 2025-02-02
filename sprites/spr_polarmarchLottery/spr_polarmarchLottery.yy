@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_polarmarchLottery",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 8,
   "height": 8,
   "textureGroupId": {
@@ -28,13 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3092f73b-e173-4dde-a9c9-3780322437bf",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"744ff5a4-1288-4256-9c9f-caee486f2eda",},
+    {"compositeImage":{"FrameId":{"name":"3092f73b-e173-4dde-a9c9-3780322437bf","path":"sprites/spr_polarmarchLottery/spr_polarmarchLottery.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3092f73b-e173-4dde-a9c9-3780322437bf","path":"sprites/spr_polarmarchLottery/spr_polarmarchLottery.yy",},"LayerId":{"name":"7d47cf19-0ca3-4d1b-a146-7ec6804d97bb","path":"sprites/spr_polarmarchLottery/spr_polarmarchLottery.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_polarmarchLottery","path":"sprites/spr_polarmarchLottery/spr_polarmarchLottery.yy",},"resourceVersion":"1.0","name":"3092f73b-e173-4dde-a9c9-3780322437bf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"744ff5a4-1288-4256-9c9f-caee486f2eda","path":"sprites/spr_polarmarchLottery/spr_polarmarchLottery.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"744ff5a4-1288-4256-9c9f-caee486f2eda","path":"sprites/spr_polarmarchLottery/spr_polarmarchLottery.yy",},"LayerId":{"name":"7d47cf19-0ca3-4d1b-a146-7ec6804d97bb","path":"sprites/spr_polarmarchLottery/spr_polarmarchLottery.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_polarmarchLottery","path":"sprites/spr_polarmarchLottery/spr_polarmarchLottery.yy",},"resourceVersion":"1.0","name":"744ff5a4-1288-4256-9c9f-caee486f2eda","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_polarmarchLottery",
+    "spriteId": {"name":"spr_polarmarchLottery","path":"sprites/spr_polarmarchLottery/spr_polarmarchLottery.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 2.0,
@@ -45,10 +43,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1c36ca92-e926-44e2-bb03-7d173e5bc060","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3092f73b-e173-4dde-a9c9-3780322437bf","path":"sprites/spr_polarmarchLottery/spr_polarmarchLottery.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"55f72afd-06fe-4d19-a0fc-8ab7b67fc6e9","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"744ff5a4-1288-4256-9c9f-caee486f2eda","path":"sprites/spr_polarmarchLottery/spr_polarmarchLottery.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -64,13 +62,22 @@
     "yorigin": 11,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_polarmarchLottery","path":"sprites/spr_polarmarchLottery/spr_polarmarchLottery.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_polarmarchLottery",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7d47cf19-0ca3-4d1b-a146-7ec6804d97bb","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7d47cf19-0ca3-4d1b-a146-7ec6804d97bb","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_polarmarchLottery",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

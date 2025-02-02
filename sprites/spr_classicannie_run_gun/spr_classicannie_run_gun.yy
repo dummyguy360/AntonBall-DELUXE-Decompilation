@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_classicannie_run_gun",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"92c3a5c4-0599-4405-bf22-101fc85ab378",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cd4ae6b8-cc00-489e-ae73-2e4f85c5152f",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"10450b38-f56b-40ad-ab10-14cd3e742fda",},
+    {"compositeImage":{"FrameId":{"name":"92c3a5c4-0599-4405-bf22-101fc85ab378","path":"sprites/spr_classicannie_run_gun/spr_classicannie_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"92c3a5c4-0599-4405-bf22-101fc85ab378","path":"sprites/spr_classicannie_run_gun/spr_classicannie_run_gun.yy",},"LayerId":{"name":"0fddb2a3-fdb7-4fdf-b724-3de374ec82da","path":"sprites/spr_classicannie_run_gun/spr_classicannie_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_classicannie_run_gun","path":"sprites/spr_classicannie_run_gun/spr_classicannie_run_gun.yy",},"resourceVersion":"1.0","name":"92c3a5c4-0599-4405-bf22-101fc85ab378","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"cd4ae6b8-cc00-489e-ae73-2e4f85c5152f","path":"sprites/spr_classicannie_run_gun/spr_classicannie_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cd4ae6b8-cc00-489e-ae73-2e4f85c5152f","path":"sprites/spr_classicannie_run_gun/spr_classicannie_run_gun.yy",},"LayerId":{"name":"0fddb2a3-fdb7-4fdf-b724-3de374ec82da","path":"sprites/spr_classicannie_run_gun/spr_classicannie_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_classicannie_run_gun","path":"sprites/spr_classicannie_run_gun/spr_classicannie_run_gun.yy",},"resourceVersion":"1.0","name":"cd4ae6b8-cc00-489e-ae73-2e4f85c5152f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"10450b38-f56b-40ad-ab10-14cd3e742fda","path":"sprites/spr_classicannie_run_gun/spr_classicannie_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"10450b38-f56b-40ad-ab10-14cd3e742fda","path":"sprites/spr_classicannie_run_gun/spr_classicannie_run_gun.yy",},"LayerId":{"name":"0fddb2a3-fdb7-4fdf-b724-3de374ec82da","path":"sprites/spr_classicannie_run_gun/spr_classicannie_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_classicannie_run_gun","path":"sprites/spr_classicannie_run_gun/spr_classicannie_run_gun.yy",},"resourceVersion":"1.0","name":"10450b38-f56b-40ad-ab10-14cd3e742fda","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_classicannie_run_gun",
+    "spriteId": {"name":"spr_classicannie_run_gun","path":"sprites/spr_classicannie_run_gun/spr_classicannie_run_gun.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 20.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"231313b8-6808-4177-b719-5acd29c46722","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"92c3a5c4-0599-4405-bf22-101fc85ab378","path":"sprites/spr_classicannie_run_gun/spr_classicannie_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b27502cb-95be-4f12-9d53-605b969e942d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd4ae6b8-cc00-489e-ae73-2e4f85c5152f","path":"sprites/spr_classicannie_run_gun/spr_classicannie_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"2d4ff18b-76ce-42a8-87e0-4908dea41a61","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"10450b38-f56b-40ad-ab10-14cd3e742fda","path":"sprites/spr_classicannie_run_gun/spr_classicannie_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 23,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_classicannie_run_gun","path":"sprites/spr_classicannie_run_gun/spr_classicannie_run_gun.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_classicannie_run_gun",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0fddb2a3-fdb7-4fdf-b724-3de374ec82da","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0fddb2a3-fdb7-4fdf-b724-3de374ec82da","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_classicannie_run_gun",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

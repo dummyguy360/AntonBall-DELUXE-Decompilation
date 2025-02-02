@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "tile_sewer_sprite",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 104,
   "height": 104,
   "textureGroupId": {
@@ -28,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"767dc6a3-555f-44ff-97cb-263c3d9ce4fa",},
+    {"compositeImage":{"FrameId":{"name":"767dc6a3-555f-44ff-97cb-263c3d9ce4fa","path":"sprites/tile_sewer_sprite/tile_sewer_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"767dc6a3-555f-44ff-97cb-263c3d9ce4fa","path":"sprites/tile_sewer_sprite/tile_sewer_sprite.yy",},"LayerId":{"name":"cc241bbb-28cc-4c57-897b-36eae66a5a52","path":"sprites/tile_sewer_sprite/tile_sewer_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"tile_sewer_sprite","path":"sprites/tile_sewer_sprite/tile_sewer_sprite.yy",},"resourceVersion":"1.0","name":"767dc6a3-555f-44ff-97cb-263c3d9ce4fa","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "tile_sewer_sprite",
+    "spriteId": {"name":"tile_sewer_sprite","path":"sprites/tile_sewer_sprite/tile_sewer_sprite.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -44,9 +40,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"63e15dbc-82b8-4286-a784-c7c63911ba2e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"767dc6a3-555f-44ff-97cb-263c3d9ce4fa","path":"sprites/tile_sewer_sprite/tile_sewer_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,13 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"tile_sewer_sprite","path":"sprites/tile_sewer_sprite/tile_sewer_sprite.yy",},
+    "resourceVersion": "1.3",
+    "name": "tile_sewer_sprite",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cc241bbb-28cc-4c57-897b-36eae66a5a52","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cc241bbb-28cc-4c57-897b-36eae66a5a52","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Tilesets",
     "path": "folders/Sprites/Tilesets.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "tile_sewer_sprite",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

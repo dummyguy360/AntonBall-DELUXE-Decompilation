@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_cooper_portrait",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 57,
   "height": 65,
   "textureGroupId": {
@@ -28,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a33bb475-6e16-45da-89d6-eb7db79a3163",},
+    {"compositeImage":{"FrameId":{"name":"a33bb475-6e16-45da-89d6-eb7db79a3163","path":"sprites/spr_cooper_portrait/spr_cooper_portrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a33bb475-6e16-45da-89d6-eb7db79a3163","path":"sprites/spr_cooper_portrait/spr_cooper_portrait.yy",},"LayerId":{"name":"ee014b0f-54c1-42a3-88f4-76bd57fe0a81","path":"sprites/spr_cooper_portrait/spr_cooper_portrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_cooper_portrait","path":"sprites/spr_cooper_portrait/spr_cooper_portrait.yy",},"resourceVersion":"1.0","name":"a33bb475-6e16-45da-89d6-eb7db79a3163","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_cooper_portrait",
+    "spriteId": {"name":"spr_cooper_portrait","path":"sprites/spr_cooper_portrait/spr_cooper_portrait.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -44,9 +40,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"6c83bbaa-de63-480c-8b28-60141295769c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a33bb475-6e16-45da-89d6-eb7db79a3163","path":"sprites/spr_cooper_portrait/spr_cooper_portrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,13 +58,22 @@
     "yorigin": 65,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_cooper_portrait","path":"sprites/spr_cooper_portrait/spr_cooper_portrait.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_cooper_portrait",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ee014b0f-54c1-42a3-88f4-76bd57fe0a81","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ee014b0f-54c1-42a3-88f4-76bd57fe0a81","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_cooper_portrait",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_tankbod_hurt",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 41,
   "height": 40,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7616e51a-2528-4e29-870d-e4eede858bd0",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"412452a2-05e2-4e7d-b545-10aadca1b9aa",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bced4f4f-f7dd-4614-97df-3a3c50823d89",},
+    {"compositeImage":{"FrameId":{"name":"7616e51a-2528-4e29-870d-e4eede858bd0","path":"sprites/spr_tankbod_hurt/spr_tankbod_hurt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7616e51a-2528-4e29-870d-e4eede858bd0","path":"sprites/spr_tankbod_hurt/spr_tankbod_hurt.yy",},"LayerId":{"name":"ec6ea9de-ea00-46e8-9a4e-b7f4883ecf44","path":"sprites/spr_tankbod_hurt/spr_tankbod_hurt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_tankbod_hurt","path":"sprites/spr_tankbod_hurt/spr_tankbod_hurt.yy",},"resourceVersion":"1.0","name":"7616e51a-2528-4e29-870d-e4eede858bd0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"412452a2-05e2-4e7d-b545-10aadca1b9aa","path":"sprites/spr_tankbod_hurt/spr_tankbod_hurt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"412452a2-05e2-4e7d-b545-10aadca1b9aa","path":"sprites/spr_tankbod_hurt/spr_tankbod_hurt.yy",},"LayerId":{"name":"ec6ea9de-ea00-46e8-9a4e-b7f4883ecf44","path":"sprites/spr_tankbod_hurt/spr_tankbod_hurt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_tankbod_hurt","path":"sprites/spr_tankbod_hurt/spr_tankbod_hurt.yy",},"resourceVersion":"1.0","name":"412452a2-05e2-4e7d-b545-10aadca1b9aa","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bced4f4f-f7dd-4614-97df-3a3c50823d89","path":"sprites/spr_tankbod_hurt/spr_tankbod_hurt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bced4f4f-f7dd-4614-97df-3a3c50823d89","path":"sprites/spr_tankbod_hurt/spr_tankbod_hurt.yy",},"LayerId":{"name":"ec6ea9de-ea00-46e8-9a4e-b7f4883ecf44","path":"sprites/spr_tankbod_hurt/spr_tankbod_hurt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_tankbod_hurt","path":"sprites/spr_tankbod_hurt/spr_tankbod_hurt.yy",},"resourceVersion":"1.0","name":"bced4f4f-f7dd-4614-97df-3a3c50823d89","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_tankbod_hurt",
+    "spriteId": {"name":"spr_tankbod_hurt","path":"sprites/spr_tankbod_hurt/spr_tankbod_hurt.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"fc60ad89-d3a6-4b7a-a147-bf1a93dd122c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7616e51a-2528-4e29-870d-e4eede858bd0","path":"sprites/spr_tankbod_hurt/spr_tankbod_hurt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0dfe1e6a-fe21-434b-ae2d-110c3744cd03","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"412452a2-05e2-4e7d-b545-10aadca1b9aa","path":"sprites/spr_tankbod_hurt/spr_tankbod_hurt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"17c2128a-8777-4922-9d2f-acf561593d19","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bced4f4f-f7dd-4614-97df-3a3c50823d89","path":"sprites/spr_tankbod_hurt/spr_tankbod_hurt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 20,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_tankbod_hurt","path":"sprites/spr_tankbod_hurt/spr_tankbod_hurt.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_tankbod_hurt",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ec6ea9de-ea00-46e8-9a4e-b7f4883ecf44","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ec6ea9de-ea00-46e8-9a4e-b7f4883ecf44","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_tankbod_hurt",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_cs4_annie_hand",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 256,
   "height": 144,
   "textureGroupId": {
@@ -28,13 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d8e7d53e-c29a-422c-8074-d86d7d4f17ac",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c38fc32d-8267-4ae8-aaec-6c0d0dd4ea3e",},
+    {"compositeImage":{"FrameId":{"name":"d8e7d53e-c29a-422c-8074-d86d7d4f17ac","path":"sprites/spr_cs4_annie_hand/spr_cs4_annie_hand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d8e7d53e-c29a-422c-8074-d86d7d4f17ac","path":"sprites/spr_cs4_annie_hand/spr_cs4_annie_hand.yy",},"LayerId":{"name":"55b80690-0173-4887-8f0f-5ebf7ac62919","path":"sprites/spr_cs4_annie_hand/spr_cs4_annie_hand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_cs4_annie_hand","path":"sprites/spr_cs4_annie_hand/spr_cs4_annie_hand.yy",},"resourceVersion":"1.0","name":"d8e7d53e-c29a-422c-8074-d86d7d4f17ac","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c38fc32d-8267-4ae8-aaec-6c0d0dd4ea3e","path":"sprites/spr_cs4_annie_hand/spr_cs4_annie_hand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c38fc32d-8267-4ae8-aaec-6c0d0dd4ea3e","path":"sprites/spr_cs4_annie_hand/spr_cs4_annie_hand.yy",},"LayerId":{"name":"55b80690-0173-4887-8f0f-5ebf7ac62919","path":"sprites/spr_cs4_annie_hand/spr_cs4_annie_hand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_cs4_annie_hand","path":"sprites/spr_cs4_annie_hand/spr_cs4_annie_hand.yy",},"resourceVersion":"1.0","name":"c38fc32d-8267-4ae8-aaec-6c0d0dd4ea3e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_cs4_annie_hand",
+    "spriteId": {"name":"spr_cs4_annie_hand","path":"sprites/spr_cs4_annie_hand/spr_cs4_annie_hand.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 5.0,
@@ -45,10 +43,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"bb1b61a8-3562-4544-9661-01953be97bd3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d8e7d53e-c29a-422c-8074-d86d7d4f17ac","path":"sprites/spr_cs4_annie_hand/spr_cs4_annie_hand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a1575455-8415-4d78-924c-50812093ca78","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c38fc32d-8267-4ae8-aaec-6c0d0dd4ea3e","path":"sprites/spr_cs4_annie_hand/spr_cs4_annie_hand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -64,13 +62,22 @@
     "yorigin": 72,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_cs4_annie_hand","path":"sprites/spr_cs4_annie_hand/spr_cs4_annie_hand.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_cs4_annie_hand",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"55b80690-0173-4887-8f0f-5ebf7ac62919","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"55b80690-0173-4887-8f0f-5ebf7ac62919","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_cs4_annie_hand",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

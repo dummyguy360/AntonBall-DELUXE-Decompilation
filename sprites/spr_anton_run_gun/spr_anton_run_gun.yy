@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_anton_run_gun",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 26,
   "height": 26,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"65ef1a9f-c365-4da4-a4af-2a164da15f29",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"efa7ec66-5e20-4e34-b228-38fcb18d1d28",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e4850724-9696-4fcc-82ba-87935534e8e1",},
+    {"compositeImage":{"FrameId":{"name":"65ef1a9f-c365-4da4-a4af-2a164da15f29","path":"sprites/spr_anton_run_gun/spr_anton_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"65ef1a9f-c365-4da4-a4af-2a164da15f29","path":"sprites/spr_anton_run_gun/spr_anton_run_gun.yy",},"LayerId":{"name":"995d61ac-9224-43ae-9172-c8aed006be3a","path":"sprites/spr_anton_run_gun/spr_anton_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_anton_run_gun","path":"sprites/spr_anton_run_gun/spr_anton_run_gun.yy",},"resourceVersion":"1.0","name":"65ef1a9f-c365-4da4-a4af-2a164da15f29","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"efa7ec66-5e20-4e34-b228-38fcb18d1d28","path":"sprites/spr_anton_run_gun/spr_anton_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"efa7ec66-5e20-4e34-b228-38fcb18d1d28","path":"sprites/spr_anton_run_gun/spr_anton_run_gun.yy",},"LayerId":{"name":"995d61ac-9224-43ae-9172-c8aed006be3a","path":"sprites/spr_anton_run_gun/spr_anton_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_anton_run_gun","path":"sprites/spr_anton_run_gun/spr_anton_run_gun.yy",},"resourceVersion":"1.0","name":"efa7ec66-5e20-4e34-b228-38fcb18d1d28","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e4850724-9696-4fcc-82ba-87935534e8e1","path":"sprites/spr_anton_run_gun/spr_anton_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e4850724-9696-4fcc-82ba-87935534e8e1","path":"sprites/spr_anton_run_gun/spr_anton_run_gun.yy",},"LayerId":{"name":"995d61ac-9224-43ae-9172-c8aed006be3a","path":"sprites/spr_anton_run_gun/spr_anton_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_anton_run_gun","path":"sprites/spr_anton_run_gun/spr_anton_run_gun.yy",},"resourceVersion":"1.0","name":"e4850724-9696-4fcc-82ba-87935534e8e1","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_anton_run_gun",
+    "spriteId": {"name":"spr_anton_run_gun","path":"sprites/spr_anton_run_gun/spr_anton_run_gun.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ff1bb3f5-9d75-4c06-b710-b06a2b60ebce","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"65ef1a9f-c365-4da4-a4af-2a164da15f29","path":"sprites/spr_anton_run_gun/spr_anton_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"32eb00a7-1ab0-47cc-9e58-0cf12b02dac9","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"efa7ec66-5e20-4e34-b228-38fcb18d1d28","path":"sprites/spr_anton_run_gun/spr_anton_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"21ab38cf-e66b-41d6-9514-ac8d093f2cfa","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e4850724-9696-4fcc-82ba-87935534e8e1","path":"sprites/spr_anton_run_gun/spr_anton_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 25,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_anton_run_gun","path":"sprites/spr_anton_run_gun/spr_anton_run_gun.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_anton_run_gun",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"995d61ac-9224-43ae-9172-c8aed006be3a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"995d61ac-9224-43ae-9172-c8aed006be3a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_anton_run_gun",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "tile_sewerwater_sprite",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 72,
   "height": 70,
   "textureGroupId": {
@@ -28,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2d7588f2-cebf-498e-bb49-b3a65510db30",},
+    {"compositeImage":{"FrameId":{"name":"2d7588f2-cebf-498e-bb49-b3a65510db30","path":"sprites/tile_sewerwater_sprite/tile_sewerwater_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2d7588f2-cebf-498e-bb49-b3a65510db30","path":"sprites/tile_sewerwater_sprite/tile_sewerwater_sprite.yy",},"LayerId":{"name":"e3c3cc12-b557-4643-b828-19ee87426d7e","path":"sprites/tile_sewerwater_sprite/tile_sewerwater_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"tile_sewerwater_sprite","path":"sprites/tile_sewerwater_sprite/tile_sewerwater_sprite.yy",},"resourceVersion":"1.0","name":"2d7588f2-cebf-498e-bb49-b3a65510db30","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "tile_sewerwater_sprite",
+    "spriteId": {"name":"tile_sewerwater_sprite","path":"sprites/tile_sewerwater_sprite/tile_sewerwater_sprite.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -44,9 +40,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"90621662-117a-4dc7-ab11-7ca603673686","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2d7588f2-cebf-498e-bb49-b3a65510db30","path":"sprites/tile_sewerwater_sprite/tile_sewerwater_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,13 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"tile_sewerwater_sprite","path":"sprites/tile_sewerwater_sprite/tile_sewerwater_sprite.yy",},
+    "resourceVersion": "1.3",
+    "name": "tile_sewerwater_sprite",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e3c3cc12-b557-4643-b828-19ee87426d7e","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e3c3cc12-b557-4643-b828-19ee87426d7e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Tilesets",
     "path": "folders/Sprites/Tilesets.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "tile_sewerwater_sprite",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

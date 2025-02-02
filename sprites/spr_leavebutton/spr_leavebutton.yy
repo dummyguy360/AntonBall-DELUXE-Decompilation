@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_leavebutton",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 44,
   "height": 9,
   "textureGroupId": {
@@ -28,13 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"703dba49-2147-40dd-bd48-0071273737d5",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b55f6cea-f5a1-4212-a4ad-6ba08b314eb9",},
+    {"compositeImage":{"FrameId":{"name":"703dba49-2147-40dd-bd48-0071273737d5","path":"sprites/spr_leavebutton/spr_leavebutton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"703dba49-2147-40dd-bd48-0071273737d5","path":"sprites/spr_leavebutton/spr_leavebutton.yy",},"LayerId":{"name":"5b223577-5fc7-4d2d-8357-ae4ab9d00137","path":"sprites/spr_leavebutton/spr_leavebutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_leavebutton","path":"sprites/spr_leavebutton/spr_leavebutton.yy",},"resourceVersion":"1.0","name":"703dba49-2147-40dd-bd48-0071273737d5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b55f6cea-f5a1-4212-a4ad-6ba08b314eb9","path":"sprites/spr_leavebutton/spr_leavebutton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b55f6cea-f5a1-4212-a4ad-6ba08b314eb9","path":"sprites/spr_leavebutton/spr_leavebutton.yy",},"LayerId":{"name":"5b223577-5fc7-4d2d-8357-ae4ab9d00137","path":"sprites/spr_leavebutton/spr_leavebutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_leavebutton","path":"sprites/spr_leavebutton/spr_leavebutton.yy",},"resourceVersion":"1.0","name":"b55f6cea-f5a1-4212-a4ad-6ba08b314eb9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_leavebutton",
+    "spriteId": {"name":"spr_leavebutton","path":"sprites/spr_leavebutton/spr_leavebutton.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -45,10 +43,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"056bc8cd-ed49-4b8d-8d90-bdc668f9ce05","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"703dba49-2147-40dd-bd48-0071273737d5","path":"sprites/spr_leavebutton/spr_leavebutton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b7da36c7-bbf1-4c00-8eae-9e430a206a2d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b55f6cea-f5a1-4212-a4ad-6ba08b314eb9","path":"sprites/spr_leavebutton/spr_leavebutton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -64,13 +62,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_leavebutton","path":"sprites/spr_leavebutton/spr_leavebutton.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_leavebutton",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5b223577-5fc7-4d2d-8357-ae4ab9d00137","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5b223577-5fc7-4d2d-8357-ae4ab9d00137","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_leavebutton",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

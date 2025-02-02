@@ -109,9 +109,9 @@ function initialize_serialized_values()
     global.currency = false ? 999999 : 0;
     global.scores = 
     {
-        arcade: argument[0],
-        punchball: argument[1]
-    };
+        arcade: [],
+        punchball: []
+    }
     global.options = 
     {
         screenScale: 4,

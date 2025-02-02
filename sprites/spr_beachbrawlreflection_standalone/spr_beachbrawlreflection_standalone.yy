@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_beachbrawlreflection_standalone",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 84,
   "height": 80,
   "textureGroupId": {
@@ -28,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"88eb4b6d-8581-457d-8714-96786874e0a0",},
+    {"compositeImage":{"FrameId":{"name":"88eb4b6d-8581-457d-8714-96786874e0a0","path":"sprites/spr_beachbrawlreflection_standalone/spr_beachbrawlreflection_standalone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"88eb4b6d-8581-457d-8714-96786874e0a0","path":"sprites/spr_beachbrawlreflection_standalone/spr_beachbrawlreflection_standalone.yy",},"LayerId":{"name":"2f0e4dc8-07e3-4e23-aceb-281dfba42459","path":"sprites/spr_beachbrawlreflection_standalone/spr_beachbrawlreflection_standalone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_beachbrawlreflection_standalone","path":"sprites/spr_beachbrawlreflection_standalone/spr_beachbrawlreflection_standalone.yy",},"resourceVersion":"1.0","name":"88eb4b6d-8581-457d-8714-96786874e0a0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_beachbrawlreflection_standalone",
+    "spriteId": {"name":"spr_beachbrawlreflection_standalone","path":"sprites/spr_beachbrawlreflection_standalone/spr_beachbrawlreflection_standalone.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -44,9 +40,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"a2a43c83-53fd-40a0-b85d-3676c9d8d724","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"88eb4b6d-8581-457d-8714-96786874e0a0","path":"sprites/spr_beachbrawlreflection_standalone/spr_beachbrawlreflection_standalone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,13 +58,22 @@
     "yorigin": 40,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_beachbrawlreflection_standalone","path":"sprites/spr_beachbrawlreflection_standalone/spr_beachbrawlreflection_standalone.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_beachbrawlreflection_standalone",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2f0e4dc8-07e3-4e23-aceb-281dfba42459","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2f0e4dc8-07e3-4e23-aceb-281dfba42459","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_beachbrawlreflection_standalone",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

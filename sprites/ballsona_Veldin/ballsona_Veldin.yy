@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "ballsona_Veldin",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 16,
   "height": 32,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"183f1f22-7938-4cd1-8ae1-367f2581cad0",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8548a9f5-d6bb-41a8-83a5-3f37aa87526b",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"58ff5bbc-611e-44b9-84c9-ceb7e35bf60f",},
+    {"compositeImage":{"FrameId":{"name":"183f1f22-7938-4cd1-8ae1-367f2581cad0","path":"sprites/ballsona_Veldin/ballsona_Veldin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"183f1f22-7938-4cd1-8ae1-367f2581cad0","path":"sprites/ballsona_Veldin/ballsona_Veldin.yy",},"LayerId":{"name":"df24bc5b-4b02-4be0-802e-938f4c16f814","path":"sprites/ballsona_Veldin/ballsona_Veldin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_Veldin","path":"sprites/ballsona_Veldin/ballsona_Veldin.yy",},"resourceVersion":"1.0","name":"183f1f22-7938-4cd1-8ae1-367f2581cad0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8548a9f5-d6bb-41a8-83a5-3f37aa87526b","path":"sprites/ballsona_Veldin/ballsona_Veldin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8548a9f5-d6bb-41a8-83a5-3f37aa87526b","path":"sprites/ballsona_Veldin/ballsona_Veldin.yy",},"LayerId":{"name":"df24bc5b-4b02-4be0-802e-938f4c16f814","path":"sprites/ballsona_Veldin/ballsona_Veldin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_Veldin","path":"sprites/ballsona_Veldin/ballsona_Veldin.yy",},"resourceVersion":"1.0","name":"8548a9f5-d6bb-41a8-83a5-3f37aa87526b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"58ff5bbc-611e-44b9-84c9-ceb7e35bf60f","path":"sprites/ballsona_Veldin/ballsona_Veldin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"58ff5bbc-611e-44b9-84c9-ceb7e35bf60f","path":"sprites/ballsona_Veldin/ballsona_Veldin.yy",},"LayerId":{"name":"df24bc5b-4b02-4be0-802e-938f4c16f814","path":"sprites/ballsona_Veldin/ballsona_Veldin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_Veldin","path":"sprites/ballsona_Veldin/ballsona_Veldin.yy",},"resourceVersion":"1.0","name":"58ff5bbc-611e-44b9-84c9-ceb7e35bf60f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "ballsona_Veldin",
+    "spriteId": {"name":"ballsona_Veldin","path":"sprites/ballsona_Veldin/ballsona_Veldin.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"de350f2a-46aa-482b-81ff-eb15ec5fe2c6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"183f1f22-7938-4cd1-8ae1-367f2581cad0","path":"sprites/ballsona_Veldin/ballsona_Veldin.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5a70bc57-73ec-4ab6-a40e-2ee62c98f03e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8548a9f5-d6bb-41a8-83a5-3f37aa87526b","path":"sprites/ballsona_Veldin/ballsona_Veldin.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3ce23545-2aaf-424d-9fed-7ee2f0830f71","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"58ff5bbc-611e-44b9-84c9-ceb7e35bf60f","path":"sprites/ballsona_Veldin/ballsona_Veldin.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"ballsona_Veldin","path":"sprites/ballsona_Veldin/ballsona_Veldin.yy",},
+    "resourceVersion": "1.3",
+    "name": "ballsona_Veldin",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"df24bc5b-4b02-4be0-802e-938f4c16f814","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"df24bc5b-4b02-4be0-802e-938f4c16f814","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "ballsona_Veldin",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

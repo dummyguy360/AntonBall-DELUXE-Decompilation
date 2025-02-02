@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_anniescat_run_gun",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9b789b31-4dda-488e-8e10-e659aff125a4",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f7f0569e-bf4c-4dba-a9ef-727556f910a7",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8332b7dd-7b84-4e6a-bbe1-66ee5bca60ec",},
+    {"compositeImage":{"FrameId":{"name":"9b789b31-4dda-488e-8e10-e659aff125a4","path":"sprites/spr_anniescat_run_gun/spr_anniescat_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9b789b31-4dda-488e-8e10-e659aff125a4","path":"sprites/spr_anniescat_run_gun/spr_anniescat_run_gun.yy",},"LayerId":{"name":"f2a4e553-ddda-497d-9b19-34bf33173812","path":"sprites/spr_anniescat_run_gun/spr_anniescat_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_anniescat_run_gun","path":"sprites/spr_anniescat_run_gun/spr_anniescat_run_gun.yy",},"resourceVersion":"1.0","name":"9b789b31-4dda-488e-8e10-e659aff125a4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f7f0569e-bf4c-4dba-a9ef-727556f910a7","path":"sprites/spr_anniescat_run_gun/spr_anniescat_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f7f0569e-bf4c-4dba-a9ef-727556f910a7","path":"sprites/spr_anniescat_run_gun/spr_anniescat_run_gun.yy",},"LayerId":{"name":"f2a4e553-ddda-497d-9b19-34bf33173812","path":"sprites/spr_anniescat_run_gun/spr_anniescat_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_anniescat_run_gun","path":"sprites/spr_anniescat_run_gun/spr_anniescat_run_gun.yy",},"resourceVersion":"1.0","name":"f7f0569e-bf4c-4dba-a9ef-727556f910a7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8332b7dd-7b84-4e6a-bbe1-66ee5bca60ec","path":"sprites/spr_anniescat_run_gun/spr_anniescat_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8332b7dd-7b84-4e6a-bbe1-66ee5bca60ec","path":"sprites/spr_anniescat_run_gun/spr_anniescat_run_gun.yy",},"LayerId":{"name":"f2a4e553-ddda-497d-9b19-34bf33173812","path":"sprites/spr_anniescat_run_gun/spr_anniescat_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_anniescat_run_gun","path":"sprites/spr_anniescat_run_gun/spr_anniescat_run_gun.yy",},"resourceVersion":"1.0","name":"8332b7dd-7b84-4e6a-bbe1-66ee5bca60ec","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_anniescat_run_gun",
+    "spriteId": {"name":"spr_anniescat_run_gun","path":"sprites/spr_anniescat_run_gun/spr_anniescat_run_gun.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 20.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"6c5c0fdf-3c66-470c-91b0-b5ced6bc3385","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9b789b31-4dda-488e-8e10-e659aff125a4","path":"sprites/spr_anniescat_run_gun/spr_anniescat_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3bece5e7-0497-4e4c-bdda-f8139e2013bd","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f7f0569e-bf4c-4dba-a9ef-727556f910a7","path":"sprites/spr_anniescat_run_gun/spr_anniescat_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"65a087ab-45c3-447c-bb48-7e22affb1ace","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8332b7dd-7b84-4e6a-bbe1-66ee5bca60ec","path":"sprites/spr_anniescat_run_gun/spr_anniescat_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 23,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_anniescat_run_gun","path":"sprites/spr_anniescat_run_gun/spr_anniescat_run_gun.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_anniescat_run_gun",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f2a4e553-ddda-497d-9b19-34bf33173812","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f2a4e553-ddda-497d-9b19-34bf33173812","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_anniescat_run_gun",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

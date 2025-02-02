@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_antonsdog_run_gun",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f22b1bb2-0e6c-43ac-8c4b-7b44491a953a",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a42fc351-3b5a-4850-9829-e4fa4acc4191",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e6675ccf-da57-4930-8121-77bf7620158f",},
+    {"compositeImage":{"FrameId":{"name":"f22b1bb2-0e6c-43ac-8c4b-7b44491a953a","path":"sprites/spr_antonsdog_run_gun/spr_antonsdog_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f22b1bb2-0e6c-43ac-8c4b-7b44491a953a","path":"sprites/spr_antonsdog_run_gun/spr_antonsdog_run_gun.yy",},"LayerId":{"name":"67aaec39-7927-4c54-8209-debec8e49a85","path":"sprites/spr_antonsdog_run_gun/spr_antonsdog_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_antonsdog_run_gun","path":"sprites/spr_antonsdog_run_gun/spr_antonsdog_run_gun.yy",},"resourceVersion":"1.0","name":"f22b1bb2-0e6c-43ac-8c4b-7b44491a953a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a42fc351-3b5a-4850-9829-e4fa4acc4191","path":"sprites/spr_antonsdog_run_gun/spr_antonsdog_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a42fc351-3b5a-4850-9829-e4fa4acc4191","path":"sprites/spr_antonsdog_run_gun/spr_antonsdog_run_gun.yy",},"LayerId":{"name":"67aaec39-7927-4c54-8209-debec8e49a85","path":"sprites/spr_antonsdog_run_gun/spr_antonsdog_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_antonsdog_run_gun","path":"sprites/spr_antonsdog_run_gun/spr_antonsdog_run_gun.yy",},"resourceVersion":"1.0","name":"a42fc351-3b5a-4850-9829-e4fa4acc4191","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e6675ccf-da57-4930-8121-77bf7620158f","path":"sprites/spr_antonsdog_run_gun/spr_antonsdog_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e6675ccf-da57-4930-8121-77bf7620158f","path":"sprites/spr_antonsdog_run_gun/spr_antonsdog_run_gun.yy",},"LayerId":{"name":"67aaec39-7927-4c54-8209-debec8e49a85","path":"sprites/spr_antonsdog_run_gun/spr_antonsdog_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_antonsdog_run_gun","path":"sprites/spr_antonsdog_run_gun/spr_antonsdog_run_gun.yy",},"resourceVersion":"1.0","name":"e6675ccf-da57-4930-8121-77bf7620158f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_antonsdog_run_gun",
+    "spriteId": {"name":"spr_antonsdog_run_gun","path":"sprites/spr_antonsdog_run_gun/spr_antonsdog_run_gun.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 20.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"0738203c-ef1a-491e-b89c-a2486968a9c6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f22b1bb2-0e6c-43ac-8c4b-7b44491a953a","path":"sprites/spr_antonsdog_run_gun/spr_antonsdog_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d9762cb0-8c92-4dde-a597-ce94d8dcd7c8","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a42fc351-3b5a-4850-9829-e4fa4acc4191","path":"sprites/spr_antonsdog_run_gun/spr_antonsdog_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c82c4b48-324c-4166-bb5f-b060886e06a0","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e6675ccf-da57-4930-8121-77bf7620158f","path":"sprites/spr_antonsdog_run_gun/spr_antonsdog_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 23,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_antonsdog_run_gun","path":"sprites/spr_antonsdog_run_gun/spr_antonsdog_run_gun.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_antonsdog_run_gun",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"67aaec39-7927-4c54-8209-debec8e49a85","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"67aaec39-7927-4c54-8209-debec8e49a85","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_antonsdog_run_gun",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

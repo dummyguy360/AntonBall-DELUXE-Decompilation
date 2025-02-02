@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_frog_spawn",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -28,13 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cf05bb4b-dd6b-4adc-812a-1693ac84fff7",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f901eae7-5315-464e-8d05-3c2e6e1d71a0",},
+    {"compositeImage":{"FrameId":{"name":"cf05bb4b-dd6b-4adc-812a-1693ac84fff7","path":"sprites/spr_frog_spawn/spr_frog_spawn.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cf05bb4b-dd6b-4adc-812a-1693ac84fff7","path":"sprites/spr_frog_spawn/spr_frog_spawn.yy",},"LayerId":{"name":"93351bd1-bcae-4541-a2ca-77fd314b2f3b","path":"sprites/spr_frog_spawn/spr_frog_spawn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_frog_spawn","path":"sprites/spr_frog_spawn/spr_frog_spawn.yy",},"resourceVersion":"1.0","name":"cf05bb4b-dd6b-4adc-812a-1693ac84fff7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f901eae7-5315-464e-8d05-3c2e6e1d71a0","path":"sprites/spr_frog_spawn/spr_frog_spawn.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f901eae7-5315-464e-8d05-3c2e6e1d71a0","path":"sprites/spr_frog_spawn/spr_frog_spawn.yy",},"LayerId":{"name":"93351bd1-bcae-4541-a2ca-77fd314b2f3b","path":"sprites/spr_frog_spawn/spr_frog_spawn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_frog_spawn","path":"sprites/spr_frog_spawn/spr_frog_spawn.yy",},"resourceVersion":"1.0","name":"f901eae7-5315-464e-8d05-3c2e6e1d71a0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_frog_spawn",
+    "spriteId": {"name":"spr_frog_spawn","path":"sprites/spr_frog_spawn/spr_frog_spawn.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 2.0,
@@ -45,10 +43,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"2a6ee6e9-6523-413a-8233-9a2ee5461419","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cf05bb4b-dd6b-4adc-812a-1693ac84fff7","path":"sprites/spr_frog_spawn/spr_frog_spawn.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6a847dcb-09e1-4943-abc3-a96a1f9bad43","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f901eae7-5315-464e-8d05-3c2e6e1d71a0","path":"sprites/spr_frog_spawn/spr_frog_spawn.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -64,13 +62,22 @@
     "yorigin": 12,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_frog_spawn","path":"sprites/spr_frog_spawn/spr_frog_spawn.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_frog_spawn",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"93351bd1-bcae-4541-a2ca-77fd314b2f3b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"93351bd1-bcae-4541-a2ca-77fd314b2f3b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_frog_spawn",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

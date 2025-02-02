@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_minimitt_run_gun",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6c868a91-b3a4-4e40-aec1-9eef8c76d155",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9d7dd625-d2ff-406b-a4ed-c7ed2836ad3b",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e95e998b-63e3-4bf9-bc11-4c33bcef1d39",},
+    {"compositeImage":{"FrameId":{"name":"6c868a91-b3a4-4e40-aec1-9eef8c76d155","path":"sprites/spr_minimitt_run_gun/spr_minimitt_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6c868a91-b3a4-4e40-aec1-9eef8c76d155","path":"sprites/spr_minimitt_run_gun/spr_minimitt_run_gun.yy",},"LayerId":{"name":"d77ba5c4-fda6-4476-b98b-c2a0e5a8b0fd","path":"sprites/spr_minimitt_run_gun/spr_minimitt_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_minimitt_run_gun","path":"sprites/spr_minimitt_run_gun/spr_minimitt_run_gun.yy",},"resourceVersion":"1.0","name":"6c868a91-b3a4-4e40-aec1-9eef8c76d155","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9d7dd625-d2ff-406b-a4ed-c7ed2836ad3b","path":"sprites/spr_minimitt_run_gun/spr_minimitt_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9d7dd625-d2ff-406b-a4ed-c7ed2836ad3b","path":"sprites/spr_minimitt_run_gun/spr_minimitt_run_gun.yy",},"LayerId":{"name":"d77ba5c4-fda6-4476-b98b-c2a0e5a8b0fd","path":"sprites/spr_minimitt_run_gun/spr_minimitt_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_minimitt_run_gun","path":"sprites/spr_minimitt_run_gun/spr_minimitt_run_gun.yy",},"resourceVersion":"1.0","name":"9d7dd625-d2ff-406b-a4ed-c7ed2836ad3b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e95e998b-63e3-4bf9-bc11-4c33bcef1d39","path":"sprites/spr_minimitt_run_gun/spr_minimitt_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e95e998b-63e3-4bf9-bc11-4c33bcef1d39","path":"sprites/spr_minimitt_run_gun/spr_minimitt_run_gun.yy",},"LayerId":{"name":"d77ba5c4-fda6-4476-b98b-c2a0e5a8b0fd","path":"sprites/spr_minimitt_run_gun/spr_minimitt_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_minimitt_run_gun","path":"sprites/spr_minimitt_run_gun/spr_minimitt_run_gun.yy",},"resourceVersion":"1.0","name":"e95e998b-63e3-4bf9-bc11-4c33bcef1d39","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_minimitt_run_gun",
+    "spriteId": {"name":"spr_minimitt_run_gun","path":"sprites/spr_minimitt_run_gun/spr_minimitt_run_gun.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 20.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"7ecacdad-dc4f-4ba3-a58a-b56307aa3097","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6c868a91-b3a4-4e40-aec1-9eef8c76d155","path":"sprites/spr_minimitt_run_gun/spr_minimitt_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b27bfec9-9701-4972-8680-8f7ffe7e6675","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9d7dd625-d2ff-406b-a4ed-c7ed2836ad3b","path":"sprites/spr_minimitt_run_gun/spr_minimitt_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a7871c39-1e98-42e6-9dda-2087e4d34e80","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e95e998b-63e3-4bf9-bc11-4c33bcef1d39","path":"sprites/spr_minimitt_run_gun/spr_minimitt_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 23,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_minimitt_run_gun","path":"sprites/spr_minimitt_run_gun/spr_minimitt_run_gun.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_minimitt_run_gun",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d77ba5c4-fda6-4476-b98b-c2a0e5a8b0fd","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d77ba5c4-fda6-4476-b98b-c2a0e5a8b0fd","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_minimitt_run_gun",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

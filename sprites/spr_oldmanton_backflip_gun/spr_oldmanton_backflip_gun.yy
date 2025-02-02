@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_oldmanton_backflip_gun",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -28,18 +24,30 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bf8a54f8-e239-424a-b30f-3c31de1fbc96",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c924407a-aaeb-4f97-8064-87413ae4d5ae",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4d6eb608-a491-45f2-a038-5384409ab702",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9a9ae59e-0839-4af0-a49a-16ad95c1115a",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2c59ffd0-1dc6-464a-8cba-204283588e75",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"195c0bf0-3cbe-424d-81ab-476265c8fa9c",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c3d1af73-6291-4f41-b51e-2af5a4afc220",},
+    {"compositeImage":{"FrameId":{"name":"bf8a54f8-e239-424a-b30f-3c31de1fbc96","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bf8a54f8-e239-424a-b30f-3c31de1fbc96","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"LayerId":{"name":"2d26d7dc-0c9c-4aab-aa47-e4db2d42002e","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_oldmanton_backflip_gun","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"resourceVersion":"1.0","name":"bf8a54f8-e239-424a-b30f-3c31de1fbc96","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c924407a-aaeb-4f97-8064-87413ae4d5ae","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c924407a-aaeb-4f97-8064-87413ae4d5ae","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"LayerId":{"name":"2d26d7dc-0c9c-4aab-aa47-e4db2d42002e","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_oldmanton_backflip_gun","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"resourceVersion":"1.0","name":"c924407a-aaeb-4f97-8064-87413ae4d5ae","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4d6eb608-a491-45f2-a038-5384409ab702","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4d6eb608-a491-45f2-a038-5384409ab702","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"LayerId":{"name":"2d26d7dc-0c9c-4aab-aa47-e4db2d42002e","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_oldmanton_backflip_gun","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"resourceVersion":"1.0","name":"4d6eb608-a491-45f2-a038-5384409ab702","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9a9ae59e-0839-4af0-a49a-16ad95c1115a","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9a9ae59e-0839-4af0-a49a-16ad95c1115a","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"LayerId":{"name":"2d26d7dc-0c9c-4aab-aa47-e4db2d42002e","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_oldmanton_backflip_gun","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"resourceVersion":"1.0","name":"9a9ae59e-0839-4af0-a49a-16ad95c1115a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2c59ffd0-1dc6-464a-8cba-204283588e75","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2c59ffd0-1dc6-464a-8cba-204283588e75","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"LayerId":{"name":"2d26d7dc-0c9c-4aab-aa47-e4db2d42002e","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_oldmanton_backflip_gun","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"resourceVersion":"1.0","name":"2c59ffd0-1dc6-464a-8cba-204283588e75","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"195c0bf0-3cbe-424d-81ab-476265c8fa9c","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"195c0bf0-3cbe-424d-81ab-476265c8fa9c","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"LayerId":{"name":"2d26d7dc-0c9c-4aab-aa47-e4db2d42002e","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_oldmanton_backflip_gun","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"resourceVersion":"1.0","name":"195c0bf0-3cbe-424d-81ab-476265c8fa9c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c3d1af73-6291-4f41-b51e-2af5a4afc220","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c3d1af73-6291-4f41-b51e-2af5a4afc220","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"LayerId":{"name":"2d26d7dc-0c9c-4aab-aa47-e4db2d42002e","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_oldmanton_backflip_gun","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"resourceVersion":"1.0","name":"c3d1af73-6291-4f41-b51e-2af5a4afc220","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_oldmanton_backflip_gun",
+    "spriteId": {"name":"spr_oldmanton_backflip_gun","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 20.0,
@@ -50,7 +58,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"bbaa4c6c-bf26-4cff-8157-25059124056e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bf8a54f8-e239-424a-b30f-3c31de1fbc96","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"1676411c-8714-479a-b842-f401fea57f74","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c924407a-aaeb-4f97-8064-87413ae4d5ae","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d473ae56-9e57-4a87-87ff-e15a78a01ce7","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4d6eb608-a491-45f2-a038-5384409ab702","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -58,7 +66,7 @@
             {"id":"4f8843e4-705c-4c1e-8c9b-5a09299fc9b9","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2c59ffd0-1dc6-464a-8cba-204283588e75","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a1aedc90-bf57-4672-8dbc-3dc57170bb26","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"195c0bf0-3cbe-424d-81ab-476265c8fa9c","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5f415d7d-09ff-46ca-85aa-ac8dc8bce6a9","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c3d1af73-6291-4f41-b51e-2af5a4afc220","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -74,13 +82,22 @@
     "yorigin": 23,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_oldmanton_backflip_gun","path":"sprites/spr_oldmanton_backflip_gun/spr_oldmanton_backflip_gun.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_oldmanton_backflip_gun",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2d26d7dc-0c9c-4aab-aa47-e4db2d42002e","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2d26d7dc-0c9c-4aab-aa47-e4db2d42002e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_oldmanton_backflip_gun",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

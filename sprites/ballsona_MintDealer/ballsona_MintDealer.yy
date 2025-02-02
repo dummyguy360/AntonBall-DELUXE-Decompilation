@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "ballsona_MintDealer",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 16,
   "height": 26,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6a5e72b1-d31d-44cc-8fd1-95621696cf66",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"33973f3d-7546-47f6-bfec-356fe49d7082",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cd721f50-a272-40b6-b580-80de68d244f0",},
+    {"compositeImage":{"FrameId":{"name":"6a5e72b1-d31d-44cc-8fd1-95621696cf66","path":"sprites/ballsona_MintDealer/ballsona_MintDealer.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6a5e72b1-d31d-44cc-8fd1-95621696cf66","path":"sprites/ballsona_MintDealer/ballsona_MintDealer.yy",},"LayerId":{"name":"3d0d93fb-dda8-4378-9eaa-83dba72c9c0e","path":"sprites/ballsona_MintDealer/ballsona_MintDealer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_MintDealer","path":"sprites/ballsona_MintDealer/ballsona_MintDealer.yy",},"resourceVersion":"1.0","name":"6a5e72b1-d31d-44cc-8fd1-95621696cf66","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"33973f3d-7546-47f6-bfec-356fe49d7082","path":"sprites/ballsona_MintDealer/ballsona_MintDealer.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"33973f3d-7546-47f6-bfec-356fe49d7082","path":"sprites/ballsona_MintDealer/ballsona_MintDealer.yy",},"LayerId":{"name":"3d0d93fb-dda8-4378-9eaa-83dba72c9c0e","path":"sprites/ballsona_MintDealer/ballsona_MintDealer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_MintDealer","path":"sprites/ballsona_MintDealer/ballsona_MintDealer.yy",},"resourceVersion":"1.0","name":"33973f3d-7546-47f6-bfec-356fe49d7082","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"cd721f50-a272-40b6-b580-80de68d244f0","path":"sprites/ballsona_MintDealer/ballsona_MintDealer.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cd721f50-a272-40b6-b580-80de68d244f0","path":"sprites/ballsona_MintDealer/ballsona_MintDealer.yy",},"LayerId":{"name":"3d0d93fb-dda8-4378-9eaa-83dba72c9c0e","path":"sprites/ballsona_MintDealer/ballsona_MintDealer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_MintDealer","path":"sprites/ballsona_MintDealer/ballsona_MintDealer.yy",},"resourceVersion":"1.0","name":"cd721f50-a272-40b6-b580-80de68d244f0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "ballsona_MintDealer",
+    "spriteId": {"name":"ballsona_MintDealer","path":"sprites/ballsona_MintDealer/ballsona_MintDealer.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"233c024d-09e5-41de-8c71-4e84d4419310","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6a5e72b1-d31d-44cc-8fd1-95621696cf66","path":"sprites/ballsona_MintDealer/ballsona_MintDealer.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c42dde8d-a08a-4c81-b44d-09867cc099a6","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"33973f3d-7546-47f6-bfec-356fe49d7082","path":"sprites/ballsona_MintDealer/ballsona_MintDealer.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"98e1e8cd-dc7c-47d8-ba22-a8b7b5f5cd8f","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd721f50-a272-40b6-b580-80de68d244f0","path":"sprites/ballsona_MintDealer/ballsona_MintDealer.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 26,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"ballsona_MintDealer","path":"sprites/ballsona_MintDealer/ballsona_MintDealer.yy",},
+    "resourceVersion": "1.3",
+    "name": "ballsona_MintDealer",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3d0d93fb-dda8-4378-9eaa-83dba72c9c0e","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3d0d93fb-dda8-4378-9eaa-83dba72c9c0e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "ballsona_MintDealer",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

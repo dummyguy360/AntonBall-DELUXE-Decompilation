@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_anton_backflip_gun",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -28,18 +24,30 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3b9707cf-4d3a-4fc7-a75f-c7ec731e4028",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c6ef477e-4a8c-451a-b337-0c0efc803be5",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fe6a2201-066b-4701-9ecc-567cba823278",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"868a27d4-dc7c-4fc9-9404-3122631e8822",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b506d362-637b-421a-b5de-74b57bb4be7e",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a16a68bc-1388-40dd-a7e0-38f0ce98cc88",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ad054684-86cb-4727-b60d-bc78b68c0b76",},
+    {"compositeImage":{"FrameId":{"name":"3b9707cf-4d3a-4fc7-a75f-c7ec731e4028","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3b9707cf-4d3a-4fc7-a75f-c7ec731e4028","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"LayerId":{"name":"bb5f2e2f-6572-4f55-b6a3-1caca2986582","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_anton_backflip_gun","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"resourceVersion":"1.0","name":"3b9707cf-4d3a-4fc7-a75f-c7ec731e4028","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c6ef477e-4a8c-451a-b337-0c0efc803be5","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c6ef477e-4a8c-451a-b337-0c0efc803be5","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"LayerId":{"name":"bb5f2e2f-6572-4f55-b6a3-1caca2986582","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_anton_backflip_gun","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"resourceVersion":"1.0","name":"c6ef477e-4a8c-451a-b337-0c0efc803be5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fe6a2201-066b-4701-9ecc-567cba823278","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fe6a2201-066b-4701-9ecc-567cba823278","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"LayerId":{"name":"bb5f2e2f-6572-4f55-b6a3-1caca2986582","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_anton_backflip_gun","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"resourceVersion":"1.0","name":"fe6a2201-066b-4701-9ecc-567cba823278","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"868a27d4-dc7c-4fc9-9404-3122631e8822","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"868a27d4-dc7c-4fc9-9404-3122631e8822","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"LayerId":{"name":"bb5f2e2f-6572-4f55-b6a3-1caca2986582","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_anton_backflip_gun","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"resourceVersion":"1.0","name":"868a27d4-dc7c-4fc9-9404-3122631e8822","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b506d362-637b-421a-b5de-74b57bb4be7e","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b506d362-637b-421a-b5de-74b57bb4be7e","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"LayerId":{"name":"bb5f2e2f-6572-4f55-b6a3-1caca2986582","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_anton_backflip_gun","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"resourceVersion":"1.0","name":"b506d362-637b-421a-b5de-74b57bb4be7e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a16a68bc-1388-40dd-a7e0-38f0ce98cc88","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a16a68bc-1388-40dd-a7e0-38f0ce98cc88","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"LayerId":{"name":"bb5f2e2f-6572-4f55-b6a3-1caca2986582","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_anton_backflip_gun","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"resourceVersion":"1.0","name":"a16a68bc-1388-40dd-a7e0-38f0ce98cc88","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ad054684-86cb-4727-b60d-bc78b68c0b76","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ad054684-86cb-4727-b60d-bc78b68c0b76","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"LayerId":{"name":"bb5f2e2f-6572-4f55-b6a3-1caca2986582","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_anton_backflip_gun","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"resourceVersion":"1.0","name":"ad054684-86cb-4727-b60d-bc78b68c0b76","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_anton_backflip_gun",
+    "spriteId": {"name":"spr_anton_backflip_gun","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 20.0,
@@ -50,7 +58,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"3fa50cd1-5a91-4784-9ba7-43b8e097eb50","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3b9707cf-4d3a-4fc7-a75f-c7ec731e4028","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0556f9f0-a0df-47fc-85c5-ad0375aef9b2","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c6ef477e-4a8c-451a-b337-0c0efc803be5","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f7660565-a56d-4082-884c-6edd95023bfe","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fe6a2201-066b-4701-9ecc-567cba823278","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -58,7 +66,7 @@
             {"id":"28f741b8-a43a-4526-98ed-d29098efc974","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b506d362-637b-421a-b5de-74b57bb4be7e","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"2638794c-f177-43c9-b066-7a2ab8c03b2e","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a16a68bc-1388-40dd-a7e0-38f0ce98cc88","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"61a76d79-f853-4458-a000-54587c788051","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ad054684-86cb-4727-b60d-bc78b68c0b76","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -74,13 +82,22 @@
     "yorigin": 23,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_anton_backflip_gun","path":"sprites/spr_anton_backflip_gun/spr_anton_backflip_gun.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_anton_backflip_gun",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bb5f2e2f-6572-4f55-b6a3-1caca2986582","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bb5f2e2f-6572-4f55-b6a3-1caca2986582","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_anton_backflip_gun",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

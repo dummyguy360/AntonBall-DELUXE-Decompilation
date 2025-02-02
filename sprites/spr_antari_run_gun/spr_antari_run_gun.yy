@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_antari_run_gun",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7e200d45-742a-4438-b3d0-4af352f5e564",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f5c641b5-4d97-473f-8ab8-1c7df27370b3",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1bdd7211-1ac0-4c2a-abbc-df8b972132ff",},
+    {"compositeImage":{"FrameId":{"name":"7e200d45-742a-4438-b3d0-4af352f5e564","path":"sprites/spr_antari_run_gun/spr_antari_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7e200d45-742a-4438-b3d0-4af352f5e564","path":"sprites/spr_antari_run_gun/spr_antari_run_gun.yy",},"LayerId":{"name":"15a281da-e322-4451-a825-f169f1f5a8c9","path":"sprites/spr_antari_run_gun/spr_antari_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_antari_run_gun","path":"sprites/spr_antari_run_gun/spr_antari_run_gun.yy",},"resourceVersion":"1.0","name":"7e200d45-742a-4438-b3d0-4af352f5e564","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f5c641b5-4d97-473f-8ab8-1c7df27370b3","path":"sprites/spr_antari_run_gun/spr_antari_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f5c641b5-4d97-473f-8ab8-1c7df27370b3","path":"sprites/spr_antari_run_gun/spr_antari_run_gun.yy",},"LayerId":{"name":"15a281da-e322-4451-a825-f169f1f5a8c9","path":"sprites/spr_antari_run_gun/spr_antari_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_antari_run_gun","path":"sprites/spr_antari_run_gun/spr_antari_run_gun.yy",},"resourceVersion":"1.0","name":"f5c641b5-4d97-473f-8ab8-1c7df27370b3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1bdd7211-1ac0-4c2a-abbc-df8b972132ff","path":"sprites/spr_antari_run_gun/spr_antari_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1bdd7211-1ac0-4c2a-abbc-df8b972132ff","path":"sprites/spr_antari_run_gun/spr_antari_run_gun.yy",},"LayerId":{"name":"15a281da-e322-4451-a825-f169f1f5a8c9","path":"sprites/spr_antari_run_gun/spr_antari_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_antari_run_gun","path":"sprites/spr_antari_run_gun/spr_antari_run_gun.yy",},"resourceVersion":"1.0","name":"1bdd7211-1ac0-4c2a-abbc-df8b972132ff","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_antari_run_gun",
+    "spriteId": {"name":"spr_antari_run_gun","path":"sprites/spr_antari_run_gun/spr_antari_run_gun.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"5cb733ed-e7b3-4f33-8bfd-a04a4a0491d2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7e200d45-742a-4438-b3d0-4af352f5e564","path":"sprites/spr_antari_run_gun/spr_antari_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"42bcccaa-bb1d-48b0-af82-3c0cd4ca4e0a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f5c641b5-4d97-473f-8ab8-1c7df27370b3","path":"sprites/spr_antari_run_gun/spr_antari_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8504313b-75bd-4be7-8459-c06b35ec2e93","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1bdd7211-1ac0-4c2a-abbc-df8b972132ff","path":"sprites/spr_antari_run_gun/spr_antari_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 23,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_antari_run_gun","path":"sprites/spr_antari_run_gun/spr_antari_run_gun.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_antari_run_gun",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"15a281da-e322-4451-a825-f169f1f5a8c9","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"15a281da-e322-4451-a825-f169f1f5a8c9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_antari_run_gun",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

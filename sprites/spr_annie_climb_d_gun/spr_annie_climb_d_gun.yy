@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_annie_climb_d_gun",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -28,15 +24,21 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a55730c4-7fb5-485a-9e74-b86ed704db5d",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"09ad6b37-6a9c-402d-811e-759ed0a0c465",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b7ff0fa2-bf8a-4f00-9571-f308e250cddc",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dd1499b6-929b-4deb-bd68-8e7adc35a4f3",},
+    {"compositeImage":{"FrameId":{"name":"a55730c4-7fb5-485a-9e74-b86ed704db5d","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a55730c4-7fb5-485a-9e74-b86ed704db5d","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},"LayerId":{"name":"f8955cf0-88d7-4956-9ddd-50b40a09f007","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_annie_climb_d_gun","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},"resourceVersion":"1.0","name":"a55730c4-7fb5-485a-9e74-b86ed704db5d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"09ad6b37-6a9c-402d-811e-759ed0a0c465","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"09ad6b37-6a9c-402d-811e-759ed0a0c465","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},"LayerId":{"name":"f8955cf0-88d7-4956-9ddd-50b40a09f007","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_annie_climb_d_gun","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},"resourceVersion":"1.0","name":"09ad6b37-6a9c-402d-811e-759ed0a0c465","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b7ff0fa2-bf8a-4f00-9571-f308e250cddc","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b7ff0fa2-bf8a-4f00-9571-f308e250cddc","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},"LayerId":{"name":"f8955cf0-88d7-4956-9ddd-50b40a09f007","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_annie_climb_d_gun","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},"resourceVersion":"1.0","name":"b7ff0fa2-bf8a-4f00-9571-f308e250cddc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"dd1499b6-929b-4deb-bd68-8e7adc35a4f3","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"dd1499b6-929b-4deb-bd68-8e7adc35a4f3","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},"LayerId":{"name":"f8955cf0-88d7-4956-9ddd-50b40a09f007","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_annie_climb_d_gun","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},"resourceVersion":"1.0","name":"dd1499b6-929b-4deb-bd68-8e7adc35a4f3","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_annie_climb_d_gun",
+    "spriteId": {"name":"spr_annie_climb_d_gun","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -47,12 +49,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"a9f49115-8849-4118-b1fd-ffab922e35fb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a55730c4-7fb5-485a-9e74-b86ed704db5d","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d8073ce4-6f9f-440a-a045-20578d612cef","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"09ad6b37-6a9c-402d-811e-759ed0a0c465","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d426fc62-61c4-4f07-ad6e-3f1f15ca4c9e","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b7ff0fa2-bf8a-4f00-9571-f308e250cddc","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"79ce0773-f2e6-4275-b821-9e4d56c5a69f","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dd1499b6-929b-4deb-bd68-8e7adc35a4f3","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -68,13 +70,22 @@
     "yorigin": 23,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_annie_climb_d_gun","path":"sprites/spr_annie_climb_d_gun/spr_annie_climb_d_gun.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_annie_climb_d_gun",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f8955cf0-88d7-4956-9ddd-50b40a09f007","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f8955cf0-88d7-4956-9ddd-50b40a09f007","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_annie_climb_d_gun",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "bg_snowfall",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 22,
   "height": 22,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7a9565d1-fb6b-46a2-9eed-5803771833b9",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a2c9071a-b78f-44b7-a3b3-cb42981c8db6",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a0a820dd-d86a-41c6-b5a9-6013df60ced3",},
+    {"compositeImage":{"FrameId":{"name":"7a9565d1-fb6b-46a2-9eed-5803771833b9","path":"sprites/bg_snowfall/bg_snowfall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7a9565d1-fb6b-46a2-9eed-5803771833b9","path":"sprites/bg_snowfall/bg_snowfall.yy",},"LayerId":{"name":"c2e2201d-5ae4-4d14-a669-1606563aeccc","path":"sprites/bg_snowfall/bg_snowfall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"bg_snowfall","path":"sprites/bg_snowfall/bg_snowfall.yy",},"resourceVersion":"1.0","name":"7a9565d1-fb6b-46a2-9eed-5803771833b9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a2c9071a-b78f-44b7-a3b3-cb42981c8db6","path":"sprites/bg_snowfall/bg_snowfall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a2c9071a-b78f-44b7-a3b3-cb42981c8db6","path":"sprites/bg_snowfall/bg_snowfall.yy",},"LayerId":{"name":"c2e2201d-5ae4-4d14-a669-1606563aeccc","path":"sprites/bg_snowfall/bg_snowfall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"bg_snowfall","path":"sprites/bg_snowfall/bg_snowfall.yy",},"resourceVersion":"1.0","name":"a2c9071a-b78f-44b7-a3b3-cb42981c8db6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a0a820dd-d86a-41c6-b5a9-6013df60ced3","path":"sprites/bg_snowfall/bg_snowfall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a0a820dd-d86a-41c6-b5a9-6013df60ced3","path":"sprites/bg_snowfall/bg_snowfall.yy",},"LayerId":{"name":"c2e2201d-5ae4-4d14-a669-1606563aeccc","path":"sprites/bg_snowfall/bg_snowfall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"bg_snowfall","path":"sprites/bg_snowfall/bg_snowfall.yy",},"resourceVersion":"1.0","name":"a0a820dd-d86a-41c6-b5a9-6013df60ced3","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "bg_snowfall",
+    "spriteId": {"name":"bg_snowfall","path":"sprites/bg_snowfall/bg_snowfall.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 2.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"274992dc-4530-498a-b853-a87c25ca177d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7a9565d1-fb6b-46a2-9eed-5803771833b9","path":"sprites/bg_snowfall/bg_snowfall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"20f648c5-ed2b-4a7f-9aa8-f4d1dbfb991a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a2c9071a-b78f-44b7-a3b3-cb42981c8db6","path":"sprites/bg_snowfall/bg_snowfall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b04732da-230f-44aa-926a-4e0f268d838f","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a0a820dd-d86a-41c6-b5a9-6013df60ced3","path":"sprites/bg_snowfall/bg_snowfall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"bg_snowfall","path":"sprites/bg_snowfall/bg_snowfall.yy",},
+    "resourceVersion": "1.3",
+    "name": "bg_snowfall",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c2e2201d-5ae4-4d14-a669-1606563aeccc","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c2e2201d-5ae4-4d14-a669-1606563aeccc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "bg_snowfall",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

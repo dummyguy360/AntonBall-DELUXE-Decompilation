@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "ballsona_laser",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 16,
   "height": 16,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7598c4c5-88db-4f26-88ea-7b33ca36561d",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dbe7fd88-f067-4161-86a5-46d44e9f4637",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"641c44ef-1b87-4ebc-942d-3bf2e4178162",},
+    {"compositeImage":{"FrameId":{"name":"7598c4c5-88db-4f26-88ea-7b33ca36561d","path":"sprites/ballsona_laser/ballsona_laser.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7598c4c5-88db-4f26-88ea-7b33ca36561d","path":"sprites/ballsona_laser/ballsona_laser.yy",},"LayerId":{"name":"4d8c89b6-8fef-4306-8cf4-094857ac5ae6","path":"sprites/ballsona_laser/ballsona_laser.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_laser","path":"sprites/ballsona_laser/ballsona_laser.yy",},"resourceVersion":"1.0","name":"7598c4c5-88db-4f26-88ea-7b33ca36561d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"dbe7fd88-f067-4161-86a5-46d44e9f4637","path":"sprites/ballsona_laser/ballsona_laser.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"dbe7fd88-f067-4161-86a5-46d44e9f4637","path":"sprites/ballsona_laser/ballsona_laser.yy",},"LayerId":{"name":"4d8c89b6-8fef-4306-8cf4-094857ac5ae6","path":"sprites/ballsona_laser/ballsona_laser.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_laser","path":"sprites/ballsona_laser/ballsona_laser.yy",},"resourceVersion":"1.0","name":"dbe7fd88-f067-4161-86a5-46d44e9f4637","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"641c44ef-1b87-4ebc-942d-3bf2e4178162","path":"sprites/ballsona_laser/ballsona_laser.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"641c44ef-1b87-4ebc-942d-3bf2e4178162","path":"sprites/ballsona_laser/ballsona_laser.yy",},"LayerId":{"name":"4d8c89b6-8fef-4306-8cf4-094857ac5ae6","path":"sprites/ballsona_laser/ballsona_laser.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_laser","path":"sprites/ballsona_laser/ballsona_laser.yy",},"resourceVersion":"1.0","name":"641c44ef-1b87-4ebc-942d-3bf2e4178162","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "ballsona_laser",
+    "spriteId": {"name":"ballsona_laser","path":"sprites/ballsona_laser/ballsona_laser.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"6aedae00-23ab-47e0-ab69-d76082f21f11","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7598c4c5-88db-4f26-88ea-7b33ca36561d","path":"sprites/ballsona_laser/ballsona_laser.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"283c47b7-7111-434a-8b87-eaacfca393f3","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dbe7fd88-f067-4161-86a5-46d44e9f4637","path":"sprites/ballsona_laser/ballsona_laser.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b38d7c71-184b-43e6-b21c-f4681653a231","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"641c44ef-1b87-4ebc-942d-3bf2e4178162","path":"sprites/ballsona_laser/ballsona_laser.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"ballsona_laser","path":"sprites/ballsona_laser/ballsona_laser.yy",},
+    "resourceVersion": "1.3",
+    "name": "ballsona_laser",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4d8c89b6-8fef-4306-8cf4-094857ac5ae6","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4d8c89b6-8fef-4306-8cf4-094857ac5ae6","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "ballsona_laser",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_pb_intermission3",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 256,
   "height": 144,
   "textureGroupId": {
@@ -28,13 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bf8fa82d-e441-4b0c-8f3a-70af13866854",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f24c5fc8-ec79-4c83-828f-7017ef00b3c1",},
+    {"compositeImage":{"FrameId":{"name":"bf8fa82d-e441-4b0c-8f3a-70af13866854","path":"sprites/spr_pb_intermission3/spr_pb_intermission3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bf8fa82d-e441-4b0c-8f3a-70af13866854","path":"sprites/spr_pb_intermission3/spr_pb_intermission3.yy",},"LayerId":{"name":"fdb5ba94-c5bc-4068-ba66-07e7c1c45615","path":"sprites/spr_pb_intermission3/spr_pb_intermission3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_pb_intermission3","path":"sprites/spr_pb_intermission3/spr_pb_intermission3.yy",},"resourceVersion":"1.0","name":"bf8fa82d-e441-4b0c-8f3a-70af13866854","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f24c5fc8-ec79-4c83-828f-7017ef00b3c1","path":"sprites/spr_pb_intermission3/spr_pb_intermission3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f24c5fc8-ec79-4c83-828f-7017ef00b3c1","path":"sprites/spr_pb_intermission3/spr_pb_intermission3.yy",},"LayerId":{"name":"fdb5ba94-c5bc-4068-ba66-07e7c1c45615","path":"sprites/spr_pb_intermission3/spr_pb_intermission3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_pb_intermission3","path":"sprites/spr_pb_intermission3/spr_pb_intermission3.yy",},"resourceVersion":"1.0","name":"f24c5fc8-ec79-4c83-828f-7017ef00b3c1","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_pb_intermission3",
+    "spriteId": {"name":"spr_pb_intermission3","path":"sprites/spr_pb_intermission3/spr_pb_intermission3.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 2.0,
@@ -45,10 +43,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"987dbacf-e320-4f7b-97f2-3647a7cccc7f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bf8fa82d-e441-4b0c-8f3a-70af13866854","path":"sprites/spr_pb_intermission3/spr_pb_intermission3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b51d2b05-6999-4098-be78-69ec731169db","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f24c5fc8-ec79-4c83-828f-7017ef00b3c1","path":"sprites/spr_pb_intermission3/spr_pb_intermission3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -64,13 +62,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_pb_intermission3","path":"sprites/spr_pb_intermission3/spr_pb_intermission3.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_pb_intermission3",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fdb5ba94-c5bc-4068-ba66-07e7c1c45615","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fdb5ba94-c5bc-4068-ba66-07e7c1c45615","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_pb_intermission3",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

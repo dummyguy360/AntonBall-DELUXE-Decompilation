@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_antonsdoglife",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 13,
   "height": 14,
   "textureGroupId": {
@@ -28,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f8f19878-45f4-4e67-9dbc-3064b1efa6d0",},
+    {"compositeImage":{"FrameId":{"name":"f8f19878-45f4-4e67-9dbc-3064b1efa6d0","path":"sprites/spr_antonsdoglife/spr_antonsdoglife.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f8f19878-45f4-4e67-9dbc-3064b1efa6d0","path":"sprites/spr_antonsdoglife/spr_antonsdoglife.yy",},"LayerId":{"name":"bcc0442e-0f09-43e1-84b6-8a81a82467ee","path":"sprites/spr_antonsdoglife/spr_antonsdoglife.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_antonsdoglife","path":"sprites/spr_antonsdoglife/spr_antonsdoglife.yy",},"resourceVersion":"1.0","name":"f8f19878-45f4-4e67-9dbc-3064b1efa6d0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_antonsdoglife",
+    "spriteId": {"name":"spr_antonsdoglife","path":"sprites/spr_antonsdoglife/spr_antonsdoglife.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -44,9 +40,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"89a5adf8-5bcf-4b7e-a2cc-525100ce9ded","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f8f19878-45f4-4e67-9dbc-3064b1efa6d0","path":"sprites/spr_antonsdoglife/spr_antonsdoglife.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,13 +58,22 @@
     "yorigin": 2,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_antonsdoglife","path":"sprites/spr_antonsdoglife/spr_antonsdoglife.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_antonsdoglife",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bcc0442e-0f09-43e1-84b6-8a81a82467ee","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bcc0442e-0f09-43e1-84b6-8a81a82467ee","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_antonsdoglife",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

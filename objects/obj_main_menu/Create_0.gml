@@ -1,9 +1,9 @@
 subMenus = 
 {
-    mainMenu: argument[0],
-    extras: argument[1],
-    options: argument[2]
-};
+    mainMenu: cmn_menu_create(main_menu),
+    extras: cmn_menu_create(extras_menu),
+    options: cmn_menu_create(options_menu)
+}
 menu = subMenus.mainMenu;
 
 on_select = function()

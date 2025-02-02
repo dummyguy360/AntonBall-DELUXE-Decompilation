@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "ballsona_ArtsyHarper",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 16,
   "height": 32,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"008cb8e6-884b-4bce-8035-02779b1874dc",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a56840b3-8f8a-422b-9676-7411ef91ab43",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3a1f6e35-6397-495f-a3d1-8f1467958cf5",},
+    {"compositeImage":{"FrameId":{"name":"008cb8e6-884b-4bce-8035-02779b1874dc","path":"sprites/ballsona_ArtsyHarper/ballsona_ArtsyHarper.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"008cb8e6-884b-4bce-8035-02779b1874dc","path":"sprites/ballsona_ArtsyHarper/ballsona_ArtsyHarper.yy",},"LayerId":{"name":"5a701ee0-5afb-4bd2-98c3-2a66ec81567a","path":"sprites/ballsona_ArtsyHarper/ballsona_ArtsyHarper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_ArtsyHarper","path":"sprites/ballsona_ArtsyHarper/ballsona_ArtsyHarper.yy",},"resourceVersion":"1.0","name":"008cb8e6-884b-4bce-8035-02779b1874dc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a56840b3-8f8a-422b-9676-7411ef91ab43","path":"sprites/ballsona_ArtsyHarper/ballsona_ArtsyHarper.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a56840b3-8f8a-422b-9676-7411ef91ab43","path":"sprites/ballsona_ArtsyHarper/ballsona_ArtsyHarper.yy",},"LayerId":{"name":"5a701ee0-5afb-4bd2-98c3-2a66ec81567a","path":"sprites/ballsona_ArtsyHarper/ballsona_ArtsyHarper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_ArtsyHarper","path":"sprites/ballsona_ArtsyHarper/ballsona_ArtsyHarper.yy",},"resourceVersion":"1.0","name":"a56840b3-8f8a-422b-9676-7411ef91ab43","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3a1f6e35-6397-495f-a3d1-8f1467958cf5","path":"sprites/ballsona_ArtsyHarper/ballsona_ArtsyHarper.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3a1f6e35-6397-495f-a3d1-8f1467958cf5","path":"sprites/ballsona_ArtsyHarper/ballsona_ArtsyHarper.yy",},"LayerId":{"name":"5a701ee0-5afb-4bd2-98c3-2a66ec81567a","path":"sprites/ballsona_ArtsyHarper/ballsona_ArtsyHarper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_ArtsyHarper","path":"sprites/ballsona_ArtsyHarper/ballsona_ArtsyHarper.yy",},"resourceVersion":"1.0","name":"3a1f6e35-6397-495f-a3d1-8f1467958cf5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "ballsona_ArtsyHarper",
+    "spriteId": {"name":"ballsona_ArtsyHarper","path":"sprites/ballsona_ArtsyHarper/ballsona_ArtsyHarper.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"f04e8de6-a04e-4f5e-9622-0adf79e409f1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"008cb8e6-884b-4bce-8035-02779b1874dc","path":"sprites/ballsona_ArtsyHarper/ballsona_ArtsyHarper.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e91bde3f-6b2e-41c9-8bb1-21c8e508b634","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a56840b3-8f8a-422b-9676-7411ef91ab43","path":"sprites/ballsona_ArtsyHarper/ballsona_ArtsyHarper.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"06662f8e-7ed5-47dc-9437-bdf9012470ae","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3a1f6e35-6397-495f-a3d1-8f1467958cf5","path":"sprites/ballsona_ArtsyHarper/ballsona_ArtsyHarper.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"ballsona_ArtsyHarper","path":"sprites/ballsona_ArtsyHarper/ballsona_ArtsyHarper.yy",},
+    "resourceVersion": "1.3",
+    "name": "ballsona_ArtsyHarper",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5a701ee0-5afb-4bd2-98c3-2a66ec81567a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5a701ee0-5afb-4bd2-98c3-2a66ec81567a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "ballsona_ArtsyHarper",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "ballsona_Lunex",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 16,
   "height": 16,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f38054fc-4191-4b87-9464-3cb9ca9c7310",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6600bf92-4df5-479d-85fd-6e01bbc15ea6",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b5838bd6-11db-48c8-82cc-5a7dcbb90340",},
+    {"compositeImage":{"FrameId":{"name":"f38054fc-4191-4b87-9464-3cb9ca9c7310","path":"sprites/ballsona_Lunex/ballsona_Lunex.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f38054fc-4191-4b87-9464-3cb9ca9c7310","path":"sprites/ballsona_Lunex/ballsona_Lunex.yy",},"LayerId":{"name":"c6e81fed-5e18-416f-bd1a-77a9cab783f1","path":"sprites/ballsona_Lunex/ballsona_Lunex.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_Lunex","path":"sprites/ballsona_Lunex/ballsona_Lunex.yy",},"resourceVersion":"1.0","name":"f38054fc-4191-4b87-9464-3cb9ca9c7310","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6600bf92-4df5-479d-85fd-6e01bbc15ea6","path":"sprites/ballsona_Lunex/ballsona_Lunex.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6600bf92-4df5-479d-85fd-6e01bbc15ea6","path":"sprites/ballsona_Lunex/ballsona_Lunex.yy",},"LayerId":{"name":"c6e81fed-5e18-416f-bd1a-77a9cab783f1","path":"sprites/ballsona_Lunex/ballsona_Lunex.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_Lunex","path":"sprites/ballsona_Lunex/ballsona_Lunex.yy",},"resourceVersion":"1.0","name":"6600bf92-4df5-479d-85fd-6e01bbc15ea6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b5838bd6-11db-48c8-82cc-5a7dcbb90340","path":"sprites/ballsona_Lunex/ballsona_Lunex.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b5838bd6-11db-48c8-82cc-5a7dcbb90340","path":"sprites/ballsona_Lunex/ballsona_Lunex.yy",},"LayerId":{"name":"c6e81fed-5e18-416f-bd1a-77a9cab783f1","path":"sprites/ballsona_Lunex/ballsona_Lunex.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_Lunex","path":"sprites/ballsona_Lunex/ballsona_Lunex.yy",},"resourceVersion":"1.0","name":"b5838bd6-11db-48c8-82cc-5a7dcbb90340","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "ballsona_Lunex",
+    "spriteId": {"name":"ballsona_Lunex","path":"sprites/ballsona_Lunex/ballsona_Lunex.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1278a4d0-cfec-4064-8ff8-9dcca10c3315","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f38054fc-4191-4b87-9464-3cb9ca9c7310","path":"sprites/ballsona_Lunex/ballsona_Lunex.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"cd46edf4-ab54-4317-8c38-067cbb99eb1e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6600bf92-4df5-479d-85fd-6e01bbc15ea6","path":"sprites/ballsona_Lunex/ballsona_Lunex.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"27322a8d-4e38-47b1-83a3-9a466ab75092","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b5838bd6-11db-48c8-82cc-5a7dcbb90340","path":"sprites/ballsona_Lunex/ballsona_Lunex.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"ballsona_Lunex","path":"sprites/ballsona_Lunex/ballsona_Lunex.yy",},
+    "resourceVersion": "1.3",
+    "name": "ballsona_Lunex",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c6e81fed-5e18-416f-bd1a-77a9cab783f1","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c6e81fed-5e18-416f-bd1a-77a9cab783f1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "ballsona_Lunex",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

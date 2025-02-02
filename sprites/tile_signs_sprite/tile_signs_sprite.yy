@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "tile_signs_sprite",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 136,
   "height": 136,
   "textureGroupId": {
@@ -28,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a38fe9ea-1db7-4ba1-91a4-f8229ca6b8dd",},
+    {"compositeImage":{"FrameId":{"name":"a38fe9ea-1db7-4ba1-91a4-f8229ca6b8dd","path":"sprites/tile_signs_sprite/tile_signs_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a38fe9ea-1db7-4ba1-91a4-f8229ca6b8dd","path":"sprites/tile_signs_sprite/tile_signs_sprite.yy",},"LayerId":{"name":"56cbb8d3-da20-412e-89e0-85e610ffd986","path":"sprites/tile_signs_sprite/tile_signs_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"tile_signs_sprite","path":"sprites/tile_signs_sprite/tile_signs_sprite.yy",},"resourceVersion":"1.0","name":"a38fe9ea-1db7-4ba1-91a4-f8229ca6b8dd","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "tile_signs_sprite",
+    "spriteId": {"name":"tile_signs_sprite","path":"sprites/tile_signs_sprite/tile_signs_sprite.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -44,9 +40,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1d55a46b-c55d-451b-b792-5104041bff19","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a38fe9ea-1db7-4ba1-91a4-f8229ca6b8dd","path":"sprites/tile_signs_sprite/tile_signs_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,13 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"tile_signs_sprite","path":"sprites/tile_signs_sprite/tile_signs_sprite.yy",},
+    "resourceVersion": "1.3",
+    "name": "tile_signs_sprite",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"56cbb8d3-da20-412e-89e0-85e610ffd986","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"56cbb8d3-da20-412e-89e0-85e610ffd986","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Tilesets",
     "path": "folders/Sprites/Tilesets.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "tile_signs_sprite",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

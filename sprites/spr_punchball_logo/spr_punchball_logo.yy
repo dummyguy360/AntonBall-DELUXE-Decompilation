@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_punchball_logo",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 150,
   "height": 57,
   "textureGroupId": {
@@ -28,15 +24,21 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9fff6896-0bef-48a7-a232-6db142d9795a",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2637c75b-1d60-4c82-adf7-139896056598",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d2d02192-0115-45e0-9fcd-db3b15fea0e7",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e924195e-e8e7-464e-bdad-2b5d38e0908b",},
+    {"compositeImage":{"FrameId":{"name":"9fff6896-0bef-48a7-a232-6db142d9795a","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9fff6896-0bef-48a7-a232-6db142d9795a","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},"LayerId":{"name":"7acea8a9-b728-467d-819b-632683de52a3","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_punchball_logo","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},"resourceVersion":"1.0","name":"9fff6896-0bef-48a7-a232-6db142d9795a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2637c75b-1d60-4c82-adf7-139896056598","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2637c75b-1d60-4c82-adf7-139896056598","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},"LayerId":{"name":"7acea8a9-b728-467d-819b-632683de52a3","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_punchball_logo","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},"resourceVersion":"1.0","name":"2637c75b-1d60-4c82-adf7-139896056598","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d2d02192-0115-45e0-9fcd-db3b15fea0e7","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d2d02192-0115-45e0-9fcd-db3b15fea0e7","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},"LayerId":{"name":"7acea8a9-b728-467d-819b-632683de52a3","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_punchball_logo","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},"resourceVersion":"1.0","name":"d2d02192-0115-45e0-9fcd-db3b15fea0e7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e924195e-e8e7-464e-bdad-2b5d38e0908b","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e924195e-e8e7-464e-bdad-2b5d38e0908b","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},"LayerId":{"name":"7acea8a9-b728-467d-819b-632683de52a3","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_punchball_logo","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},"resourceVersion":"1.0","name":"e924195e-e8e7-464e-bdad-2b5d38e0908b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_punchball_logo",
+    "spriteId": {"name":"spr_punchball_logo","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 8.0,
@@ -47,12 +49,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"4410a628-9eea-4953-ac4d-564fbac316ff","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9fff6896-0bef-48a7-a232-6db142d9795a","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f9deb1da-a0a7-451d-8034-ca0b3e5e281e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2637c75b-1d60-4c82-adf7-139896056598","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"108d7ce1-b18c-4a05-82dd-c8b54af3ec41","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d2d02192-0115-45e0-9fcd-db3b15fea0e7","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7257b7ea-ba6c-4cc5-991e-dfe4a02f8fd6","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e924195e-e8e7-464e-bdad-2b5d38e0908b","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -68,13 +70,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_punchball_logo","path":"sprites/spr_punchball_logo/spr_punchball_logo.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_punchball_logo",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7acea8a9-b728-467d-819b-632683de52a3","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7acea8a9-b728-467d-819b-632683de52a3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_punchball_logo",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

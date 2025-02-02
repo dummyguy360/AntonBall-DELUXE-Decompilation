@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_antonsdog_run_carry",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"47639500-ae03-46a8-bffb-b48b621a08db",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a693faba-1097-48c6-a944-d257a7fbf16a",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b35fd268-e59d-4ad4-8ce9-1c48467e78e5",},
+    {"compositeImage":{"FrameId":{"name":"47639500-ae03-46a8-bffb-b48b621a08db","path":"sprites/spr_antonsdog_run_carry/spr_antonsdog_run_carry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"47639500-ae03-46a8-bffb-b48b621a08db","path":"sprites/spr_antonsdog_run_carry/spr_antonsdog_run_carry.yy",},"LayerId":{"name":"e81ce675-2886-42bf-b19b-dcac71a84d18","path":"sprites/spr_antonsdog_run_carry/spr_antonsdog_run_carry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_antonsdog_run_carry","path":"sprites/spr_antonsdog_run_carry/spr_antonsdog_run_carry.yy",},"resourceVersion":"1.0","name":"47639500-ae03-46a8-bffb-b48b621a08db","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a693faba-1097-48c6-a944-d257a7fbf16a","path":"sprites/spr_antonsdog_run_carry/spr_antonsdog_run_carry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a693faba-1097-48c6-a944-d257a7fbf16a","path":"sprites/spr_antonsdog_run_carry/spr_antonsdog_run_carry.yy",},"LayerId":{"name":"e81ce675-2886-42bf-b19b-dcac71a84d18","path":"sprites/spr_antonsdog_run_carry/spr_antonsdog_run_carry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_antonsdog_run_carry","path":"sprites/spr_antonsdog_run_carry/spr_antonsdog_run_carry.yy",},"resourceVersion":"1.0","name":"a693faba-1097-48c6-a944-d257a7fbf16a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b35fd268-e59d-4ad4-8ce9-1c48467e78e5","path":"sprites/spr_antonsdog_run_carry/spr_antonsdog_run_carry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b35fd268-e59d-4ad4-8ce9-1c48467e78e5","path":"sprites/spr_antonsdog_run_carry/spr_antonsdog_run_carry.yy",},"LayerId":{"name":"e81ce675-2886-42bf-b19b-dcac71a84d18","path":"sprites/spr_antonsdog_run_carry/spr_antonsdog_run_carry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_antonsdog_run_carry","path":"sprites/spr_antonsdog_run_carry/spr_antonsdog_run_carry.yy",},"resourceVersion":"1.0","name":"b35fd268-e59d-4ad4-8ce9-1c48467e78e5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_antonsdog_run_carry",
+    "spriteId": {"name":"spr_antonsdog_run_carry","path":"sprites/spr_antonsdog_run_carry/spr_antonsdog_run_carry.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 20.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"7574f5c0-17e2-455b-90ac-2aedf967edce","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"47639500-ae03-46a8-bffb-b48b621a08db","path":"sprites/spr_antonsdog_run_carry/spr_antonsdog_run_carry.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"324bdae0-9919-4d00-a74a-2fce82f5dab7","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a693faba-1097-48c6-a944-d257a7fbf16a","path":"sprites/spr_antonsdog_run_carry/spr_antonsdog_run_carry.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6cae812b-9f5c-43fd-af46-a738f03e9de1","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b35fd268-e59d-4ad4-8ce9-1c48467e78e5","path":"sprites/spr_antonsdog_run_carry/spr_antonsdog_run_carry.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 23,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_antonsdog_run_carry","path":"sprites/spr_antonsdog_run_carry/spr_antonsdog_run_carry.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_antonsdog_run_carry",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e81ce675-2886-42bf-b19b-dcac71a84d18","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e81ce675-2886-42bf-b19b-dcac71a84d18","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_antonsdog_run_carry",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

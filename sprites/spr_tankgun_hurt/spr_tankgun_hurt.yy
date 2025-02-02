@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_tankgun_hurt",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 41,
   "height": 40,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8ed587cc-e66d-4cfa-96f7-a5db22caef37",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2b169413-3de1-47a6-8a96-105f02328b9d",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fad0124f-b3d8-456d-a737-259d4108be8d",},
+    {"compositeImage":{"FrameId":{"name":"8ed587cc-e66d-4cfa-96f7-a5db22caef37","path":"sprites/spr_tankgun_hurt/spr_tankgun_hurt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8ed587cc-e66d-4cfa-96f7-a5db22caef37","path":"sprites/spr_tankgun_hurt/spr_tankgun_hurt.yy",},"LayerId":{"name":"ee8cc228-b34a-4397-96a1-802fa41d0cd2","path":"sprites/spr_tankgun_hurt/spr_tankgun_hurt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_tankgun_hurt","path":"sprites/spr_tankgun_hurt/spr_tankgun_hurt.yy",},"resourceVersion":"1.0","name":"8ed587cc-e66d-4cfa-96f7-a5db22caef37","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2b169413-3de1-47a6-8a96-105f02328b9d","path":"sprites/spr_tankgun_hurt/spr_tankgun_hurt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2b169413-3de1-47a6-8a96-105f02328b9d","path":"sprites/spr_tankgun_hurt/spr_tankgun_hurt.yy",},"LayerId":{"name":"ee8cc228-b34a-4397-96a1-802fa41d0cd2","path":"sprites/spr_tankgun_hurt/spr_tankgun_hurt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_tankgun_hurt","path":"sprites/spr_tankgun_hurt/spr_tankgun_hurt.yy",},"resourceVersion":"1.0","name":"2b169413-3de1-47a6-8a96-105f02328b9d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fad0124f-b3d8-456d-a737-259d4108be8d","path":"sprites/spr_tankgun_hurt/spr_tankgun_hurt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fad0124f-b3d8-456d-a737-259d4108be8d","path":"sprites/spr_tankgun_hurt/spr_tankgun_hurt.yy",},"LayerId":{"name":"ee8cc228-b34a-4397-96a1-802fa41d0cd2","path":"sprites/spr_tankgun_hurt/spr_tankgun_hurt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_tankgun_hurt","path":"sprites/spr_tankgun_hurt/spr_tankgun_hurt.yy",},"resourceVersion":"1.0","name":"fad0124f-b3d8-456d-a737-259d4108be8d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_tankgun_hurt",
+    "spriteId": {"name":"spr_tankgun_hurt","path":"sprites/spr_tankgun_hurt/spr_tankgun_hurt.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ad77e8c1-b6db-4cb1-8b5a-252475901735","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8ed587cc-e66d-4cfa-96f7-a5db22caef37","path":"sprites/spr_tankgun_hurt/spr_tankgun_hurt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c8c6a549-f34a-480d-857a-a82e40087c96","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2b169413-3de1-47a6-8a96-105f02328b9d","path":"sprites/spr_tankgun_hurt/spr_tankgun_hurt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f676f0aa-a209-4583-9147-bbc3f9684ed1","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fad0124f-b3d8-456d-a737-259d4108be8d","path":"sprites/spr_tankgun_hurt/spr_tankgun_hurt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 20,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_tankgun_hurt","path":"sprites/spr_tankgun_hurt/spr_tankgun_hurt.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_tankgun_hurt",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ee8cc228-b34a-4397-96a1-802fa41d0cd2","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ee8cc228-b34a-4397-96a1-802fa41d0cd2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_tankgun_hurt",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

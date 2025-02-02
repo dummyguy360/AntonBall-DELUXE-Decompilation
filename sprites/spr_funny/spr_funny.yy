@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_funny",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 44,
   "height": 44,
   "textureGroupId": {
@@ -28,56 +24,144 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"15471d06-27cd-4cb0-b86e-d224381d5d60",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"76c05978-c5f9-424d-9dba-f238b9300371",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"57101402-631f-431f-93b2-ff1e7a34794a",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7a5cda26-f7db-45fd-8042-fdcb30469a58",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d8072a19-a1f5-4dbf-954f-4c32dc75c45e",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7f1161e8-fdd2-4cd7-9192-b556e553613d",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2afd1829-1277-4fbc-9029-034e9cd41c71",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bd2304ca-f566-4216-b1b6-6cc3df1777f3",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"00070dad-7204-417c-b12b-77354054f6d2",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1b8d3cb8-4d96-4817-a302-fe46025ff6b9",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e723bf5e-f9e9-4762-8eb3-55b4f1e73cb0",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7b258705-7804-47e7-9481-2ba08dccc70b",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1ab87db2-b4af-4e31-ba46-e7f0950b2eba",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"29722c7f-ba26-40b9-86fe-4758e3e7f2fa",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"48fe3e3c-c260-4024-9a24-f92c8ee5f4c6",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eabcae6e-39df-4811-b39f-b01b690cdda4",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f686e1ce-5ce4-45c6-a951-1e240e80546d",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c62eb152-5e3c-4a36-b220-ac3295ad3a51",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3a713bcf-7e9a-42d7-8199-cef12acc0e6c",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e5939ae1-9b25-43ef-a4b0-95c5c83863ab",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"671fab8d-abaf-43af-9e3e-e6cd87194270",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"420ccecd-3541-4581-882d-cfbeab0b6f74",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2549efcd-5f78-4edb-ae4b-0a9e0cef14c2",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3909cdb2-6beb-46e9-9b49-877f5edaa99b",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"236bbaa7-5c7c-47c1-a782-35a4a5ee3bb1",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"20832fd6-8db7-48c5-94dd-fe66c81ffc77",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6c334251-243c-4a69-9ca5-94d1b89a046e",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b46fdbb6-46af-45e4-9661-effd6d30efde",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"889cc73e-5cee-48ed-bc87-ee4317012daa",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ec19a00c-8197-42c1-ae99-62200b9b5bb3",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"97bb22d6-261c-4631-b4dd-cbdd005b33f2",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"86f657f7-5b65-479a-91fb-a6793aaa6355",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d250db72-6410-463e-916c-6aaca940f8b1",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6a4e2b4d-d1f6-47f9-8602-d999a9911d19",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d01900b5-8ab4-439a-b3be-ab8233dff7b6",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"48b2fcba-a460-43c2-b3cf-ca8196dad6aa",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"164a5326-7c86-46eb-ae1a-76a804f36561",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d78553cc-d527-4887-807d-df1281eff1fe",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f5ddfe59-954c-4d11-9895-ae80c1a9119c",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7b51ed57-264a-4702-aded-699ed25897c5",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5e9282f9-0466-4a5a-bbd3-2e4a48ff1d83",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"87223c11-ef35-4fef-9acc-7c54cf891424",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b71a5558-3a04-45f0-ac4a-821f5b88d79a",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0e053ebd-1d58-4ea7-8b71-9a57b18a9bf9",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"51a4577a-b9b9-4a26-bb33-7c0a3689d9d5",},
+    {"compositeImage":{"FrameId":{"name":"15471d06-27cd-4cb0-b86e-d224381d5d60","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"15471d06-27cd-4cb0-b86e-d224381d5d60","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"15471d06-27cd-4cb0-b86e-d224381d5d60","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"76c05978-c5f9-424d-9dba-f238b9300371","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"76c05978-c5f9-424d-9dba-f238b9300371","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"76c05978-c5f9-424d-9dba-f238b9300371","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"57101402-631f-431f-93b2-ff1e7a34794a","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"57101402-631f-431f-93b2-ff1e7a34794a","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"57101402-631f-431f-93b2-ff1e7a34794a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7a5cda26-f7db-45fd-8042-fdcb30469a58","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7a5cda26-f7db-45fd-8042-fdcb30469a58","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"7a5cda26-f7db-45fd-8042-fdcb30469a58","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d8072a19-a1f5-4dbf-954f-4c32dc75c45e","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d8072a19-a1f5-4dbf-954f-4c32dc75c45e","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"d8072a19-a1f5-4dbf-954f-4c32dc75c45e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7f1161e8-fdd2-4cd7-9192-b556e553613d","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7f1161e8-fdd2-4cd7-9192-b556e553613d","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"7f1161e8-fdd2-4cd7-9192-b556e553613d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2afd1829-1277-4fbc-9029-034e9cd41c71","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2afd1829-1277-4fbc-9029-034e9cd41c71","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"2afd1829-1277-4fbc-9029-034e9cd41c71","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bd2304ca-f566-4216-b1b6-6cc3df1777f3","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bd2304ca-f566-4216-b1b6-6cc3df1777f3","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"bd2304ca-f566-4216-b1b6-6cc3df1777f3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"00070dad-7204-417c-b12b-77354054f6d2","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"00070dad-7204-417c-b12b-77354054f6d2","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"00070dad-7204-417c-b12b-77354054f6d2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1b8d3cb8-4d96-4817-a302-fe46025ff6b9","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1b8d3cb8-4d96-4817-a302-fe46025ff6b9","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"1b8d3cb8-4d96-4817-a302-fe46025ff6b9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e723bf5e-f9e9-4762-8eb3-55b4f1e73cb0","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e723bf5e-f9e9-4762-8eb3-55b4f1e73cb0","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"e723bf5e-f9e9-4762-8eb3-55b4f1e73cb0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7b258705-7804-47e7-9481-2ba08dccc70b","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7b258705-7804-47e7-9481-2ba08dccc70b","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"7b258705-7804-47e7-9481-2ba08dccc70b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1ab87db2-b4af-4e31-ba46-e7f0950b2eba","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1ab87db2-b4af-4e31-ba46-e7f0950b2eba","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"1ab87db2-b4af-4e31-ba46-e7f0950b2eba","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"29722c7f-ba26-40b9-86fe-4758e3e7f2fa","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"29722c7f-ba26-40b9-86fe-4758e3e7f2fa","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"29722c7f-ba26-40b9-86fe-4758e3e7f2fa","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"48fe3e3c-c260-4024-9a24-f92c8ee5f4c6","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"48fe3e3c-c260-4024-9a24-f92c8ee5f4c6","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"48fe3e3c-c260-4024-9a24-f92c8ee5f4c6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"eabcae6e-39df-4811-b39f-b01b690cdda4","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"eabcae6e-39df-4811-b39f-b01b690cdda4","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"eabcae6e-39df-4811-b39f-b01b690cdda4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f686e1ce-5ce4-45c6-a951-1e240e80546d","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f686e1ce-5ce4-45c6-a951-1e240e80546d","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"f686e1ce-5ce4-45c6-a951-1e240e80546d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c62eb152-5e3c-4a36-b220-ac3295ad3a51","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c62eb152-5e3c-4a36-b220-ac3295ad3a51","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"c62eb152-5e3c-4a36-b220-ac3295ad3a51","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3a713bcf-7e9a-42d7-8199-cef12acc0e6c","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3a713bcf-7e9a-42d7-8199-cef12acc0e6c","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"3a713bcf-7e9a-42d7-8199-cef12acc0e6c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e5939ae1-9b25-43ef-a4b0-95c5c83863ab","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e5939ae1-9b25-43ef-a4b0-95c5c83863ab","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"e5939ae1-9b25-43ef-a4b0-95c5c83863ab","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"671fab8d-abaf-43af-9e3e-e6cd87194270","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"671fab8d-abaf-43af-9e3e-e6cd87194270","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"671fab8d-abaf-43af-9e3e-e6cd87194270","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"420ccecd-3541-4581-882d-cfbeab0b6f74","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"420ccecd-3541-4581-882d-cfbeab0b6f74","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"420ccecd-3541-4581-882d-cfbeab0b6f74","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2549efcd-5f78-4edb-ae4b-0a9e0cef14c2","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2549efcd-5f78-4edb-ae4b-0a9e0cef14c2","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"2549efcd-5f78-4edb-ae4b-0a9e0cef14c2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3909cdb2-6beb-46e9-9b49-877f5edaa99b","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3909cdb2-6beb-46e9-9b49-877f5edaa99b","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"3909cdb2-6beb-46e9-9b49-877f5edaa99b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"236bbaa7-5c7c-47c1-a782-35a4a5ee3bb1","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"236bbaa7-5c7c-47c1-a782-35a4a5ee3bb1","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"236bbaa7-5c7c-47c1-a782-35a4a5ee3bb1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"20832fd6-8db7-48c5-94dd-fe66c81ffc77","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"20832fd6-8db7-48c5-94dd-fe66c81ffc77","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"20832fd6-8db7-48c5-94dd-fe66c81ffc77","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6c334251-243c-4a69-9ca5-94d1b89a046e","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6c334251-243c-4a69-9ca5-94d1b89a046e","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"6c334251-243c-4a69-9ca5-94d1b89a046e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b46fdbb6-46af-45e4-9661-effd6d30efde","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b46fdbb6-46af-45e4-9661-effd6d30efde","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"b46fdbb6-46af-45e4-9661-effd6d30efde","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"889cc73e-5cee-48ed-bc87-ee4317012daa","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"889cc73e-5cee-48ed-bc87-ee4317012daa","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"889cc73e-5cee-48ed-bc87-ee4317012daa","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ec19a00c-8197-42c1-ae99-62200b9b5bb3","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ec19a00c-8197-42c1-ae99-62200b9b5bb3","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"ec19a00c-8197-42c1-ae99-62200b9b5bb3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"97bb22d6-261c-4631-b4dd-cbdd005b33f2","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"97bb22d6-261c-4631-b4dd-cbdd005b33f2","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"97bb22d6-261c-4631-b4dd-cbdd005b33f2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"86f657f7-5b65-479a-91fb-a6793aaa6355","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"86f657f7-5b65-479a-91fb-a6793aaa6355","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"86f657f7-5b65-479a-91fb-a6793aaa6355","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d250db72-6410-463e-916c-6aaca940f8b1","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d250db72-6410-463e-916c-6aaca940f8b1","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"d250db72-6410-463e-916c-6aaca940f8b1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6a4e2b4d-d1f6-47f9-8602-d999a9911d19","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6a4e2b4d-d1f6-47f9-8602-d999a9911d19","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"6a4e2b4d-d1f6-47f9-8602-d999a9911d19","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d01900b5-8ab4-439a-b3be-ab8233dff7b6","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d01900b5-8ab4-439a-b3be-ab8233dff7b6","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"d01900b5-8ab4-439a-b3be-ab8233dff7b6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"48b2fcba-a460-43c2-b3cf-ca8196dad6aa","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"48b2fcba-a460-43c2-b3cf-ca8196dad6aa","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"48b2fcba-a460-43c2-b3cf-ca8196dad6aa","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"164a5326-7c86-46eb-ae1a-76a804f36561","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"164a5326-7c86-46eb-ae1a-76a804f36561","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"164a5326-7c86-46eb-ae1a-76a804f36561","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d78553cc-d527-4887-807d-df1281eff1fe","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d78553cc-d527-4887-807d-df1281eff1fe","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"d78553cc-d527-4887-807d-df1281eff1fe","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f5ddfe59-954c-4d11-9895-ae80c1a9119c","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f5ddfe59-954c-4d11-9895-ae80c1a9119c","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"f5ddfe59-954c-4d11-9895-ae80c1a9119c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7b51ed57-264a-4702-aded-699ed25897c5","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7b51ed57-264a-4702-aded-699ed25897c5","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"7b51ed57-264a-4702-aded-699ed25897c5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5e9282f9-0466-4a5a-bbd3-2e4a48ff1d83","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5e9282f9-0466-4a5a-bbd3-2e4a48ff1d83","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"5e9282f9-0466-4a5a-bbd3-2e4a48ff1d83","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"87223c11-ef35-4fef-9acc-7c54cf891424","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"87223c11-ef35-4fef-9acc-7c54cf891424","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"87223c11-ef35-4fef-9acc-7c54cf891424","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b71a5558-3a04-45f0-ac4a-821f5b88d79a","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b71a5558-3a04-45f0-ac4a-821f5b88d79a","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"b71a5558-3a04-45f0-ac4a-821f5b88d79a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0e053ebd-1d58-4ea7-8b71-9a57b18a9bf9","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0e053ebd-1d58-4ea7-8b71-9a57b18a9bf9","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"0e053ebd-1d58-4ea7-8b71-9a57b18a9bf9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"51a4577a-b9b9-4a26-bb33-7c0a3689d9d5","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"51a4577a-b9b9-4a26-bb33-7c0a3689d9d5","path":"sprites/spr_funny/spr_funny.yy",},"LayerId":{"name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","name":"51a4577a-b9b9-4a26-bb33-7c0a3689d9d5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_funny",
+    "spriteId": {"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 5.0,
@@ -88,7 +172,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"08d22f21-c266-4b20-87e4-93d956d2c252","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"15471d06-27cd-4cb0-b86e-d224381d5d60","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f0c3b65c-4b20-4f71-8d42-470ed33370d3","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"76c05978-c5f9-424d-9dba-f238b9300371","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"697b4fe6-8078-47c1-b0b1-98c65caf0479","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"57101402-631f-431f-93b2-ff1e7a34794a","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -134,7 +218,7 @@
             {"id":"88bd7a81-21aa-46ce-8ea4-f9623fef032e","Key":42.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b71a5558-3a04-45f0-ac4a-821f5b88d79a","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"249dcf2b-4e38-4c44-99f1-41d9a7c53f3b","Key":43.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0e053ebd-1d58-4ea7-8b71-9a57b18a9bf9","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7ac00776-6448-4385-b1d7-9ffa8384be08","Key":44.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"51a4577a-b9b9-4a26-bb33-7c0a3689d9d5","path":"sprites/spr_funny/spr_funny.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -150,13 +234,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_funny","path":"sprites/spr_funny/spr_funny.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_funny",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"821b2575-117a-43cd-b0ea-ac1c9e82c01b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_funny",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

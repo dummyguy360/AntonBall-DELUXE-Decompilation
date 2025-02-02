@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_antOnBall_run_gun",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f403a4b3-5293-4c27-a119-078af206e458",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c18a9e29-0e91-4a14-bd13-69d940b004fc",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0fa3d4ac-39b0-4fb3-85d3-80b6eb2fd83e",},
+    {"compositeImage":{"FrameId":{"name":"f403a4b3-5293-4c27-a119-078af206e458","path":"sprites/spr_antOnBall_run_gun/spr_antOnBall_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f403a4b3-5293-4c27-a119-078af206e458","path":"sprites/spr_antOnBall_run_gun/spr_antOnBall_run_gun.yy",},"LayerId":{"name":"b25933bc-0767-4162-90ea-100c5bcee79b","path":"sprites/spr_antOnBall_run_gun/spr_antOnBall_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_antOnBall_run_gun","path":"sprites/spr_antOnBall_run_gun/spr_antOnBall_run_gun.yy",},"resourceVersion":"1.0","name":"f403a4b3-5293-4c27-a119-078af206e458","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c18a9e29-0e91-4a14-bd13-69d940b004fc","path":"sprites/spr_antOnBall_run_gun/spr_antOnBall_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c18a9e29-0e91-4a14-bd13-69d940b004fc","path":"sprites/spr_antOnBall_run_gun/spr_antOnBall_run_gun.yy",},"LayerId":{"name":"b25933bc-0767-4162-90ea-100c5bcee79b","path":"sprites/spr_antOnBall_run_gun/spr_antOnBall_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_antOnBall_run_gun","path":"sprites/spr_antOnBall_run_gun/spr_antOnBall_run_gun.yy",},"resourceVersion":"1.0","name":"c18a9e29-0e91-4a14-bd13-69d940b004fc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0fa3d4ac-39b0-4fb3-85d3-80b6eb2fd83e","path":"sprites/spr_antOnBall_run_gun/spr_antOnBall_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0fa3d4ac-39b0-4fb3-85d3-80b6eb2fd83e","path":"sprites/spr_antOnBall_run_gun/spr_antOnBall_run_gun.yy",},"LayerId":{"name":"b25933bc-0767-4162-90ea-100c5bcee79b","path":"sprites/spr_antOnBall_run_gun/spr_antOnBall_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_antOnBall_run_gun","path":"sprites/spr_antOnBall_run_gun/spr_antOnBall_run_gun.yy",},"resourceVersion":"1.0","name":"0fa3d4ac-39b0-4fb3-85d3-80b6eb2fd83e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_antOnBall_run_gun",
+    "spriteId": {"name":"spr_antOnBall_run_gun","path":"sprites/spr_antOnBall_run_gun/spr_antOnBall_run_gun.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 20.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"0a47143b-d54f-4aef-a2b1-87d64f7c903d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f403a4b3-5293-4c27-a119-078af206e458","path":"sprites/spr_antOnBall_run_gun/spr_antOnBall_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"140f1c8d-f82c-40d3-a3b7-95372333ece0","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c18a9e29-0e91-4a14-bd13-69d940b004fc","path":"sprites/spr_antOnBall_run_gun/spr_antOnBall_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"82731bb3-fbaf-44f4-a141-08ac8d6f2328","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0fa3d4ac-39b0-4fb3-85d3-80b6eb2fd83e","path":"sprites/spr_antOnBall_run_gun/spr_antOnBall_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 23,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_antOnBall_run_gun","path":"sprites/spr_antOnBall_run_gun/spr_antOnBall_run_gun.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_antOnBall_run_gun",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b25933bc-0767-4162-90ea-100c5bcee79b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b25933bc-0767-4162-90ea-100c5bcee79b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_antOnBall_run_gun",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

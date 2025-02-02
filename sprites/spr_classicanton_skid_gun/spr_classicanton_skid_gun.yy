@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_classicanton_skid_gun",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 26,
   "height": 26,
   "textureGroupId": {
@@ -28,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8894607b-63cb-4922-8bd4-721a3e9d5e6d",},
+    {"compositeImage":{"FrameId":{"name":"8894607b-63cb-4922-8bd4-721a3e9d5e6d","path":"sprites/spr_classicanton_skid_gun/spr_classicanton_skid_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8894607b-63cb-4922-8bd4-721a3e9d5e6d","path":"sprites/spr_classicanton_skid_gun/spr_classicanton_skid_gun.yy",},"LayerId":{"name":"7f0f364d-9709-4275-a510-ee91f0c9db48","path":"sprites/spr_classicanton_skid_gun/spr_classicanton_skid_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_classicanton_skid_gun","path":"sprites/spr_classicanton_skid_gun/spr_classicanton_skid_gun.yy",},"resourceVersion":"1.0","name":"8894607b-63cb-4922-8bd4-721a3e9d5e6d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_classicanton_skid_gun",
+    "spriteId": {"name":"spr_classicanton_skid_gun","path":"sprites/spr_classicanton_skid_gun/spr_classicanton_skid_gun.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -44,9 +40,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"312c24c2-898b-4f9b-8bef-9a7cae0e3be3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8894607b-63cb-4922-8bd4-721a3e9d5e6d","path":"sprites/spr_classicanton_skid_gun/spr_classicanton_skid_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,13 +58,22 @@
     "yorigin": 25,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_classicanton_skid_gun","path":"sprites/spr_classicanton_skid_gun/spr_classicanton_skid_gun.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_classicanton_skid_gun",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7f0f364d-9709-4275-a510-ee91f0c9db48","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7f0f364d-9709-4275-a510-ee91f0c9db48","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_classicanton_skid_gun",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

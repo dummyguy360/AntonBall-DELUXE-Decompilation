@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_cs2_car",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 128,
   "height": 64,
   "textureGroupId": {
@@ -28,13 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"af0a1045-4392-45c7-8a8b-b6d77cb9daa0",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6ce59d73-2ddb-4145-987c-7f69c7d65247",},
+    {"compositeImage":{"FrameId":{"name":"af0a1045-4392-45c7-8a8b-b6d77cb9daa0","path":"sprites/spr_cs2_car/spr_cs2_car.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"af0a1045-4392-45c7-8a8b-b6d77cb9daa0","path":"sprites/spr_cs2_car/spr_cs2_car.yy",},"LayerId":{"name":"ccc3fb72-1afa-4a59-b48b-65f36f7f7208","path":"sprites/spr_cs2_car/spr_cs2_car.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_cs2_car","path":"sprites/spr_cs2_car/spr_cs2_car.yy",},"resourceVersion":"1.0","name":"af0a1045-4392-45c7-8a8b-b6d77cb9daa0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6ce59d73-2ddb-4145-987c-7f69c7d65247","path":"sprites/spr_cs2_car/spr_cs2_car.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6ce59d73-2ddb-4145-987c-7f69c7d65247","path":"sprites/spr_cs2_car/spr_cs2_car.yy",},"LayerId":{"name":"ccc3fb72-1afa-4a59-b48b-65f36f7f7208","path":"sprites/spr_cs2_car/spr_cs2_car.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_cs2_car","path":"sprites/spr_cs2_car/spr_cs2_car.yy",},"resourceVersion":"1.0","name":"6ce59d73-2ddb-4145-987c-7f69c7d65247","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_cs2_car",
+    "spriteId": {"name":"spr_cs2_car","path":"sprites/spr_cs2_car/spr_cs2_car.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -45,10 +43,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ba8a69b5-c1ea-4818-9149-7787dbad16fa","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"af0a1045-4392-45c7-8a8b-b6d77cb9daa0","path":"sprites/spr_cs2_car/spr_cs2_car.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b78c3448-c60e-4995-a7e2-c65a6fdf2897","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6ce59d73-2ddb-4145-987c-7f69c7d65247","path":"sprites/spr_cs2_car/spr_cs2_car.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -64,13 +62,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_cs2_car","path":"sprites/spr_cs2_car/spr_cs2_car.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_cs2_car",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ccc3fb72-1afa-4a59-b48b-65f36f7f7208","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ccc3fb72-1afa-4a59-b48b-65f36f7f7208","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_cs2_car",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

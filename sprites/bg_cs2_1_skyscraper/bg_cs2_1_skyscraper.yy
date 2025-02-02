@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "bg_cs2_1_skyscraper",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 256,
   "height": 144,
   "textureGroupId": {
@@ -28,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"86ab8b6c-1562-4ebf-803b-17d8b285b25d",},
+    {"compositeImage":{"FrameId":{"name":"86ab8b6c-1562-4ebf-803b-17d8b285b25d","path":"sprites/bg_cs2_1_skyscraper/bg_cs2_1_skyscraper.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"86ab8b6c-1562-4ebf-803b-17d8b285b25d","path":"sprites/bg_cs2_1_skyscraper/bg_cs2_1_skyscraper.yy",},"LayerId":{"name":"c043bc65-b1be-4479-a113-e93386edbec9","path":"sprites/bg_cs2_1_skyscraper/bg_cs2_1_skyscraper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"bg_cs2_1_skyscraper","path":"sprites/bg_cs2_1_skyscraper/bg_cs2_1_skyscraper.yy",},"resourceVersion":"1.0","name":"86ab8b6c-1562-4ebf-803b-17d8b285b25d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "bg_cs2_1_skyscraper",
+    "spriteId": {"name":"bg_cs2_1_skyscraper","path":"sprites/bg_cs2_1_skyscraper/bg_cs2_1_skyscraper.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -44,9 +40,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"db7262ce-cf52-47ea-bcbf-e8c92aa29079","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"86ab8b6c-1562-4ebf-803b-17d8b285b25d","path":"sprites/bg_cs2_1_skyscraper/bg_cs2_1_skyscraper.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,13 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"bg_cs2_1_skyscraper","path":"sprites/bg_cs2_1_skyscraper/bg_cs2_1_skyscraper.yy",},
+    "resourceVersion": "1.3",
+    "name": "bg_cs2_1_skyscraper",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c043bc65-b1be-4479-a113-e93386edbec9","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c043bc65-b1be-4479-a113-e93386edbec9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "bg_cs2_1_skyscraper",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

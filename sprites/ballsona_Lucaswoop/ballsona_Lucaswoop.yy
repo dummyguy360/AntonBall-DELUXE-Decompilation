@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "ballsona_Lucaswoop",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 16,
   "height": 20,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"454f0999-e6a2-42b0-ae3e-1fc6f37996b3",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"01476713-b951-430a-810a-1c1d69226a6b",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"56d63cd4-82f8-403d-adc6-94d8b68ba4df",},
+    {"compositeImage":{"FrameId":{"name":"454f0999-e6a2-42b0-ae3e-1fc6f37996b3","path":"sprites/ballsona_Lucaswoop/ballsona_Lucaswoop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"454f0999-e6a2-42b0-ae3e-1fc6f37996b3","path":"sprites/ballsona_Lucaswoop/ballsona_Lucaswoop.yy",},"LayerId":{"name":"d6dca499-37fe-4e18-a94f-125a8999b65b","path":"sprites/ballsona_Lucaswoop/ballsona_Lucaswoop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_Lucaswoop","path":"sprites/ballsona_Lucaswoop/ballsona_Lucaswoop.yy",},"resourceVersion":"1.0","name":"454f0999-e6a2-42b0-ae3e-1fc6f37996b3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"01476713-b951-430a-810a-1c1d69226a6b","path":"sprites/ballsona_Lucaswoop/ballsona_Lucaswoop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"01476713-b951-430a-810a-1c1d69226a6b","path":"sprites/ballsona_Lucaswoop/ballsona_Lucaswoop.yy",},"LayerId":{"name":"d6dca499-37fe-4e18-a94f-125a8999b65b","path":"sprites/ballsona_Lucaswoop/ballsona_Lucaswoop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_Lucaswoop","path":"sprites/ballsona_Lucaswoop/ballsona_Lucaswoop.yy",},"resourceVersion":"1.0","name":"01476713-b951-430a-810a-1c1d69226a6b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"56d63cd4-82f8-403d-adc6-94d8b68ba4df","path":"sprites/ballsona_Lucaswoop/ballsona_Lucaswoop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"56d63cd4-82f8-403d-adc6-94d8b68ba4df","path":"sprites/ballsona_Lucaswoop/ballsona_Lucaswoop.yy",},"LayerId":{"name":"d6dca499-37fe-4e18-a94f-125a8999b65b","path":"sprites/ballsona_Lucaswoop/ballsona_Lucaswoop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_Lucaswoop","path":"sprites/ballsona_Lucaswoop/ballsona_Lucaswoop.yy",},"resourceVersion":"1.0","name":"56d63cd4-82f8-403d-adc6-94d8b68ba4df","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "ballsona_Lucaswoop",
+    "spriteId": {"name":"ballsona_Lucaswoop","path":"sprites/ballsona_Lucaswoop/ballsona_Lucaswoop.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d8cd463b-4b0d-4538-b6a4-be091139ac74","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"454f0999-e6a2-42b0-ae3e-1fc6f37996b3","path":"sprites/ballsona_Lucaswoop/ballsona_Lucaswoop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d8dc9034-4356-4ff0-a1a8-8163164ad572","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"01476713-b951-430a-810a-1c1d69226a6b","path":"sprites/ballsona_Lucaswoop/ballsona_Lucaswoop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a7916358-7be2-40be-ab82-93bbd8a32a4e","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"56d63cd4-82f8-403d-adc6-94d8b68ba4df","path":"sprites/ballsona_Lucaswoop/ballsona_Lucaswoop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 20,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"ballsona_Lucaswoop","path":"sprites/ballsona_Lucaswoop/ballsona_Lucaswoop.yy",},
+    "resourceVersion": "1.3",
+    "name": "ballsona_Lucaswoop",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d6dca499-37fe-4e18-a94f-125a8999b65b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d6dca499-37fe-4e18-a94f-125a8999b65b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "ballsona_Lucaswoop",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

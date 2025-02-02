@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "ballsona_CruiseElroy",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 16,
   "height": 16,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e39fcbb3-a688-4918-9673-b984f492fa20",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1002e1f6-3538-4653-a746-dd6ae9ad7978",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3a582c6c-098c-4889-9906-51ed18a72a90",},
+    {"compositeImage":{"FrameId":{"name":"e39fcbb3-a688-4918-9673-b984f492fa20","path":"sprites/ballsona_CruiseElroy/ballsona_CruiseElroy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e39fcbb3-a688-4918-9673-b984f492fa20","path":"sprites/ballsona_CruiseElroy/ballsona_CruiseElroy.yy",},"LayerId":{"name":"9da6a9cc-c058-431a-8b6d-386e56b315a7","path":"sprites/ballsona_CruiseElroy/ballsona_CruiseElroy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_CruiseElroy","path":"sprites/ballsona_CruiseElroy/ballsona_CruiseElroy.yy",},"resourceVersion":"1.0","name":"e39fcbb3-a688-4918-9673-b984f492fa20","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1002e1f6-3538-4653-a746-dd6ae9ad7978","path":"sprites/ballsona_CruiseElroy/ballsona_CruiseElroy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1002e1f6-3538-4653-a746-dd6ae9ad7978","path":"sprites/ballsona_CruiseElroy/ballsona_CruiseElroy.yy",},"LayerId":{"name":"9da6a9cc-c058-431a-8b6d-386e56b315a7","path":"sprites/ballsona_CruiseElroy/ballsona_CruiseElroy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_CruiseElroy","path":"sprites/ballsona_CruiseElroy/ballsona_CruiseElroy.yy",},"resourceVersion":"1.0","name":"1002e1f6-3538-4653-a746-dd6ae9ad7978","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3a582c6c-098c-4889-9906-51ed18a72a90","path":"sprites/ballsona_CruiseElroy/ballsona_CruiseElroy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3a582c6c-098c-4889-9906-51ed18a72a90","path":"sprites/ballsona_CruiseElroy/ballsona_CruiseElroy.yy",},"LayerId":{"name":"9da6a9cc-c058-431a-8b6d-386e56b315a7","path":"sprites/ballsona_CruiseElroy/ballsona_CruiseElroy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_CruiseElroy","path":"sprites/ballsona_CruiseElroy/ballsona_CruiseElroy.yy",},"resourceVersion":"1.0","name":"3a582c6c-098c-4889-9906-51ed18a72a90","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "ballsona_CruiseElroy",
+    "spriteId": {"name":"ballsona_CruiseElroy","path":"sprites/ballsona_CruiseElroy/ballsona_CruiseElroy.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"a0dea46a-2f56-4044-9b81-3f268fddde8d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e39fcbb3-a688-4918-9673-b984f492fa20","path":"sprites/ballsona_CruiseElroy/ballsona_CruiseElroy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8f9fd06c-509f-420d-8de8-50249e56840b","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1002e1f6-3538-4653-a746-dd6ae9ad7978","path":"sprites/ballsona_CruiseElroy/ballsona_CruiseElroy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e7034eae-689e-4e9b-a099-94668737ff17","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3a582c6c-098c-4889-9906-51ed18a72a90","path":"sprites/ballsona_CruiseElroy/ballsona_CruiseElroy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"ballsona_CruiseElroy","path":"sprites/ballsona_CruiseElroy/ballsona_CruiseElroy.yy",},
+    "resourceVersion": "1.3",
+    "name": "ballsona_CruiseElroy",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9da6a9cc-c058-431a-8b6d-386e56b315a7","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9da6a9cc-c058-431a-8b6d-386e56b315a7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "ballsona_CruiseElroy",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

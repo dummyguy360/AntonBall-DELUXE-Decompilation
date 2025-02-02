@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_antonball_button",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 79,
   "height": 10,
   "textureGroupId": {
@@ -28,13 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cda16fb3-1c94-433c-b0eb-a117a8b9844b",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e30fba58-4bd0-4e5f-9134-e18755b5fe55",},
+    {"compositeImage":{"FrameId":{"name":"cda16fb3-1c94-433c-b0eb-a117a8b9844b","path":"sprites/spr_antonball_button/spr_antonball_button.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cda16fb3-1c94-433c-b0eb-a117a8b9844b","path":"sprites/spr_antonball_button/spr_antonball_button.yy",},"LayerId":{"name":"12b5dfaf-e60a-48e3-adce-96f990d04976","path":"sprites/spr_antonball_button/spr_antonball_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_antonball_button","path":"sprites/spr_antonball_button/spr_antonball_button.yy",},"resourceVersion":"1.0","name":"cda16fb3-1c94-433c-b0eb-a117a8b9844b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e30fba58-4bd0-4e5f-9134-e18755b5fe55","path":"sprites/spr_antonball_button/spr_antonball_button.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e30fba58-4bd0-4e5f-9134-e18755b5fe55","path":"sprites/spr_antonball_button/spr_antonball_button.yy",},"LayerId":{"name":"12b5dfaf-e60a-48e3-adce-96f990d04976","path":"sprites/spr_antonball_button/spr_antonball_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_antonball_button","path":"sprites/spr_antonball_button/spr_antonball_button.yy",},"resourceVersion":"1.0","name":"e30fba58-4bd0-4e5f-9134-e18755b5fe55","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_antonball_button",
+    "spriteId": {"name":"spr_antonball_button","path":"sprites/spr_antonball_button/spr_antonball_button.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -45,10 +43,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"2032ce59-65bd-4455-bb49-eac778c54fbb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cda16fb3-1c94-433c-b0eb-a117a8b9844b","path":"sprites/spr_antonball_button/spr_antonball_button.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"98bba621-ae2f-4d2c-b9be-e16760fa0309","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e30fba58-4bd0-4e5f-9134-e18755b5fe55","path":"sprites/spr_antonball_button/spr_antonball_button.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -64,13 +62,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_antonball_button","path":"sprites/spr_antonball_button/spr_antonball_button.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_antonball_button",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"12b5dfaf-e60a-48e3-adce-96f990d04976","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"12b5dfaf-e60a-48e3-adce-96f990d04976","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_antonball_button",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

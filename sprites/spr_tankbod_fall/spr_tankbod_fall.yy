@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_tankbod_fall",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 41,
   "height": 40,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9810b486-6ee7-48c3-82d3-d37166e81ad1",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8ccf59f9-a0af-48e0-91dc-7efcde901f28",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"45bcbac8-8e82-4bdc-95b3-3c496d78d3bf",},
+    {"compositeImage":{"FrameId":{"name":"9810b486-6ee7-48c3-82d3-d37166e81ad1","path":"sprites/spr_tankbod_fall/spr_tankbod_fall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9810b486-6ee7-48c3-82d3-d37166e81ad1","path":"sprites/spr_tankbod_fall/spr_tankbod_fall.yy",},"LayerId":{"name":"0d24725a-7d1d-4827-914a-1db4671e3202","path":"sprites/spr_tankbod_fall/spr_tankbod_fall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_tankbod_fall","path":"sprites/spr_tankbod_fall/spr_tankbod_fall.yy",},"resourceVersion":"1.0","name":"9810b486-6ee7-48c3-82d3-d37166e81ad1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8ccf59f9-a0af-48e0-91dc-7efcde901f28","path":"sprites/spr_tankbod_fall/spr_tankbod_fall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8ccf59f9-a0af-48e0-91dc-7efcde901f28","path":"sprites/spr_tankbod_fall/spr_tankbod_fall.yy",},"LayerId":{"name":"0d24725a-7d1d-4827-914a-1db4671e3202","path":"sprites/spr_tankbod_fall/spr_tankbod_fall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_tankbod_fall","path":"sprites/spr_tankbod_fall/spr_tankbod_fall.yy",},"resourceVersion":"1.0","name":"8ccf59f9-a0af-48e0-91dc-7efcde901f28","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"45bcbac8-8e82-4bdc-95b3-3c496d78d3bf","path":"sprites/spr_tankbod_fall/spr_tankbod_fall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"45bcbac8-8e82-4bdc-95b3-3c496d78d3bf","path":"sprites/spr_tankbod_fall/spr_tankbod_fall.yy",},"LayerId":{"name":"0d24725a-7d1d-4827-914a-1db4671e3202","path":"sprites/spr_tankbod_fall/spr_tankbod_fall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_tankbod_fall","path":"sprites/spr_tankbod_fall/spr_tankbod_fall.yy",},"resourceVersion":"1.0","name":"45bcbac8-8e82-4bdc-95b3-3c496d78d3bf","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_tankbod_fall",
+    "spriteId": {"name":"spr_tankbod_fall","path":"sprites/spr_tankbod_fall/spr_tankbod_fall.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"71eb84fa-fbc7-45db-a316-6dd04677ff8a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9810b486-6ee7-48c3-82d3-d37166e81ad1","path":"sprites/spr_tankbod_fall/spr_tankbod_fall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5471e8c5-8b3c-47a4-92bc-d6eb02aae59a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8ccf59f9-a0af-48e0-91dc-7efcde901f28","path":"sprites/spr_tankbod_fall/spr_tankbod_fall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"64e822bb-196a-438e-901a-d6cc4196deb0","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"45bcbac8-8e82-4bdc-95b3-3c496d78d3bf","path":"sprites/spr_tankbod_fall/spr_tankbod_fall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 20,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_tankbod_fall","path":"sprites/spr_tankbod_fall/spr_tankbod_fall.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_tankbod_fall",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0d24725a-7d1d-4827-914a-1db4671e3202","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0d24725a-7d1d-4827-914a-1db4671e3202","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_tankbod_fall",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

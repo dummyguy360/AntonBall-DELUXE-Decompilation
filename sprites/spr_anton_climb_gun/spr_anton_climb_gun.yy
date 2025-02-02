@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_anton_climb_gun",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -28,15 +24,21 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"90b06376-197a-40a1-b207-25efb8ad5b2f",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"356089de-4f51-4608-a8c0-674a2a07703b",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bc9074a8-b3c1-46ac-b8ef-b8281cf7247e",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c1886d69-e7fe-4025-ad5c-08992027373f",},
+    {"compositeImage":{"FrameId":{"name":"90b06376-197a-40a1-b207-25efb8ad5b2f","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"90b06376-197a-40a1-b207-25efb8ad5b2f","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},"LayerId":{"name":"6ca6a6d0-c1d6-494f-8122-585116a036d1","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_anton_climb_gun","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},"resourceVersion":"1.0","name":"90b06376-197a-40a1-b207-25efb8ad5b2f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"356089de-4f51-4608-a8c0-674a2a07703b","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"356089de-4f51-4608-a8c0-674a2a07703b","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},"LayerId":{"name":"6ca6a6d0-c1d6-494f-8122-585116a036d1","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_anton_climb_gun","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},"resourceVersion":"1.0","name":"356089de-4f51-4608-a8c0-674a2a07703b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bc9074a8-b3c1-46ac-b8ef-b8281cf7247e","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bc9074a8-b3c1-46ac-b8ef-b8281cf7247e","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},"LayerId":{"name":"6ca6a6d0-c1d6-494f-8122-585116a036d1","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_anton_climb_gun","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},"resourceVersion":"1.0","name":"bc9074a8-b3c1-46ac-b8ef-b8281cf7247e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c1886d69-e7fe-4025-ad5c-08992027373f","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c1886d69-e7fe-4025-ad5c-08992027373f","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},"LayerId":{"name":"6ca6a6d0-c1d6-494f-8122-585116a036d1","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_anton_climb_gun","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},"resourceVersion":"1.0","name":"c1886d69-e7fe-4025-ad5c-08992027373f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_anton_climb_gun",
+    "spriteId": {"name":"spr_anton_climb_gun","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -47,12 +49,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"46e21969-98d7-43ec-9d6d-9be4bf9458e0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"90b06376-197a-40a1-b207-25efb8ad5b2f","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"edf254a9-2c8b-4410-b389-36cc792b6aa6","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"356089de-4f51-4608-a8c0-674a2a07703b","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"bff575b2-fa39-4ef9-bd81-39212a84be91","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bc9074a8-b3c1-46ac-b8ef-b8281cf7247e","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f6eb4b47-b6a9-4a2d-88d3-fe203d2e13b4","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c1886d69-e7fe-4025-ad5c-08992027373f","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -68,13 +70,22 @@
     "yorigin": 23,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_anton_climb_gun","path":"sprites/spr_anton_climb_gun/spr_anton_climb_gun.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_anton_climb_gun",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6ca6a6d0-c1d6-494f-8122-585116a036d1","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6ca6a6d0-c1d6-494f-8122-585116a036d1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_anton_climb_gun",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

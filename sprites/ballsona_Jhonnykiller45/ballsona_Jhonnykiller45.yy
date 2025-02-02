@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "ballsona_Jhonnykiller45",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 16,
   "height": 32,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6bb19ee0-8365-46bf-9236-0ab558d55e64",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ffb25402-2ba1-4b6e-80c3-46a57eff3ea8",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7d76b4b1-a7b3-48ee-b604-38b1283c4314",},
+    {"compositeImage":{"FrameId":{"name":"6bb19ee0-8365-46bf-9236-0ab558d55e64","path":"sprites/ballsona_Jhonnykiller45/ballsona_Jhonnykiller45.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6bb19ee0-8365-46bf-9236-0ab558d55e64","path":"sprites/ballsona_Jhonnykiller45/ballsona_Jhonnykiller45.yy",},"LayerId":{"name":"de0e95e9-2ca5-46e4-9b55-54042052311d","path":"sprites/ballsona_Jhonnykiller45/ballsona_Jhonnykiller45.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_Jhonnykiller45","path":"sprites/ballsona_Jhonnykiller45/ballsona_Jhonnykiller45.yy",},"resourceVersion":"1.0","name":"6bb19ee0-8365-46bf-9236-0ab558d55e64","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ffb25402-2ba1-4b6e-80c3-46a57eff3ea8","path":"sprites/ballsona_Jhonnykiller45/ballsona_Jhonnykiller45.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ffb25402-2ba1-4b6e-80c3-46a57eff3ea8","path":"sprites/ballsona_Jhonnykiller45/ballsona_Jhonnykiller45.yy",},"LayerId":{"name":"de0e95e9-2ca5-46e4-9b55-54042052311d","path":"sprites/ballsona_Jhonnykiller45/ballsona_Jhonnykiller45.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_Jhonnykiller45","path":"sprites/ballsona_Jhonnykiller45/ballsona_Jhonnykiller45.yy",},"resourceVersion":"1.0","name":"ffb25402-2ba1-4b6e-80c3-46a57eff3ea8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7d76b4b1-a7b3-48ee-b604-38b1283c4314","path":"sprites/ballsona_Jhonnykiller45/ballsona_Jhonnykiller45.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7d76b4b1-a7b3-48ee-b604-38b1283c4314","path":"sprites/ballsona_Jhonnykiller45/ballsona_Jhonnykiller45.yy",},"LayerId":{"name":"de0e95e9-2ca5-46e4-9b55-54042052311d","path":"sprites/ballsona_Jhonnykiller45/ballsona_Jhonnykiller45.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_Jhonnykiller45","path":"sprites/ballsona_Jhonnykiller45/ballsona_Jhonnykiller45.yy",},"resourceVersion":"1.0","name":"7d76b4b1-a7b3-48ee-b604-38b1283c4314","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "ballsona_Jhonnykiller45",
+    "spriteId": {"name":"ballsona_Jhonnykiller45","path":"sprites/ballsona_Jhonnykiller45/ballsona_Jhonnykiller45.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"299f9385-881c-4fd9-b837-e4f4cc010ca3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6bb19ee0-8365-46bf-9236-0ab558d55e64","path":"sprites/ballsona_Jhonnykiller45/ballsona_Jhonnykiller45.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f2aafaba-3378-4264-88b7-c47f5229fe8f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ffb25402-2ba1-4b6e-80c3-46a57eff3ea8","path":"sprites/ballsona_Jhonnykiller45/ballsona_Jhonnykiller45.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4aefbdba-3207-4f90-9213-6bb7ac4305e6","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7d76b4b1-a7b3-48ee-b604-38b1283c4314","path":"sprites/ballsona_Jhonnykiller45/ballsona_Jhonnykiller45.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"ballsona_Jhonnykiller45","path":"sprites/ballsona_Jhonnykiller45/ballsona_Jhonnykiller45.yy",},
+    "resourceVersion": "1.3",
+    "name": "ballsona_Jhonnykiller45",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"de0e95e9-2ca5-46e4-9b55-54042052311d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"de0e95e9-2ca5-46e4-9b55-54042052311d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "ballsona_Jhonnykiller45",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_redguy_run_gun",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1c1e2bd6-67df-438c-a94e-78a33d75d101",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5c52e337-6973-43f9-8579-864054aa5014",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4f9600b0-e4d3-4839-b049-d673d0bd0dc6",},
+    {"compositeImage":{"FrameId":{"name":"1c1e2bd6-67df-438c-a94e-78a33d75d101","path":"sprites/spr_redguy_run_gun/spr_redguy_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1c1e2bd6-67df-438c-a94e-78a33d75d101","path":"sprites/spr_redguy_run_gun/spr_redguy_run_gun.yy",},"LayerId":{"name":"84b07827-63c9-4b42-825f-277508666c86","path":"sprites/spr_redguy_run_gun/spr_redguy_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_redguy_run_gun","path":"sprites/spr_redguy_run_gun/spr_redguy_run_gun.yy",},"resourceVersion":"1.0","name":"1c1e2bd6-67df-438c-a94e-78a33d75d101","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5c52e337-6973-43f9-8579-864054aa5014","path":"sprites/spr_redguy_run_gun/spr_redguy_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5c52e337-6973-43f9-8579-864054aa5014","path":"sprites/spr_redguy_run_gun/spr_redguy_run_gun.yy",},"LayerId":{"name":"84b07827-63c9-4b42-825f-277508666c86","path":"sprites/spr_redguy_run_gun/spr_redguy_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_redguy_run_gun","path":"sprites/spr_redguy_run_gun/spr_redguy_run_gun.yy",},"resourceVersion":"1.0","name":"5c52e337-6973-43f9-8579-864054aa5014","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4f9600b0-e4d3-4839-b049-d673d0bd0dc6","path":"sprites/spr_redguy_run_gun/spr_redguy_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4f9600b0-e4d3-4839-b049-d673d0bd0dc6","path":"sprites/spr_redguy_run_gun/spr_redguy_run_gun.yy",},"LayerId":{"name":"84b07827-63c9-4b42-825f-277508666c86","path":"sprites/spr_redguy_run_gun/spr_redguy_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_redguy_run_gun","path":"sprites/spr_redguy_run_gun/spr_redguy_run_gun.yy",},"resourceVersion":"1.0","name":"4f9600b0-e4d3-4839-b049-d673d0bd0dc6","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_redguy_run_gun",
+    "spriteId": {"name":"spr_redguy_run_gun","path":"sprites/spr_redguy_run_gun/spr_redguy_run_gun.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 20.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"2fd04ddd-e16f-464a-8687-6711de699941","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1c1e2bd6-67df-438c-a94e-78a33d75d101","path":"sprites/spr_redguy_run_gun/spr_redguy_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"2ea46ff3-7286-4413-af20-61990ef4371f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5c52e337-6973-43f9-8579-864054aa5014","path":"sprites/spr_redguy_run_gun/spr_redguy_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8b82bb9f-e7da-4763-97b4-77a7de7916d3","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4f9600b0-e4d3-4839-b049-d673d0bd0dc6","path":"sprites/spr_redguy_run_gun/spr_redguy_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 23,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_redguy_run_gun","path":"sprites/spr_redguy_run_gun/spr_redguy_run_gun.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_redguy_run_gun",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"84b07827-63c9-4b42-825f-277508666c86","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"84b07827-63c9-4b42-825f-277508666c86","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_redguy_run_gun",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

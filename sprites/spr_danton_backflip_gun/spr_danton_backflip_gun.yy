@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_danton_backflip_gun",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -28,18 +24,30 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"efde75aa-9128-4311-af94-3384961e17d3",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ef7b2d50-7c60-47e6-9585-2147324ed258",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d220b3f8-e066-4abd-af86-19baeba3cfcc",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"82f0cef2-fd65-4a4f-a33d-5e79986111a4",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5552f7c5-ddc1-4744-a21b-96fda6d82747",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"04ad65d6-8bd1-4e90-8633-97ab584dde87",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"071f4264-0d25-4180-93b4-ff3555b34ea2",},
+    {"compositeImage":{"FrameId":{"name":"efde75aa-9128-4311-af94-3384961e17d3","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"efde75aa-9128-4311-af94-3384961e17d3","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"LayerId":{"name":"a70d3f30-225b-49db-b3f6-32b3de444566","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_danton_backflip_gun","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"resourceVersion":"1.0","name":"efde75aa-9128-4311-af94-3384961e17d3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ef7b2d50-7c60-47e6-9585-2147324ed258","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ef7b2d50-7c60-47e6-9585-2147324ed258","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"LayerId":{"name":"a70d3f30-225b-49db-b3f6-32b3de444566","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_danton_backflip_gun","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"resourceVersion":"1.0","name":"ef7b2d50-7c60-47e6-9585-2147324ed258","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d220b3f8-e066-4abd-af86-19baeba3cfcc","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d220b3f8-e066-4abd-af86-19baeba3cfcc","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"LayerId":{"name":"a70d3f30-225b-49db-b3f6-32b3de444566","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_danton_backflip_gun","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"resourceVersion":"1.0","name":"d220b3f8-e066-4abd-af86-19baeba3cfcc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"82f0cef2-fd65-4a4f-a33d-5e79986111a4","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"82f0cef2-fd65-4a4f-a33d-5e79986111a4","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"LayerId":{"name":"a70d3f30-225b-49db-b3f6-32b3de444566","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_danton_backflip_gun","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"resourceVersion":"1.0","name":"82f0cef2-fd65-4a4f-a33d-5e79986111a4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5552f7c5-ddc1-4744-a21b-96fda6d82747","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5552f7c5-ddc1-4744-a21b-96fda6d82747","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"LayerId":{"name":"a70d3f30-225b-49db-b3f6-32b3de444566","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_danton_backflip_gun","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"resourceVersion":"1.0","name":"5552f7c5-ddc1-4744-a21b-96fda6d82747","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"04ad65d6-8bd1-4e90-8633-97ab584dde87","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"04ad65d6-8bd1-4e90-8633-97ab584dde87","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"LayerId":{"name":"a70d3f30-225b-49db-b3f6-32b3de444566","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_danton_backflip_gun","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"resourceVersion":"1.0","name":"04ad65d6-8bd1-4e90-8633-97ab584dde87","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"071f4264-0d25-4180-93b4-ff3555b34ea2","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"071f4264-0d25-4180-93b4-ff3555b34ea2","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"LayerId":{"name":"a70d3f30-225b-49db-b3f6-32b3de444566","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_danton_backflip_gun","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"resourceVersion":"1.0","name":"071f4264-0d25-4180-93b4-ff3555b34ea2","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_danton_backflip_gun",
+    "spriteId": {"name":"spr_danton_backflip_gun","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -50,7 +58,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"7631a2d3-7227-455c-bf30-6fca6b0486c5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"efde75aa-9128-4311-af94-3384961e17d3","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c7423283-36c2-4c23-a8e6-67c12f972fe6","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ef7b2d50-7c60-47e6-9585-2147324ed258","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3422de5b-9aed-4490-ba90-2439c5c31350","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d220b3f8-e066-4abd-af86-19baeba3cfcc","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -58,7 +66,7 @@
             {"id":"76152de7-2f17-40e6-9318-ab81c356bd9c","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5552f7c5-ddc1-4744-a21b-96fda6d82747","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"280a56ce-6e44-4628-bc41-90cee08e3541","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"04ad65d6-8bd1-4e90-8633-97ab584dde87","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f213efb8-bffa-4035-a665-de64797d6e7f","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"071f4264-0d25-4180-93b4-ff3555b34ea2","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -74,13 +82,22 @@
     "yorigin": 23,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_danton_backflip_gun","path":"sprites/spr_danton_backflip_gun/spr_danton_backflip_gun.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_danton_backflip_gun",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a70d3f30-225b-49db-b3f6-32b3de444566","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a70d3f30-225b-49db-b3f6-32b3de444566","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_danton_backflip_gun",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

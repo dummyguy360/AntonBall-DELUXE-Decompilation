@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "ballsona_ToadDan",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 16,
   "height": 32,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"90b929c3-b86b-43cd-a7a5-0b9149b9635a",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b975c227-d695-43aa-af13-1b7721ac0ec0",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"efc44384-3b7f-4a0d-8144-bb18c9dc70d1",},
+    {"compositeImage":{"FrameId":{"name":"90b929c3-b86b-43cd-a7a5-0b9149b9635a","path":"sprites/ballsona_ToadDan/ballsona_ToadDan.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"90b929c3-b86b-43cd-a7a5-0b9149b9635a","path":"sprites/ballsona_ToadDan/ballsona_ToadDan.yy",},"LayerId":{"name":"b5b4c657-d2fe-4250-bc68-40c3cdef52e4","path":"sprites/ballsona_ToadDan/ballsona_ToadDan.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_ToadDan","path":"sprites/ballsona_ToadDan/ballsona_ToadDan.yy",},"resourceVersion":"1.0","name":"90b929c3-b86b-43cd-a7a5-0b9149b9635a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b975c227-d695-43aa-af13-1b7721ac0ec0","path":"sprites/ballsona_ToadDan/ballsona_ToadDan.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b975c227-d695-43aa-af13-1b7721ac0ec0","path":"sprites/ballsona_ToadDan/ballsona_ToadDan.yy",},"LayerId":{"name":"b5b4c657-d2fe-4250-bc68-40c3cdef52e4","path":"sprites/ballsona_ToadDan/ballsona_ToadDan.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_ToadDan","path":"sprites/ballsona_ToadDan/ballsona_ToadDan.yy",},"resourceVersion":"1.0","name":"b975c227-d695-43aa-af13-1b7721ac0ec0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"efc44384-3b7f-4a0d-8144-bb18c9dc70d1","path":"sprites/ballsona_ToadDan/ballsona_ToadDan.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"efc44384-3b7f-4a0d-8144-bb18c9dc70d1","path":"sprites/ballsona_ToadDan/ballsona_ToadDan.yy",},"LayerId":{"name":"b5b4c657-d2fe-4250-bc68-40c3cdef52e4","path":"sprites/ballsona_ToadDan/ballsona_ToadDan.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_ToadDan","path":"sprites/ballsona_ToadDan/ballsona_ToadDan.yy",},"resourceVersion":"1.0","name":"efc44384-3b7f-4a0d-8144-bb18c9dc70d1","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "ballsona_ToadDan",
+    "spriteId": {"name":"ballsona_ToadDan","path":"sprites/ballsona_ToadDan/ballsona_ToadDan.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"47dacd3e-fead-40ff-9306-5afb95935fa9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"90b929c3-b86b-43cd-a7a5-0b9149b9635a","path":"sprites/ballsona_ToadDan/ballsona_ToadDan.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fb90ea25-15b0-4f18-958b-de4b5f52ac11","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b975c227-d695-43aa-af13-1b7721ac0ec0","path":"sprites/ballsona_ToadDan/ballsona_ToadDan.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ab217df3-8187-475a-91be-a29747a86694","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"efc44384-3b7f-4a0d-8144-bb18c9dc70d1","path":"sprites/ballsona_ToadDan/ballsona_ToadDan.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"ballsona_ToadDan","path":"sprites/ballsona_ToadDan/ballsona_ToadDan.yy",},
+    "resourceVersion": "1.3",
+    "name": "ballsona_ToadDan",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b5b4c657-d2fe-4250-bc68-40c3cdef52e4","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b5b4c657-d2fe-4250-bc68-40c3cdef52e4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "ballsona_ToadDan",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_danton_run_gun",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"824a55ed-a0b1-4343-9304-e29c80a0cb7b",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bc68eec6-32dd-43a0-9e6d-1f5170e6ad60",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e36ace96-7fc5-4d25-a8fb-282e49f97a7d",},
+    {"compositeImage":{"FrameId":{"name":"824a55ed-a0b1-4343-9304-e29c80a0cb7b","path":"sprites/spr_danton_run_gun/spr_danton_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"824a55ed-a0b1-4343-9304-e29c80a0cb7b","path":"sprites/spr_danton_run_gun/spr_danton_run_gun.yy",},"LayerId":{"name":"2cb54a92-8b5e-4b7c-a7d9-49951ca59c83","path":"sprites/spr_danton_run_gun/spr_danton_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_danton_run_gun","path":"sprites/spr_danton_run_gun/spr_danton_run_gun.yy",},"resourceVersion":"1.0","name":"824a55ed-a0b1-4343-9304-e29c80a0cb7b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bc68eec6-32dd-43a0-9e6d-1f5170e6ad60","path":"sprites/spr_danton_run_gun/spr_danton_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bc68eec6-32dd-43a0-9e6d-1f5170e6ad60","path":"sprites/spr_danton_run_gun/spr_danton_run_gun.yy",},"LayerId":{"name":"2cb54a92-8b5e-4b7c-a7d9-49951ca59c83","path":"sprites/spr_danton_run_gun/spr_danton_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_danton_run_gun","path":"sprites/spr_danton_run_gun/spr_danton_run_gun.yy",},"resourceVersion":"1.0","name":"bc68eec6-32dd-43a0-9e6d-1f5170e6ad60","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e36ace96-7fc5-4d25-a8fb-282e49f97a7d","path":"sprites/spr_danton_run_gun/spr_danton_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e36ace96-7fc5-4d25-a8fb-282e49f97a7d","path":"sprites/spr_danton_run_gun/spr_danton_run_gun.yy",},"LayerId":{"name":"2cb54a92-8b5e-4b7c-a7d9-49951ca59c83","path":"sprites/spr_danton_run_gun/spr_danton_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_danton_run_gun","path":"sprites/spr_danton_run_gun/spr_danton_run_gun.yy",},"resourceVersion":"1.0","name":"e36ace96-7fc5-4d25-a8fb-282e49f97a7d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_danton_run_gun",
+    "spriteId": {"name":"spr_danton_run_gun","path":"sprites/spr_danton_run_gun/spr_danton_run_gun.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"2c755029-88d6-4449-95c5-26bf19ba2d2e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"824a55ed-a0b1-4343-9304-e29c80a0cb7b","path":"sprites/spr_danton_run_gun/spr_danton_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e7d6331e-405e-4bdc-b35d-e76867c24ca8","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bc68eec6-32dd-43a0-9e6d-1f5170e6ad60","path":"sprites/spr_danton_run_gun/spr_danton_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e11fef33-fda9-4b4a-ad34-b8821e8cd038","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e36ace96-7fc5-4d25-a8fb-282e49f97a7d","path":"sprites/spr_danton_run_gun/spr_danton_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 23,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_danton_run_gun","path":"sprites/spr_danton_run_gun/spr_danton_run_gun.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_danton_run_gun",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2cb54a92-8b5e-4b7c-a7d9-49951ca59c83","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2cb54a92-8b5e-4b7c-a7d9-49951ca59c83","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_danton_run_gun",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "ballsona_Kuma",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 16,
   "height": 32,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"87fd5f7e-726c-4cc3-8883-7739cf6cb879",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5bda39b6-dfaf-4f24-8cff-f60928c4e05c",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"98f7bf24-df21-4cc2-a33d-42f0d8782bbe",},
+    {"compositeImage":{"FrameId":{"name":"87fd5f7e-726c-4cc3-8883-7739cf6cb879","path":"sprites/ballsona_Kuma/ballsona_Kuma.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"87fd5f7e-726c-4cc3-8883-7739cf6cb879","path":"sprites/ballsona_Kuma/ballsona_Kuma.yy",},"LayerId":{"name":"2bdf5aae-7656-4d8c-8845-ea18955868c5","path":"sprites/ballsona_Kuma/ballsona_Kuma.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_Kuma","path":"sprites/ballsona_Kuma/ballsona_Kuma.yy",},"resourceVersion":"1.0","name":"87fd5f7e-726c-4cc3-8883-7739cf6cb879","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5bda39b6-dfaf-4f24-8cff-f60928c4e05c","path":"sprites/ballsona_Kuma/ballsona_Kuma.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5bda39b6-dfaf-4f24-8cff-f60928c4e05c","path":"sprites/ballsona_Kuma/ballsona_Kuma.yy",},"LayerId":{"name":"2bdf5aae-7656-4d8c-8845-ea18955868c5","path":"sprites/ballsona_Kuma/ballsona_Kuma.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_Kuma","path":"sprites/ballsona_Kuma/ballsona_Kuma.yy",},"resourceVersion":"1.0","name":"5bda39b6-dfaf-4f24-8cff-f60928c4e05c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"98f7bf24-df21-4cc2-a33d-42f0d8782bbe","path":"sprites/ballsona_Kuma/ballsona_Kuma.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"98f7bf24-df21-4cc2-a33d-42f0d8782bbe","path":"sprites/ballsona_Kuma/ballsona_Kuma.yy",},"LayerId":{"name":"2bdf5aae-7656-4d8c-8845-ea18955868c5","path":"sprites/ballsona_Kuma/ballsona_Kuma.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ballsona_Kuma","path":"sprites/ballsona_Kuma/ballsona_Kuma.yy",},"resourceVersion":"1.0","name":"98f7bf24-df21-4cc2-a33d-42f0d8782bbe","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "ballsona_Kuma",
+    "spriteId": {"name":"ballsona_Kuma","path":"sprites/ballsona_Kuma/ballsona_Kuma.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"7825de02-7178-4ec8-91e2-f9eeb17009da","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"87fd5f7e-726c-4cc3-8883-7739cf6cb879","path":"sprites/ballsona_Kuma/ballsona_Kuma.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fa444141-089f-4017-a6f4-0f82487be394","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5bda39b6-dfaf-4f24-8cff-f60928c4e05c","path":"sprites/ballsona_Kuma/ballsona_Kuma.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f5be7986-4606-4f48-a320-adcc8ad6afbf","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"98f7bf24-df21-4cc2-a33d-42f0d8782bbe","path":"sprites/ballsona_Kuma/ballsona_Kuma.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"ballsona_Kuma","path":"sprites/ballsona_Kuma/ballsona_Kuma.yy",},
+    "resourceVersion": "1.3",
+    "name": "ballsona_Kuma",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2bdf5aae-7656-4d8c-8845-ea18955868c5","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2bdf5aae-7656-4d8c-8845-ea18955868c5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "ballsona_Kuma",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

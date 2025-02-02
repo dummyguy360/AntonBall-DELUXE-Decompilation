@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_beachball",
   "bboxMode": 0,
   "collisionKind": 0,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 15,
   "height": 15,
   "textureGroupId": {
@@ -28,16 +24,24 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d6ea77c9-f4a4-41b9-b30f-834283640b74",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fcaeb8d0-7c31-4914-8075-193994f146c4",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e9e4035c-0c78-4b80-8f3b-05773bf28428",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e84af6dd-11f5-483e-97a2-1d6d8dec0c16",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1f7483fe-44e8-4db0-a03d-698d666425f2",},
+    {"compositeImage":{"FrameId":{"name":"d6ea77c9-f4a4-41b9-b30f-834283640b74","path":"sprites/spr_beachball/spr_beachball.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d6ea77c9-f4a4-41b9-b30f-834283640b74","path":"sprites/spr_beachball/spr_beachball.yy",},"LayerId":{"name":"9657774d-7866-418c-812f-10300d0c6848","path":"sprites/spr_beachball/spr_beachball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_beachball","path":"sprites/spr_beachball/spr_beachball.yy",},"resourceVersion":"1.0","name":"d6ea77c9-f4a4-41b9-b30f-834283640b74","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fcaeb8d0-7c31-4914-8075-193994f146c4","path":"sprites/spr_beachball/spr_beachball.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fcaeb8d0-7c31-4914-8075-193994f146c4","path":"sprites/spr_beachball/spr_beachball.yy",},"LayerId":{"name":"9657774d-7866-418c-812f-10300d0c6848","path":"sprites/spr_beachball/spr_beachball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_beachball","path":"sprites/spr_beachball/spr_beachball.yy",},"resourceVersion":"1.0","name":"fcaeb8d0-7c31-4914-8075-193994f146c4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e9e4035c-0c78-4b80-8f3b-05773bf28428","path":"sprites/spr_beachball/spr_beachball.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e9e4035c-0c78-4b80-8f3b-05773bf28428","path":"sprites/spr_beachball/spr_beachball.yy",},"LayerId":{"name":"9657774d-7866-418c-812f-10300d0c6848","path":"sprites/spr_beachball/spr_beachball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_beachball","path":"sprites/spr_beachball/spr_beachball.yy",},"resourceVersion":"1.0","name":"e9e4035c-0c78-4b80-8f3b-05773bf28428","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e84af6dd-11f5-483e-97a2-1d6d8dec0c16","path":"sprites/spr_beachball/spr_beachball.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e84af6dd-11f5-483e-97a2-1d6d8dec0c16","path":"sprites/spr_beachball/spr_beachball.yy",},"LayerId":{"name":"9657774d-7866-418c-812f-10300d0c6848","path":"sprites/spr_beachball/spr_beachball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_beachball","path":"sprites/spr_beachball/spr_beachball.yy",},"resourceVersion":"1.0","name":"e84af6dd-11f5-483e-97a2-1d6d8dec0c16","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1f7483fe-44e8-4db0-a03d-698d666425f2","path":"sprites/spr_beachball/spr_beachball.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1f7483fe-44e8-4db0-a03d-698d666425f2","path":"sprites/spr_beachball/spr_beachball.yy",},"LayerId":{"name":"9657774d-7866-418c-812f-10300d0c6848","path":"sprites/spr_beachball/spr_beachball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_beachball","path":"sprites/spr_beachball/spr_beachball.yy",},"resourceVersion":"1.0","name":"1f7483fe-44e8-4db0-a03d-698d666425f2","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_beachball",
+    "spriteId": {"name":"spr_beachball","path":"sprites/spr_beachball/spr_beachball.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 20.0,
@@ -48,13 +52,13 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"b7bf4087-e92b-4925-a848-f16e18000d44","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d6ea77c9-f4a4-41b9-b30f-834283640b74","path":"sprites/spr_beachball/spr_beachball.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fe8cb4bb-0225-4e2d-b5e4-23411f103ce5","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fcaeb8d0-7c31-4914-8075-193994f146c4","path":"sprites/spr_beachball/spr_beachball.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"91c11c8f-ccdf-4e6e-b02e-6062fba59df0","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e9e4035c-0c78-4b80-8f3b-05773bf28428","path":"sprites/spr_beachball/spr_beachball.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4672b565-dbf8-4f2c-b89c-20f1d31f2791","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e84af6dd-11f5-483e-97a2-1d6d8dec0c16","path":"sprites/spr_beachball/spr_beachball.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"99cef3c9-b59c-4f27-925c-530a6e408c43","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1f7483fe-44e8-4db0-a03d-698d666425f2","path":"sprites/spr_beachball/spr_beachball.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,13 +74,22 @@
     "yorigin": 14,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_beachball","path":"sprites/spr_beachball/spr_beachball.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_beachball",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9657774d-7866-418c-812f-10300d0c6848","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9657774d-7866-418c-812f-10300d0c6848","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_beachball",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

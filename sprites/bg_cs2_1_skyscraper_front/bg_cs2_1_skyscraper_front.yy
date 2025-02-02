@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "bg_cs2_1_skyscraper_front",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 256,
   "height": 144,
   "textureGroupId": {
@@ -28,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0c38ff7d-074f-401a-a048-dab4125df8d3",},
+    {"compositeImage":{"FrameId":{"name":"0c38ff7d-074f-401a-a048-dab4125df8d3","path":"sprites/bg_cs2_1_skyscraper_front/bg_cs2_1_skyscraper_front.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0c38ff7d-074f-401a-a048-dab4125df8d3","path":"sprites/bg_cs2_1_skyscraper_front/bg_cs2_1_skyscraper_front.yy",},"LayerId":{"name":"af8fc3f7-3c33-4be8-aeec-5b45d7b944f5","path":"sprites/bg_cs2_1_skyscraper_front/bg_cs2_1_skyscraper_front.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"bg_cs2_1_skyscraper_front","path":"sprites/bg_cs2_1_skyscraper_front/bg_cs2_1_skyscraper_front.yy",},"resourceVersion":"1.0","name":"0c38ff7d-074f-401a-a048-dab4125df8d3","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "bg_cs2_1_skyscraper_front",
+    "spriteId": {"name":"bg_cs2_1_skyscraper_front","path":"sprites/bg_cs2_1_skyscraper_front/bg_cs2_1_skyscraper_front.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -44,9 +40,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1b1942eb-e4f7-4b7f-af9b-84dbd05a2422","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0c38ff7d-074f-401a-a048-dab4125df8d3","path":"sprites/bg_cs2_1_skyscraper_front/bg_cs2_1_skyscraper_front.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,13 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"bg_cs2_1_skyscraper_front","path":"sprites/bg_cs2_1_skyscraper_front/bg_cs2_1_skyscraper_front.yy",},
+    "resourceVersion": "1.3",
+    "name": "bg_cs2_1_skyscraper_front",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"af8fc3f7-3c33-4be8-aeec-5b45d7b944f5","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"af8fc3f7-3c33-4be8-aeec-5b45d7b944f5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "bg_cs2_1_skyscraper_front",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

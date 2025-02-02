@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_findgamebutton",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 90,
   "height": 17,
   "textureGroupId": {
@@ -28,13 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"05f0fb06-573b-420d-9ccc-9d4b6c042ad1",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"962f29a7-7f1b-4bd2-80cf-375ca088db78",},
+    {"compositeImage":{"FrameId":{"name":"05f0fb06-573b-420d-9ccc-9d4b6c042ad1","path":"sprites/spr_findgamebutton/spr_findgamebutton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"05f0fb06-573b-420d-9ccc-9d4b6c042ad1","path":"sprites/spr_findgamebutton/spr_findgamebutton.yy",},"LayerId":{"name":"fecc6708-8fa3-4a3a-b2d8-9680528122ea","path":"sprites/spr_findgamebutton/spr_findgamebutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_findgamebutton","path":"sprites/spr_findgamebutton/spr_findgamebutton.yy",},"resourceVersion":"1.0","name":"05f0fb06-573b-420d-9ccc-9d4b6c042ad1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"962f29a7-7f1b-4bd2-80cf-375ca088db78","path":"sprites/spr_findgamebutton/spr_findgamebutton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"962f29a7-7f1b-4bd2-80cf-375ca088db78","path":"sprites/spr_findgamebutton/spr_findgamebutton.yy",},"LayerId":{"name":"fecc6708-8fa3-4a3a-b2d8-9680528122ea","path":"sprites/spr_findgamebutton/spr_findgamebutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_findgamebutton","path":"sprites/spr_findgamebutton/spr_findgamebutton.yy",},"resourceVersion":"1.0","name":"962f29a7-7f1b-4bd2-80cf-375ca088db78","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_findgamebutton",
+    "spriteId": {"name":"spr_findgamebutton","path":"sprites/spr_findgamebutton/spr_findgamebutton.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -45,10 +43,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"93c80f01-01a5-49cc-8ef8-033303fffdc8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"05f0fb06-573b-420d-9ccc-9d4b6c042ad1","path":"sprites/spr_findgamebutton/spr_findgamebutton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0195b8e9-a07e-4105-92f8-ae2ec3b37ee7","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"962f29a7-7f1b-4bd2-80cf-375ca088db78","path":"sprites/spr_findgamebutton/spr_findgamebutton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -64,13 +62,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_findgamebutton","path":"sprites/spr_findgamebutton/spr_findgamebutton.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_findgamebutton",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fecc6708-8fa3-4a3a-b2d8-9680528122ea","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fecc6708-8fa3-4a3a-b2d8-9680528122ea","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_findgamebutton",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_cooper_run_gun",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e4387692-7ac1-4b6c-a578-ba3d6e242e85",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"aa7218dc-8964-46b3-a541-da193a25145f",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"35a16927-8ce0-4c7a-aec5-16a5fce7d241",},
+    {"compositeImage":{"FrameId":{"name":"e4387692-7ac1-4b6c-a578-ba3d6e242e85","path":"sprites/spr_cooper_run_gun/spr_cooper_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e4387692-7ac1-4b6c-a578-ba3d6e242e85","path":"sprites/spr_cooper_run_gun/spr_cooper_run_gun.yy",},"LayerId":{"name":"8584a36a-74fa-47b2-9d98-946de6e63514","path":"sprites/spr_cooper_run_gun/spr_cooper_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_cooper_run_gun","path":"sprites/spr_cooper_run_gun/spr_cooper_run_gun.yy",},"resourceVersion":"1.0","name":"e4387692-7ac1-4b6c-a578-ba3d6e242e85","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"aa7218dc-8964-46b3-a541-da193a25145f","path":"sprites/spr_cooper_run_gun/spr_cooper_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"aa7218dc-8964-46b3-a541-da193a25145f","path":"sprites/spr_cooper_run_gun/spr_cooper_run_gun.yy",},"LayerId":{"name":"8584a36a-74fa-47b2-9d98-946de6e63514","path":"sprites/spr_cooper_run_gun/spr_cooper_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_cooper_run_gun","path":"sprites/spr_cooper_run_gun/spr_cooper_run_gun.yy",},"resourceVersion":"1.0","name":"aa7218dc-8964-46b3-a541-da193a25145f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"35a16927-8ce0-4c7a-aec5-16a5fce7d241","path":"sprites/spr_cooper_run_gun/spr_cooper_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"35a16927-8ce0-4c7a-aec5-16a5fce7d241","path":"sprites/spr_cooper_run_gun/spr_cooper_run_gun.yy",},"LayerId":{"name":"8584a36a-74fa-47b2-9d98-946de6e63514","path":"sprites/spr_cooper_run_gun/spr_cooper_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_cooper_run_gun","path":"sprites/spr_cooper_run_gun/spr_cooper_run_gun.yy",},"resourceVersion":"1.0","name":"35a16927-8ce0-4c7a-aec5-16a5fce7d241","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_cooper_run_gun",
+    "spriteId": {"name":"spr_cooper_run_gun","path":"sprites/spr_cooper_run_gun/spr_cooper_run_gun.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"436e668a-673d-4486-a981-f613dcc02a3c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e4387692-7ac1-4b6c-a578-ba3d6e242e85","path":"sprites/spr_cooper_run_gun/spr_cooper_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"121943d0-d53f-464e-aa0b-b38a8c6240e6","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aa7218dc-8964-46b3-a541-da193a25145f","path":"sprites/spr_cooper_run_gun/spr_cooper_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0c7288f3-554a-4915-a2a4-2370e8ebf138","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"35a16927-8ce0-4c7a-aec5-16a5fce7d241","path":"sprites/spr_cooper_run_gun/spr_cooper_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 23,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_cooper_run_gun","path":"sprites/spr_cooper_run_gun/spr_cooper_run_gun.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_cooper_run_gun",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8584a36a-74fa-47b2-9d98-946de6e63514","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8584a36a-74fa-47b2-9d98-946de6e63514","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_cooper_run_gun",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

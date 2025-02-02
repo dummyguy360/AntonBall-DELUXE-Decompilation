@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_microdemon_run_gun",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 26,
   "height": 26,
   "textureGroupId": {
@@ -28,14 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0d695c3c-e957-4b5c-9709-628c1c19bb74",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a0e45298-55ce-4e05-a48d-9ba66fe4bbe9",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e9d26038-9651-4769-bcf3-bc959def6818",},
+    {"compositeImage":{"FrameId":{"name":"0d695c3c-e957-4b5c-9709-628c1c19bb74","path":"sprites/spr_microdemon_run_gun/spr_microdemon_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0d695c3c-e957-4b5c-9709-628c1c19bb74","path":"sprites/spr_microdemon_run_gun/spr_microdemon_run_gun.yy",},"LayerId":{"name":"305ac305-d7e4-4c7d-acf4-1750bbad2e57","path":"sprites/spr_microdemon_run_gun/spr_microdemon_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_microdemon_run_gun","path":"sprites/spr_microdemon_run_gun/spr_microdemon_run_gun.yy",},"resourceVersion":"1.0","name":"0d695c3c-e957-4b5c-9709-628c1c19bb74","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a0e45298-55ce-4e05-a48d-9ba66fe4bbe9","path":"sprites/spr_microdemon_run_gun/spr_microdemon_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a0e45298-55ce-4e05-a48d-9ba66fe4bbe9","path":"sprites/spr_microdemon_run_gun/spr_microdemon_run_gun.yy",},"LayerId":{"name":"305ac305-d7e4-4c7d-acf4-1750bbad2e57","path":"sprites/spr_microdemon_run_gun/spr_microdemon_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_microdemon_run_gun","path":"sprites/spr_microdemon_run_gun/spr_microdemon_run_gun.yy",},"resourceVersion":"1.0","name":"a0e45298-55ce-4e05-a48d-9ba66fe4bbe9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e9d26038-9651-4769-bcf3-bc959def6818","path":"sprites/spr_microdemon_run_gun/spr_microdemon_run_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e9d26038-9651-4769-bcf3-bc959def6818","path":"sprites/spr_microdemon_run_gun/spr_microdemon_run_gun.yy",},"LayerId":{"name":"305ac305-d7e4-4c7d-acf4-1750bbad2e57","path":"sprites/spr_microdemon_run_gun/spr_microdemon_run_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_microdemon_run_gun","path":"sprites/spr_microdemon_run_gun/spr_microdemon_run_gun.yy",},"resourceVersion":"1.0","name":"e9d26038-9651-4769-bcf3-bc959def6818","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_microdemon_run_gun",
+    "spriteId": {"name":"spr_microdemon_run_gun","path":"sprites/spr_microdemon_run_gun/spr_microdemon_run_gun.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"351472b8-3ce9-48d5-8d1e-572c28fb6b13","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0d695c3c-e957-4b5c-9709-628c1c19bb74","path":"sprites/spr_microdemon_run_gun/spr_microdemon_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"57ef3dbc-fbbb-4fb4-8c55-ee2384983876","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a0e45298-55ce-4e05-a48d-9ba66fe4bbe9","path":"sprites/spr_microdemon_run_gun/spr_microdemon_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6e136a9d-3360-456a-9650-fa10a3824cdf","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e9d26038-9651-4769-bcf3-bc959def6818","path":"sprites/spr_microdemon_run_gun/spr_microdemon_run_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,13 +66,22 @@
     "yorigin": 25,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_microdemon_run_gun","path":"sprites/spr_microdemon_run_gun/spr_microdemon_run_gun.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_microdemon_run_gun",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"305ac305-d7e4-4c7d-acf4-1750bbad2e57","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"305ac305-d7e4-4c7d-acf4-1750bbad2e57","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_microdemon_run_gun",
+  "tags": [],
+  "resourceType": "GMSprite",
 }
