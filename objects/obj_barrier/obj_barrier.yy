@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_barrier",
   "spriteId": {
     "name": "spr_barrier",
-    "path": "sprites/spr_barrier/spr_barrier.yy"
+    "path": "sprites/spr_barrier/spr_barrier.yy",
   },
   "solid": true,
   "visible": false,
@@ -25,11 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "Wall",
+    "path": "folders/Objects/Collision/Wall.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_barrier",
-  "tags": [],
-  "resourceType": "GMObject"
 }

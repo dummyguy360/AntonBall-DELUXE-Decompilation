@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_title_annie",
   "spriteId": {
     "name": "spr_title_annie",
-    "path": "sprites/spr_title_annie/spr_title_annie.yy"
+    "path": "sprites/spr_title_annie/spr_title_annie.yy",
   },
   "solid": false,
   "visible": true,
@@ -10,7 +13,7 @@
   "persistent": false,
   "parentObjectId": {
     "name": "obj_title_character",
-    "path": "objects/obj_title_character/obj_title_character.yy"
+    "path": "objects/obj_title_character/obj_title_character.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -28,11 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "Title Screen",
+    "path": "folders/Objects/Title Screen.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_title_annie",
-  "tags": [],
-  "resourceType": "GMObject"
 }

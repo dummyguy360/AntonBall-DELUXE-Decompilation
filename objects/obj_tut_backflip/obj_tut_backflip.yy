@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_tut_backflip",
   "spriteId": {
     "name": "spr_tut_backflip",
-    "path": "sprites/spr_tut_backflip/spr_tut_backflip.yy"
+    "path": "sprites/spr_tut_backflip/spr_tut_backflip.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,11 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "Tut",
+    "path": "folders/Objects/Mechanics/Tut.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_tut_backflip",
-  "tags": [],
-  "resourceType": "GMObject"
 }

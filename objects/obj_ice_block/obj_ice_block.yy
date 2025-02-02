@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_ice_block",
   "spriteId": {
     "name": "spr_water",
-    "path": "sprites/spr_water/spr_water.yy"
+    "path": "sprites/spr_water/spr_water.yy",
   },
   "solid": false,
   "visible": false,
@@ -10,7 +13,7 @@
   "persistent": false,
   "parentObjectId": {
     "name": "obj_friction_parent",
-    "path": "objects/obj_friction_parent/obj_friction_parent.yy"
+    "path": "objects/obj_friction_parent/obj_friction_parent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -26,42 +29,12 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [
-    {
-      "varType": 4,
-      "value": "0.1",
-      "rangeEnabled": false,
-      "rangeMin": 0.0,
-      "rangeMax": 10.0,
-      "listItems": [],
-      "multiselect": false,
-      "filters": [],
-      "resourceVersion": "1.0",
-      "name": "deceleration",
-      "tags": [],
-      "resourceType": "GMObjectProperty"
-    },
-    {
-      "varType": 4,
-      "value": "0.05",
-      "rangeEnabled": false,
-      "rangeMin": 0.0,
-      "rangeMax": 10.0,
-      "listItems": [],
-      "multiselect": false,
-      "filters": [],
-      "resourceVersion": "1.0",
-      "name": "acceleration",
-      "tags": [],
-      "resourceType": "GMObjectProperty"
-    }
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"deceleration","varType":4,"value":"0.1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"acceleration","varType":4,"value":"0.05","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "Slippery",
+    "path": "folders/Objects/Collision/Slippery.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_ice_block",
-  "tags": [],
-  "resourceType": "GMObject"
 }

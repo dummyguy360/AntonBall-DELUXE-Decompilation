@@ -1,12 +1,15 @@
 AntonBall Deluxe Decompilation
-	by burnedpopcorn180
+	Made Collaboratively by
 	
-GameMaker Version used: 2022.0.2.51 (2022 LTS)
+		- burnedpopcorn180
+		- CatMateo
+		- Minty
+	
+GameMaker Version used: 2022.0.3.85 (2022 LTS)
 
 ISSUES
 
-Extensions have been fixed, but they don't load for me
-so i can't test out the game
+SteamWorks needs to be fixed in order to get a playable decompilation
 
 Also, these sounds failed to decompile
 (snd_cooper_yay1, snd_nina_yay1, snd_don_hurt1, snd_oldmanton_yay1)

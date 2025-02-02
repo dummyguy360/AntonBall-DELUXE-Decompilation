@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_block",
   "spriteId": {
     "name": "spr_block",
-    "path": "sprites/spr_block/spr_block.yy"
+    "path": "sprites/spr_block/spr_block.yy",
   },
   "solid": false,
   "visible": false,
@@ -25,11 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "Blocks",
+    "path": "folders/Objects/Mechanics/Blocks.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_block",
-  "tags": [],
-  "resourceType": "GMObject"
 }

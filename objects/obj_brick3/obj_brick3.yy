@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_brick3",
   "spriteId": {
     "name": "spr_brick3",
-    "path": "sprites/spr_brick3/spr_brick3.yy"
+    "path": "sprites/spr_brick3/spr_brick3.yy",
   },
   "solid": false,
   "visible": true,
@@ -10,7 +13,7 @@
   "persistent": false,
   "parentObjectId": {
     "name": "obj_brickparent",
-    "path": "objects/obj_brickparent/obj_brickparent.yy"
+    "path": "objects/obj_brickparent/obj_brickparent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,25 +28,12 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 0,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    }
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "Brick",
+    "path": "folders/Objects/Mechanics/Brick.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_brick3",
-  "tags": [],
-  "resourceType": "GMObject"
 }

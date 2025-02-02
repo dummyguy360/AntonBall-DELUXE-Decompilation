@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_slope",
   "spriteId": {
     "name": "spr_slope",
-    "path": "sprites/spr_slope/spr_slope.yy"
+    "path": "sprites/spr_slope/spr_slope.yy",
   },
   "solid": false,
   "visible": true,
@@ -10,7 +13,7 @@
   "persistent": false,
   "parentObjectId": {
     "name": "obj_block",
-    "path": "objects/obj_block/obj_block.yy"
+    "path": "objects/obj_block/obj_block.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -28,11 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "Collision",
+    "path": "folders/Objects/Collision.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_slope",
-  "tags": [],
-  "resourceType": "GMObject"
 }

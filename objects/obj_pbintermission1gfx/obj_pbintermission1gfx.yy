@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_pbintermission1gfx",
   "spriteId": {
     "name": "spr_pb_intermission1",
-    "path": "sprites/spr_pb_intermission1/spr_pb_intermission1.yy"
+    "path": "sprites/spr_pb_intermission1/spr_pb_intermission1.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,25 +25,12 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 8,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    }
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "PB Intermission",
+    "path": "folders/Objects/HUD/PB Intermission.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_pbintermission1gfx",
-  "tags": [],
-  "resourceType": "GMObject"
 }

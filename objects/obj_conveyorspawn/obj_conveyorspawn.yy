@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_conveyorspawn",
   "spriteId": {
     "name": "spr_conveyor",
-    "path": "sprites/spr_conveyor/spr_conveyor.yy"
+    "path": "sprites/spr_conveyor/spr_conveyor.yy",
   },
   "solid": false,
   "visible": true,
@@ -10,7 +13,7 @@
   "persistent": false,
   "parentObjectId": {
     "name": "obj_moving_platform",
-    "path": "objects/obj_moving_platform/obj_moving_platform.yy"
+    "path": "objects/obj_moving_platform/obj_moving_platform.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,25 +28,12 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 0,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    }
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "Conveyor",
+    "path": "folders/Objects/Collision/Conveyor.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_conveyorspawn",
-  "tags": [],
-  "resourceType": "GMObject"
 }

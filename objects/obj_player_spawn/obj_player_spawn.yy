@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_player_spawn",
   "spriteId": {
     "name": "spr_p1_spawn",
-    "path": "sprites/spr_p1_spawn/spr_p1_spawn.yy"
+    "path": "sprites/spr_p1_spawn/spr_p1_spawn.yy",
   },
   "solid": false,
   "visible": false,
@@ -23,42 +26,12 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [
-    {
-      "varType": 4,
-      "value": "0",
-      "rangeEnabled": false,
-      "rangeMin": 0.0,
-      "rangeMax": 10.0,
-      "listItems": [],
-      "multiselect": false,
-      "filters": [],
-      "resourceVersion": "1.0",
-      "name": "team",
-      "tags": [],
-      "resourceType": "GMObjectProperty"
-    },
-    {
-      "varType": 4,
-      "value": "0",
-      "rangeEnabled": false,
-      "rangeMin": 0.0,
-      "rangeMax": 10.0,
-      "listItems": [],
-      "multiselect": false,
-      "filters": [],
-      "resourceVersion": "1.0",
-      "name": "order",
-      "tags": [],
-      "resourceType": "GMObjectProperty"
-    }
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"team","varType":4,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"order","varType":4,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "Player Spawn",
+    "path": "folders/Objects/Player/Player Spawn.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_player_spawn",
-  "tags": [],
-  "resourceType": "GMObject"
 }

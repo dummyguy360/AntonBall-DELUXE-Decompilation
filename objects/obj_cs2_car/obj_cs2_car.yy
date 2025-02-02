@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_cs2_car",
   "spriteId": {
     "name": "spr_cs2_car",
-    "path": "sprites/spr_cs2_car/spr_cs2_car.yy"
+    "path": "sprites/spr_cs2_car/spr_cs2_car.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,25 +25,12 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 0,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    }
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "CS 2",
+    "path": "folders/Objects/HUD/Cutscenes/CS 2.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_cs2_car",
-  "tags": [],
-  "resourceType": "GMObject"
 }

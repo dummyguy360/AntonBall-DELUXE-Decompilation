@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_lotteryWall",
   "spriteId": {
     "name": "spr_block_CLASSIC",
-    "path": "sprites/spr_block_CLASSIC/spr_block_CLASSIC.yy"
+    "path": "sprites/spr_block_CLASSIC/spr_block_CLASSIC.yy",
   },
   "solid": true,
   "visible": false,
@@ -21,32 +24,16 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {
-      "x": 0.0,
-      "y": 0.0
-    },
-    {
-      "x": 4.0,
-      "y": 0.0
-    },
-    {
-      "x": 4.0,
-      "y": 4.0
-    },
-    {
-      "x": 0.0,
-      "y": 4.0
-    }
+    {"x":0.0,"y":0.0,},
+    {"x":4.0,"y":0.0,},
+    {"x":4.0,"y":4.0,},
+    {"x":0.0,"y":4.0,},
   ],
   "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "Lottery",
+    "path": "folders/Objects/Mechanics/Lottery.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_lotteryWall",
-  "tags": [],
-  "resourceType": "GMObject"
 }

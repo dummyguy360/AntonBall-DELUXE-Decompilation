@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_tut_clutch",
   "spriteId": {
     "name": "spr_tut_clutch",
-    "path": "sprites/spr_tut_clutch/spr_tut_clutch.yy"
+    "path": "sprites/spr_tut_clutch/spr_tut_clutch.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,11 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "Tut",
+    "path": "folders/Objects/Mechanics/Tut.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_tut_clutch",
-  "tags": [],
-  "resourceType": "GMObject"
 }

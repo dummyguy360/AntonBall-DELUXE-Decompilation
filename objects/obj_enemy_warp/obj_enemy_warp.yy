@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_enemy_warp",
   "spriteId": {
     "name": "spr_item_spawn",
-    "path": "sprites/spr_item_spawn/spr_item_spawn.yy"
+    "path": "sprites/spr_item_spawn/spr_item_spawn.yy",
   },
   "solid": false,
   "visible": false,
@@ -23,28 +26,11 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [
-    {
-      "varType": 4,
-      "value": "0",
-      "rangeEnabled": false,
-      "rangeMin": 0.0,
-      "rangeMax": 10.0,
-      "listItems": [],
-      "multiselect": false,
-      "filters": [],
-      "resourceVersion": "1.0",
-      "name": "connectedSpawnPoint",
-      "tags": [],
-      "resourceType": "GMObjectProperty"
-    }
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"connectedSpawnPoint","varType":4,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "Enemy Controllers",
+    "path": "folders/Objects/Mechanics/Enemies/Enemy Controllers.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_enemy_warp",
-  "tags": [],
-  "resourceType": "GMObject"
 }

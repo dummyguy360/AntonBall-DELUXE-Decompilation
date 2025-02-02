@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_cs3_anniescat_tail",
   "spriteId": {
     "name": "spr_cs3_anniescat_tail",
-    "path": "sprites/spr_cs3_anniescat_tail/spr_cs3_anniescat_tail.yy"
+    "path": "sprites/spr_cs3_anniescat_tail/spr_cs3_anniescat_tail.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,11 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "CS 3",
+    "path": "folders/Objects/HUD/Cutscenes/CS 3.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_cs3_anniescat_tail",
-  "tags": [],
-  "resourceType": "GMObject"
 }

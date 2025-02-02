@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_cs3_anniesfoot",
   "spriteId": {
     "name": "spr_cs3_anniesfoot",
-    "path": "sprites/spr_cs3_anniesfoot/spr_cs3_anniesfoot.yy"
+    "path": "sprites/spr_cs3_anniesfoot/spr_cs3_anniesfoot.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,25 +25,12 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 3,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    }
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "CS 3",
+    "path": "folders/Objects/HUD/Cutscenes/CS 3.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_cs3_anniesfoot",
-  "tags": [],
-  "resourceType": "GMObject"
 }

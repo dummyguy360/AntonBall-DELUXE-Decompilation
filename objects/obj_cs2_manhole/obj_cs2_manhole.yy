@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_cs2_manhole",
   "spriteId": {
     "name": "spr_cs2_manhole",
-    "path": "sprites/spr_cs2_manhole/spr_cs2_manhole.yy"
+    "path": "sprites/spr_cs2_manhole/spr_cs2_manhole.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,11 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "CS 2",
+    "path": "folders/Objects/HUD/Cutscenes/CS 2.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_cs2_manhole",
-  "tags": [],
-  "resourceType": "GMObject"
 }

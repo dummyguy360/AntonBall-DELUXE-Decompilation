@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_player2spawn",
   "spriteId": {
     "name": "spr_p2_spawn",
-    "path": "sprites/spr_p2_spawn/spr_p2_spawn.yy"
+    "path": "sprites/spr_p2_spawn/spr_p2_spawn.yy",
   },
   "solid": false,
   "visible": false,
@@ -25,11 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "Player Spawn",
+    "path": "folders/Objects/Player/Player Spawn.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_player2spawn",
-  "tags": [],
-  "resourceType": "GMObject"
 }

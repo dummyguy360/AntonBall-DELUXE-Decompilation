@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_capsule",
   "spriteId": {
     "name": "spr_capsule",
-    "path": "sprites/spr_capsule/spr_capsule.yy"
+    "path": "sprites/spr_capsule/spr_capsule.yy",
   },
   "solid": true,
   "visible": true,
@@ -21,55 +24,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {
-      "x": 0.0,
-      "y": -7.0
-    },
-    {
-      "x": 10.0,
-      "y": 10.0
-    }
+    {"x":0.0,"y":-7.0,},
+    {"x":10.0,"y":10.0,},
   ],
   "eventList": [
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 0,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    },
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 3,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    },
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 8,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    }
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "Capsules",
+    "path": "folders/Objects/Mechanics/Capsules.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_capsule",
-  "tags": [],
-  "resourceType": "GMObject"
 }

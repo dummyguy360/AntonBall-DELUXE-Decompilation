@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_enemy_killzone",
   "spriteId": {
     "name": "spr_oob",
-    "path": "sprites/spr_oob/spr_oob.yy"
+    "path": "sprites/spr_oob/spr_oob.yy",
   },
   "solid": false,
   "visible": false,
@@ -25,11 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "Enemy Controllers",
+    "path": "folders/Objects/Mechanics/Enemies/Enemy Controllers.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_enemy_killzone",
-  "tags": [],
-  "resourceType": "GMObject"
 }

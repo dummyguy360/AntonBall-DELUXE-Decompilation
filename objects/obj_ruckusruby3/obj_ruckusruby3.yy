@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_ruckusruby3",
   "spriteId": {
     "name": "spr_ruckusruby3",
-    "path": "sprites/spr_ruckusruby3/spr_ruckusruby3.yy"
+    "path": "sprites/spr_ruckusruby3/spr_ruckusruby3.yy",
   },
   "solid": false,
   "visible": true,
@@ -10,7 +13,7 @@
   "persistent": false,
   "parentObjectId": {
     "name": "obj_ruckusruby",
-    "path": "objects/obj_ruckusruby/obj_ruckusruby.yy"
+    "path": "objects/obj_ruckusruby/obj_ruckusruby.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -28,11 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "Ruckus Rubys",
+    "path": "folders/Objects/Mechanics/Ruckus Rubys.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_ruckusruby3",
-  "tags": [],
-  "resourceType": "GMObject"
 }

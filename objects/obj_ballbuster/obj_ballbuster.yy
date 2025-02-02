@@ -1,19 +1,22 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_ballbuster",
   "spriteId": {
     "name": "spr_mole",
-    "path": "sprites/spr_mole/spr_mole.yy"
+    "path": "sprites/spr_mole/spr_mole.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": {
     "name": "spr_mole",
-    "path": "sprites/spr_mole/spr_mole.yy"
+    "path": "sprites/spr_mole/spr_mole.yy",
   },
   "persistent": false,
   "parentObjectId": {
     "name": "obj_walkerEnemyParent",
-    "path": "objects/obj_walkerEnemyParent/obj_walkerEnemyParent.yy"
+    "path": "objects/obj_walkerEnemyParent/obj_walkerEnemyParent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -28,25 +31,12 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 0,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    }
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "Enemies",
+    "path": "folders/Objects/Mechanics/Enemies.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_ballbuster",
-  "tags": [],
-  "resourceType": "GMObject"
 }

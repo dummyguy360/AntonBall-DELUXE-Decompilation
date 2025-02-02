@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_enemy_spawn_point",
   "spriteId": {
     "name": "spr_warp",
-    "path": "sprites/spr_warp/spr_warp.yy"
+    "path": "sprites/spr_warp/spr_warp.yy",
   },
   "solid": false,
   "visible": false,
@@ -22,82 +25,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {
-      "isDnD": false,
-      "eventNum": 4,
-      "eventType": 7,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "tags": [],
-      "resourceType": "GMEvent"
-    }
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,},
   ],
   "properties": [
-    {
-      "varType": 4,
-      "value": "[]",
-      "rangeEnabled": false,
-      "rangeMin": 0.0,
-      "rangeMax": 10.0,
-      "listItems": [],
-      "multiselect": false,
-      "filters": [],
-      "resourceVersion": "1.0",
-      "name": "whitelist",
-      "tags": [],
-      "resourceType": "GMObjectProperty"
-    },
-    {
-      "varType": 4,
-      "value": "-1",
-      "rangeEnabled": false,
-      "rangeMin": 0.0,
-      "rangeMax": 10.0,
-      "listItems": [],
-      "multiselect": false,
-      "filters": [],
-      "resourceVersion": "1.0",
-      "name": "spawnPointID",
-      "tags": [],
-      "resourceType": "GMObjectProperty"
-    },
-    {
-      "varType": 4,
-      "value": "1",
-      "rangeEnabled": false,
-      "rangeMin": 0.0,
-      "rangeMax": 10.0,
-      "listItems": [],
-      "multiselect": false,
-      "filters": [],
-      "resourceVersion": "1.0",
-      "name": "facing",
-      "tags": [],
-      "resourceType": "GMObjectProperty"
-    },
-    {
-      "varType": 4,
-      "value": "0",
-      "rangeEnabled": false,
-      "rangeMin": 0.0,
-      "rangeMax": 10.0,
-      "listItems": [],
-      "multiselect": false,
-      "filters": [],
-      "resourceVersion": "1.0",
-      "name": "dropDown",
-      "tags": [],
-      "resourceType": "GMObjectProperty"
-    }
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"whitelist","varType":4,"value":"[]","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spawnPointID","varType":4,"value":"-1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"facing","varType":4,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"dropDown","varType":4,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
+    "name": "Enemy Controllers",
+    "path": "folders/Objects/Mechanics/Enemies/Enemy Controllers.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_enemy_spawn_point",
-  "tags": [],
-  "resourceType": "GMObject"
 }
