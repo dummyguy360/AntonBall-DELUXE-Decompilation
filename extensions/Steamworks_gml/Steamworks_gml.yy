@@ -5,347 +5,1889 @@
   "optionsFile": "options.json",
   "options": [],
   "exportToGame": true,
-  "supportedTargets": -1,
-  "extensionVersion": "0.0.1",
+  "supportedTargets": 105554163798254,
+  "extensionVersion": "1.0.0",
   "packageId": "",
-  "productId": "",
+  "productId": "F79C97955FD1AF4686EB4EF4EF90F0DB",
   "author": "",
-  "date": "2025-01-29T10:47:47.4170077-08:00",
-  "license": "",
+  "date": "2020-01-26T01:10:57",
+  "license": "LGPLv3",
   "description": "",
   "helpfile": "",
-  "iosProps": false,
+  "iosProps": true,
   "tvosProps": false,
-  "androidProps": false,
+  "androidProps": true,
   "html5Props": false,
   "installdir": "",
   "files": [
-    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"Steamworks.gml.dll","origname":"","init":"steam_gml_init_cpp_pre","final":"","kind":1,"uncompress":false,"functions":[
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_reset","externalName":"steam_controller_reset","kind":11,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_init","externalName":"steam_controller_init","kind":1,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_update","externalName":"steam_controller_update","kind":1,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_max_count_raw","externalName":"steam_controller_get_max_count_raw","kind":11,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_ids_raw","externalName":"steam_controller_get_ids_raw","kind":11,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
-            1,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_actionset_id","externalName":"steam_controller_get_actionset_id","kind":1,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
-            1,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_actionset","externalName":"steam_controller_get_actionset","kind":1,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_set_actionset","externalName":"steam_controller_set_actionset","kind":1,"help":"","hidden":false,"returnType":2,"argCount":2,"args":[
-            2,
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_digital_id","externalName":"steam_controller_get_digital_id","kind":1,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
-            1,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_digital_value","externalName":"steam_controller_get_digital_value","kind":1,"help":"","hidden":false,"returnType":2,"argCount":2,"args":[
-            2,
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_digital_status","externalName":"steam_controller_get_digital_status","kind":1,"help":"","hidden":false,"returnType":2,"argCount":2,"args":[
-            2,
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_digital_origins_raw","externalName":"steam_controller_get_digital_origins_raw","kind":11,"help":"","hidden":false,"returnType":2,"argCount":4,"args":[
-            2,
-            2,
-            2,
-            1,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_id","externalName":"steam_controller_get_analog_id","kind":1,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
-            1,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_data","externalName":"steam_controller_get_analog_data","kind":11,"help":"","hidden":false,"returnType":2,"argCount":3,"args":[
-            2,
-            2,
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_origins_raw","externalName":"steam_controller_get_analog_origins_raw","kind":11,"help":"","hidden":false,"returnType":2,"argCount":4,"args":[
-            2,
-            2,
-            2,
-            1,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_max_origins_raw","externalName":"steam_controller_get_max_origins_raw","kind":11,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"RegisterCallbacks","externalName":"RegisterCallbacks","kind":11,"help":"","hidden":false,"returnType":2,"argCount":4,"args":[
-            1,
-            1,
-            1,
-            1,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_lobby_id_high","externalName":"steam_lobby_get_lobby_id_high","kind":11,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_lobby_id_low","externalName":"steam_lobby_get_lobby_id_low","kind":11,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_leave","externalName":"steam_lobby_leave","kind":1,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_is_owner","externalName":"steam_lobby_is_owner","kind":1,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_owner_id_high","externalName":"steam_lobby_get_owner_id_high","kind":11,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_owner_id_low","externalName":"steam_lobby_get_owner_id_low","kind":11,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_member_count","externalName":"steam_lobby_get_member_count","kind":1,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_member_id_high","externalName":"steam_lobby_get_member_id_high","kind":11,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_member_id_low","externalName":"steam_lobby_get_member_id_low","kind":11,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_activate_invite_overlay","externalName":"steam_lobby_activate_invite_overlay","kind":1,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_request","externalName":"steam_lobby_list_request","kind":1,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_is_loading","externalName":"steam_lobby_list_is_loading","kind":1,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_add_string_filter","externalName":"steam_lobby_list_add_string_filter","kind":1,"help":"","hidden":false,"returnType":2,"argCount":3,"args":[
-            1,
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"Steamworks.gml.dll","origname":"Steamworks.gml.dll","init":"steam_gml_init_cpp_pre","final":"","kind":1,"uncompress":false,"functions":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_get_status_raw","externalName":"steam_inventory_result_get_status_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
             1,
             2,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_add_numerical_filter","externalName":"steam_lobby_list_add_numerical_filter","kind":1,"help":"","hidden":false,"returnType":2,"argCount":3,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_get_unix_timestamp_raw","externalName":"steam_inventory_result_get_unix_timestamp_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_get_item_property_raw","externalName":"steam_inventory_result_get_item_property_raw","kind":11,"help":"","hidden":true,"returnType":1,"argCount":3,"args":[
+            1,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_get_items_raw","externalName":"steam_inventory_result_get_items_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_get_items_raw_post","externalName":"steam_inventory_result_get_items_raw_post","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_destroy_raw","externalName":"steam_inventory_result_destroy_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_trigger_item_drop_raw","externalName":"steam_inventory_trigger_item_drop_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_add_promo_item_raw","externalName":"steam_inventory_add_promo_item_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_add_promo_items_raw","externalName":"steam_inventory_add_promo_items_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_consume_item_raw","externalName":"steam_inventory_consume_item_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_exchange_items_raw","externalName":"steam_inventory_exchange_items_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_generate_items_raw","externalName":"steam_inventory_generate_items_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_get_all_items_raw","externalName":"steam_inventory_get_all_items_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_start_purchase_raw","externalName":"steam_inventory_start_purchase_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_request_eligible_promo_item_defs_raw","externalName":"steam_inventory_request_eligible_promo_item_defs_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_get_items_by_id_raw","externalName":"steam_inventory_get_items_by_id_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_start_update_properties_raw","externalName":"steam_inventory_start_update_properties_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_set_property_bool_raw","externalName":"steam_inventory_set_property_bool_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":3,"args":[
+            1,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_set_property_float_raw","externalName":"steam_inventory_set_property_float_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":3,"args":[
+            1,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_set_property_int_raw","externalName":"steam_inventory_set_property_int_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":3,"args":[
+            1,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_set_property_string_raw","externalName":"steam_inventory_set_property_string_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":4,"args":[
+            1,
+            2,
+            1,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_remove_property_raw","externalName":"steam_inventory_remove_property_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":3,"args":[
+            1,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_submit_update_properties_raw","externalName":"steam_inventory_submit_update_properties_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_load_item_definitions_raw","externalName":"steam_inventory_load_item_definitions_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_get_item_price_raw","externalName":"steam_inventory_get_item_price_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_get_items_with_prices_raw","externalName":"steam_inventory_get_items_with_prices_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_get_items_with_prices_raw_post","externalName":"steam_inventory_get_items_with_prices_raw_post","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_request_prices_raw","externalName":"steam_inventory_request_prices_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_transfer_item_quantity_raw","externalName":"steam_inventory_transfer_item_quantity_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_send_chat_message_raw","externalName":"steam_lobby_send_chat_message_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":3,"args":[
+            1,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_send_chat_message_buffer_raw","externalName":"steam_lobby_send_chat_message_buffer_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_chat_message_data_raw","externalName":"steam_lobby_get_chat_message_data_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_set_joinable_raw","externalName":"steam_lobby_set_joinable_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_friends_game_info_raw","externalName":"steam_get_friends_game_info_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_friends_game_info_raw_post","externalName":"steam_get_friends_game_info_raw_post","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_user_persona_name_sync_raw","externalName":"steam_get_user_persona_name_sync_raw","kind":11,"help":"","hidden":true,"returnType":1,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_user_avatar_raw","externalName":"steam_get_user_avatar_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_image_get_size_raw","externalName":"steam_image_get_size_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_image_get_rgba_raw","externalName":"steam_image_get_rgba_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_image_get_bgra_raw","externalName":"steam_image_get_bgra_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_reset","externalName":"steam_controller_reset","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_init","externalName":"steam_controller_init","kind":1,"help":"steam_controller_init() : Should be called on game start if you use Steam Controller","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_update","externalName":"steam_controller_update","kind":1,"help":"steam_controller_update() : Can be called prior to other controller functions for lower latency. Called by steam_gml_update.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_max_count_raw","externalName":"steam_controller_get_max_count_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_ids_raw","externalName":"steam_controller_get_ids_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_type","externalName":"steam_controller_get_type","kind":1,"help":"steam_controller_get_type()","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_actionset_id","externalName":"steam_controller_get_actionset_id","kind":1,"help":"steam_controller_get_actionset_id() : Assigns and returns ActionSet ID for given name, -1 if actionset is not found","hidden":false,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_actionset","externalName":"steam_controller_get_actionset","kind":1,"help":"steam_controller_get_actionset() : Returns action set ID (generated by steam_controller_get_actionset_id), as per GetCurrentActionSet","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_set_actionset","externalName":"steam_controller_set_actionset","kind":1,"help":"steam_controller_set_actionset(, ) : Changes controller action set, as per ActivateActionSet","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_digital_id","externalName":"steam_controller_get_digital_id","kind":1,"help":"steam_controller_get_digital_id()","hidden":false,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_digital_value","externalName":"steam_controller_get_digital_value","kind":1,"help":"steam_controller_get_digital_value(, ) : Retreives digital action state (true/false)","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_digital_status","externalName":"steam_controller_get_digital_status","kind":1,"help":"steam_controller_get_digital_status(, ) : Returns whether the given digital action is currently active (true/false)","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_digital_origins_raw","externalName":"steam_controller_get_digital_origins_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":4,"args":[
+            2,
+            2,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_id","externalName":"steam_controller_get_analog_id","kind":1,"help":"steam_controller_get_analog_id()","hidden":false,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_data","externalName":"steam_controller_get_analog_data","kind":11,"help":"","hidden":true,"returnType":2,"argCount":3,"args":[
+            2,
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_origins_raw","externalName":"steam_controller_get_analog_origins_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":4,"args":[
+            2,
+            2,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_max_origins_raw","externalName":"steam_controller_get_max_origins_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"RegisterCallbacks","externalName":"RegisterCallbacks","kind":11,"help":"","hidden":true,"returnType":2,"argCount":4,"args":[
+            1,
+            1,
+            1,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_chat_message_text","externalName":"steam_lobby_get_chat_message_text","kind":1,"help":"steam_lobby_get_chat_message_text()","hidden":false,"returnType":1,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_chat_message_size","externalName":"steam_lobby_get_chat_message_size","kind":1,"help":"steam_lobby_get_chat_message_size()","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_lobby_id_high","externalName":"steam_lobby_get_lobby_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_lobby_id_low","externalName":"steam_lobby_get_lobby_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_leave","externalName":"steam_lobby_leave","kind":1,"help":"steam_lobby_leave() : Leaves the current lobby (if any)","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_is_owner","externalName":"steam_lobby_is_owner","kind":1,"help":"steam_lobby_is_owner() : Returns whether the local user is the owner of the current lobby.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_owner_id_high","externalName":"steam_lobby_get_owner_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_owner_id_low","externalName":"steam_lobby_get_owner_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_set_owner_id_raw","externalName":"steam_lobby_set_owner_id_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_member_count","externalName":"steam_lobby_get_member_count","kind":1,"help":"steam_lobby_get_member_count() : Returns the number of users in the lobby.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_member_id_high","externalName":"steam_lobby_get_member_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_member_id_low","externalName":"steam_lobby_get_member_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_activate_invite_overlay","externalName":"steam_lobby_activate_invite_overlay","kind":1,"help":"steam_lobby_activate_invite_overlay() : Opens an overlay to invite users to the current lobby.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_request","externalName":"steam_lobby_list_request","kind":1,"help":"steam_lobby_list_request() : Requests the list of lobbies to be (re-)loaded.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_is_loading","externalName":"steam_lobby_list_is_loading","kind":1,"help":"steam_lobby_list_is_loading() : Returns whether the list of lobbies is currently loading.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_add_string_filter","externalName":"steam_lobby_list_add_string_filter","kind":1,"help":"steam_lobby_list_add_string_filter(, , ) : Sets a string filter for the next lobby list request.","hidden":false,"returnType":2,"argCount":3,"args":[
+            1,
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_add_numerical_filter","externalName":"steam_lobby_list_add_numerical_filter","kind":1,"help":"steam_lobby_list_add_numerical_filter(, , ) : Sets a numerical filter for the next lobby list request.","hidden":false,"returnType":2,"argCount":3,"args":[
             1,
             2,
             2,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_add_near_filter","externalName":"steam_lobby_list_add_near_filter","kind":1,"help":"","hidden":false,"returnType":2,"argCount":2,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_add_near_filter","externalName":"steam_lobby_list_add_near_filter","kind":1,"help":"steam_lobby_list_add_near_filter(, ) : Sorts the results of the next lobby list request based to proximity to the given value.","hidden":false,"returnType":2,"argCount":2,"args":[
             1,
             2,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_add_distance_filter","externalName":"steam_lobby_list_add_distance_filter","kind":1,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_add_distance_filter","externalName":"steam_lobby_list_add_distance_filter","kind":1,"help":"steam_lobby_list_add_distance_filter() : Restricts results by region","hidden":false,"returnType":2,"argCount":1,"args":[
             2,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_count","externalName":"steam_lobby_list_get_count","kind":1,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_data","externalName":"steam_lobby_list_get_data","kind":1,"help":"","hidden":false,"returnType":1,"argCount":2,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_count","externalName":"steam_lobby_list_get_count","kind":1,"help":"steam_lobby_list_get_count() : Returns the number of the matching lobbies.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_data","externalName":"steam_lobby_list_get_data","kind":1,"help":"steam_lobby_list_get_data(, ) : Retrieves given information about the given lobby","hidden":false,"returnType":1,"argCount":2,"args":[
             2,
             1,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_id_high","externalName":"steam_lobby_list_get_lobby_id_high","kind":11,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_id_high","externalName":"steam_lobby_list_get_lobby_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
             2,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_id_low","externalName":"steam_lobby_list_get_lobby_id_low","kind":11,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_id_low","externalName":"steam_lobby_list_get_lobby_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
             2,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_owner_id_high","externalName":"steam_lobby_list_get_lobby_owner_id_high","kind":11,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_owner_id_high","externalName":"steam_lobby_list_get_lobby_owner_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
             2,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_owner_id_low","externalName":"steam_lobby_list_get_lobby_owner_id_low","kind":11,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_owner_id_low","externalName":"steam_lobby_list_get_lobby_owner_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
             2,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_member_count","externalName":"steam_lobby_list_get_lobby_member_count","kind":1,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_member_count","externalName":"steam_lobby_list_get_lobby_member_count","kind":1,"help":"steam_lobby_list_get_lobby_member_count() : Returns the number of members in the given lobby in search results.","hidden":false,"returnType":2,"argCount":1,"args":[
             2,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_member_id_high","externalName":"steam_lobby_list_get_lobby_member_id_high","kind":11,"help":"","hidden":false,"returnType":2,"argCount":2,"args":[
-            2,
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_member_id_low","externalName":"steam_lobby_list_get_lobby_member_id_low","kind":11,"help":"","hidden":false,"returnType":2,"argCount":2,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_member_id_high","externalName":"steam_lobby_list_get_lobby_member_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
             2,
             2,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_join","externalName":"steam_lobby_list_join","kind":1,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_join_id_raw","externalName":"steam_lobby_join_id_raw","kind":11,"help":"","hidden":false,"returnType":2,"argCount":2,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_member_id_low","externalName":"steam_lobby_list_get_lobby_member_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
             2,
             2,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_create","externalName":"steam_lobby_create","kind":1,"help":"","hidden":false,"returnType":2,"argCount":2,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_join","externalName":"steam_lobby_list_join","kind":1,"help":"steam_lobby_list_join() : [async] Starts joining the given lobby.","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_join_id_raw","externalName":"steam_lobby_join_id_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
             2,
             2,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_set_data","externalName":"steam_lobby_set_data","kind":1,"help":"","hidden":false,"returnType":2,"argCount":2,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_create","externalName":"steam_lobby_create","kind":1,"help":"steam_lobby_create(, ) : [async] Creates a lobby.","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_set_data","externalName":"steam_lobby_set_data","kind":1,"help":"steam_lobby_set_data(, ) : [lobby owner only] Sets the data for the current lobby.","hidden":false,"returnType":2,"argCount":2,"args":[
             1,
             1,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_data","externalName":"steam_lobby_get_data","kind":1,"help":"","hidden":false,"returnType":1,"argCount":1,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_data","externalName":"steam_lobby_get_data","kind":1,"help":"steam_lobby_get_data() : [anyone] Retrieves previously set data for the current lobby.","hidden":false,"returnType":1,"argCount":1,"args":[
             1,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_set_type","externalName":"steam_lobby_set_type","kind":1,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_set_type","externalName":"steam_lobby_set_type","kind":1,"help":"steam_lobby_set_type() : [lobby owner only] Changes the type of the current lobby.","hidden":false,"returnType":2,"argCount":1,"args":[
             2,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"int64_from_string_high","externalName":"int64_from_string_high","kind":1,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"int64_from_string_high","externalName":"int64_from_string_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
             1,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"int64_from_string_low","externalName":"int64_from_string_low","kind":1,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"int64_from_string_low","externalName":"int64_from_string_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
             1,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"int64_combine_string","externalName":"int64_combine_string","kind":1,"help":"","hidden":false,"returnType":1,"argCount":2,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"int64_combine_string","externalName":"int64_combine_string","kind":11,"help":"","hidden":true,"returnType":1,"argCount":2,"args":[
             2,
             2,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_update","externalName":"steam_gml_update","kind":11,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_restart_if_necessary","externalName":"steam_restart_if_necessary","kind":1,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_api_flags","externalName":"steam_gml_api_flags","kind":11,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_init_cpp","externalName":"steam_gml_init_cpp","kind":11,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_update","externalName":"steam_gml_update","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_restart_if_necessary","externalName":"steam_restart_if_necessary","kind":1,"help":"steam_restart_if_necessary() : Detects if the app was run from Steam client and restarts if needed. Returns whether app should quit.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_api_flags","externalName":"steam_gml_api_flags","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_init_cpp","externalName":"steam_gml_init_cpp","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
             2,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_is_ready","externalName":"steam_gml_is_ready","kind":1,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_get_version","externalName":"steam_gml_get_version","kind":11,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_is_available","externalName":"steam_gml_is_available","kind":1,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_init_cpp_pre","externalName":"steam_gml_init_cpp_pre","kind":11,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_set_auto_accept_p2p_sessions","externalName":"steam_net_set_auto_accept_p2p_sessions","kind":1,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_is_ready","externalName":"steam_gml_is_ready","kind":1,"help":"steam_gml_is_ready() : Returns whether the extension has initialized successfully.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_get_version","externalName":"steam_gml_get_version","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_is_available","externalName":"steam_gml_is_available","kind":1,"help":"steam_gml_is_available() : Returns whether the extension was loaded at all (GML returns 0 for unloaded extension calls).","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_init_cpp_pre","externalName":"steam_gml_init_cpp_pre","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_set_auto_accept_p2p_sessions","externalName":"steam_net_set_auto_accept_p2p_sessions","kind":1,"help":"steam_net_set_auto_accept_p2p_sessions() : Sets whether to auto-accept all incoming P2P session requests.","hidden":false,"returnType":2,"argCount":1,"args":[
             2,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_accept_p2p_session_raw","externalName":"steam_net_accept_p2p_session_raw","kind":1,"help":"","hidden":false,"returnType":2,"argCount":2,"args":[
-            2,
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_close_p2p_session_raw","externalName":"steam_net_close_p2p_session_raw","kind":1,"help":"","hidden":false,"returnType":2,"argCount":2,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_accept_p2p_session_raw","externalName":"steam_net_accept_p2p_session_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
             2,
             2,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_set_type","externalName":"steam_net_packet_set_type","kind":11,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_close_p2p_session_raw","externalName":"steam_net_close_p2p_session_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            2,
             2,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_send_raw","externalName":"steam_net_packet_send_raw","kind":11,"help":"","hidden":false,"returnType":2,"argCount":4,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_set_type","externalName":"steam_net_packet_set_type","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_send_raw","externalName":"steam_net_packet_send_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":4,"args":[
             2,
             2,
             1,
             2,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_receive","externalName":"steam_net_packet_receive","kind":1,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_get_size","externalName":"steam_net_packet_get_size","kind":1,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_get_data_raw","externalName":"steam_net_packet_get_data_raw","kind":11,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_receive","externalName":"steam_net_packet_receive","kind":1,"help":"steam_net_packet_receive() : Receives a packet, returns whether successful (retrieve data via steam_net_packet_).","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_get_size","externalName":"steam_net_packet_get_size","kind":1,"help":"steam_net_packet_get_size() : Returns the size of the last received packet (in bytes).","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_get_data_raw","externalName":"steam_net_packet_get_data_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
             1,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_get_sender_id_high","externalName":"steam_net_packet_get_sender_id_high","kind":11,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_get_sender_id_low","externalName":"steam_net_packet_get_sender_id_low","kind":11,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_user_steam_id_high","externalName":"steam_get_user_steam_id_high","kind":11,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_user_steam_id_low","externalName":"steam_get_user_steam_id_low","kind":11,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_user_set_played_with","externalName":"steam_user_set_played_with","kind":1,"help":"","hidden":false,"returnType":2,"argCount":2,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_get_sender_id_high","externalName":"steam_net_packet_get_sender_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_get_sender_id_low","externalName":"steam_net_packet_get_sender_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_user_steam_id_high","externalName":"steam_get_user_steam_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_user_steam_id_low","externalName":"steam_get_user_steam_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_user_set_played_with","externalName":"steam_user_set_played_with","kind":1,"help":"steam_user_set_played_with(, ) : Can be called on lobby session start, adds the user to \"recently played with\" list.","hidden":false,"returnType":2,"argCount":2,"args":[
             2,
             2,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_activate_overlay_raw","externalName":"steam_activate_overlay_raw","kind":1,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_activate_overlay_raw","externalName":"steam_activate_overlay_raw","kind":1,"help":"steam_activate_overlay_raw() : Activates an overlay by it's raw Steam API name.","hidden":false,"returnType":2,"argCount":1,"args":[
             1,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_friends_game_info_1","externalName":"steam_get_friends_game_info_1","kind":11,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_friends_game_info_2","externalName":"steam_get_friends_game_info_2","kind":11,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
-            1,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_ugc_delete_item","externalName":"steam_ugc_delete_item","kind":1,"help":"","hidden":false,"returnType":2,"argCount":1,"args":[
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_app_ownership_ticket_data_raw","externalName":"steam_get_app_ownership_ticket_data_raw","kind":11,"help":"","hidden":false,"returnType":2,"argCount":2,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_set_rich_presence","externalName":"steam_set_rich_presence","kind":1,"help":"steam_set_rich_presence(, ) : Sets rich text presence for the active user. See: https://partner.steamgames.com/doc/api/ISteamFriends#SetRichPresence","hidden":false,"returnType":2,"argCount":2,"args":[
             1,
             1,
           ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_user_request_encrypted_app_ticket_raw","externalName":"steam_user_request_encrypted_app_ticket_raw","kind":11,"help":"","hidden":false,"returnType":2,"argCount":2,"args":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_clear_rich_presence","externalName":"steam_clear_rich_presence","kind":1,"help":"steam_clear_rich_presence() : Clears rich text presence.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_set_overlay_notification_position","externalName":"steam_set_overlay_notification_position","kind":1,"help":"steam_set_overlay_notification_position()","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_set_overlay_notification_inset","externalName":"steam_set_overlay_notification_inset","kind":1,"help":"steam_set_overlay_notification_inset(, )","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_ugc_delete_item_raw","externalName":"steam_ugc_delete_item_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_app_ownership_ticket_data_raw","externalName":"steam_get_app_ownership_ticket_data_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
             1,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_user_request_encrypted_app_ticket_raw","externalName":"steam_user_request_encrypted_app_ticket_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+      ],"constants":[
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_net_version","value":"1300","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_unknown","value":"0","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_steam_controller","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_xbox360","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_xboxone","value":"3","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_generic_xinput","value":"4","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_ps4","value":"5","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_apple_mfi","value":"6","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_android","value":"7","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_switch_joycon_pair","value":"8","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_switch_joycon_single","value":"9","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_switch_pro","value":"10","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_mobile_touch","value":"11","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_ps3","value":"12","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_invalid","value":"(-1 /*#as steam_inventory_result*/)","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_invalid","value":"-1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_ok","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_fail","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_invalid_param","value":"8","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_service_unavailable","value":"20","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_pending","value":"22","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_limit_exceeded","value":"25","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_expired","value":"27","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_max_chat_message_size","value":"4096","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_member_change_entered","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_member_change_left","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_member_change_disconnected","value":"4","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_member_change_kicked","value":"8","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_member_change_banned","value":"16","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_filter_eq","value":"0","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_filter_ne","value":"3","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_filter_lt","value":"-1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_filter_gt","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_filter_le","value":"-2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_filter_ge","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_distance_filter_close","value":"0","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_distance_filter_default","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_distance_filter_far","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_distance_filter_worldwide","value":"3","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_type_private","value":"0","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_type_friends_only","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_type_public","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_net_packet_type_unreliable","value":"0","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_net_packet_type_unreliable_nodelay","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_net_packet_type_reliable","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_net_packet_type_reliable_buffer","value":"3","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_user_avatar_size_small","value":"0","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_user_avatar_size_medium","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_user_avatar_size_large","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_overlay_notification_position_top_left","value":"0","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_overlay_notification_position_top_right","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_overlay_notification_position_bottom_left","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_overlay_notification_position_bottom_right","value":"3","hidden":false,},
+      ],"ProxyFiles":[],"copyToTargets":105553658380352,"usesRunnerInterface":false,"order":[
+        {"name":"steam_net_set_auto_accept_p2p_sessions","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_accept_p2p_session_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_close_p2p_session_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_set_type","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_send_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_receive","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_get_size","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_get_data_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_get_sender_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_get_sender_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_leave","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_is_owner","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_owner_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_owner_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_member_count","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_member_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_member_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_activate_invite_overlay","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_request","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_is_loading","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_add_string_filter","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_add_numerical_filter","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_add_near_filter","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_add_distance_filter","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_count","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_data","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_owner_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_owner_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_member_count","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_member_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_member_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_join","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_join_id_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_create","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_set_data","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_data","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_set_type","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_reset","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_init","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_update","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_max_count_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_ids_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_actionset_id","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_actionset","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_digital_id","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_digital_value","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_digital_status","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_digital_origins_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_analog_id","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_analog_data","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_analog_origins_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_max_origins_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_get_user_steam_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_get_user_steam_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_user_set_played_with","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_activate_overlay_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"int64_from_string_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"int64_from_string_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"int64_combine_string","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_update","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_restart_if_necessary","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_api_flags","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_init_cpp","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_is_ready","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_get_version","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_is_available","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_init_cpp_pre","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_lobby_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_lobby_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_get_app_ownership_ticket_data_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+      ],},
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"Steamworks.gml.so","origname":"extensions\\Steamworks.gml.so","init":"steam_gml_init_cpp_pre","final":"","kind":1,"uncompress":false,"functions":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_get_status_raw","externalName":"steam_inventory_result_get_status_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_get_unix_timestamp_raw","externalName":"steam_inventory_result_get_unix_timestamp_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_get_item_property_raw","externalName":"steam_inventory_result_get_item_property_raw","kind":11,"help":"","hidden":true,"returnType":1,"argCount":3,"args":[
+            1,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_get_items_raw","externalName":"steam_inventory_result_get_items_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_get_items_raw_post","externalName":"steam_inventory_result_get_items_raw_post","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_destroy_raw","externalName":"steam_inventory_result_destroy_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_trigger_item_drop_raw","externalName":"steam_inventory_trigger_item_drop_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_add_promo_item_raw","externalName":"steam_inventory_add_promo_item_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_add_promo_items_raw","externalName":"steam_inventory_add_promo_items_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_consume_item_raw","externalName":"steam_inventory_consume_item_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_exchange_items_raw","externalName":"steam_inventory_exchange_items_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_generate_items_raw","externalName":"steam_inventory_generate_items_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_get_all_items_raw","externalName":"steam_inventory_get_all_items_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_start_purchase_raw","externalName":"steam_inventory_start_purchase_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_request_eligible_promo_item_defs_raw","externalName":"steam_inventory_request_eligible_promo_item_defs_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_get_items_by_id_raw","externalName":"steam_inventory_get_items_by_id_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_start_update_properties_raw","externalName":"steam_inventory_start_update_properties_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_set_property_bool_raw","externalName":"steam_inventory_set_property_bool_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":3,"args":[
+            1,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_set_property_float_raw","externalName":"steam_inventory_set_property_float_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":3,"args":[
+            1,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_set_property_int_raw","externalName":"steam_inventory_set_property_int_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":3,"args":[
+            1,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_set_property_string_raw","externalName":"steam_inventory_set_property_string_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":4,"args":[
+            1,
+            2,
+            1,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_remove_property_raw","externalName":"steam_inventory_remove_property_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":3,"args":[
+            1,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_submit_update_properties_raw","externalName":"steam_inventory_submit_update_properties_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_load_item_definitions_raw","externalName":"steam_inventory_load_item_definitions_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_get_item_price_raw","externalName":"steam_inventory_get_item_price_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_get_items_with_prices_raw","externalName":"steam_inventory_get_items_with_prices_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_get_items_with_prices_raw_post","externalName":"steam_inventory_get_items_with_prices_raw_post","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_request_prices_raw","externalName":"steam_inventory_request_prices_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_transfer_item_quantity_raw","externalName":"steam_inventory_transfer_item_quantity_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_send_chat_message_raw","externalName":"steam_lobby_send_chat_message_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":3,"args":[
+            1,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_send_chat_message_buffer_raw","externalName":"steam_lobby_send_chat_message_buffer_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_chat_message_data_raw","externalName":"steam_lobby_get_chat_message_data_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_set_joinable_raw","externalName":"steam_lobby_set_joinable_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_friends_game_info_raw","externalName":"steam_get_friends_game_info_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_friends_game_info_raw_post","externalName":"steam_get_friends_game_info_raw_post","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_user_persona_name_sync_raw","externalName":"steam_get_user_persona_name_sync_raw","kind":11,"help":"","hidden":true,"returnType":1,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_user_avatar_raw","externalName":"steam_get_user_avatar_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_image_get_size_raw","externalName":"steam_image_get_size_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_image_get_rgba_raw","externalName":"steam_image_get_rgba_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_image_get_bgra_raw","externalName":"steam_image_get_bgra_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_reset","externalName":"steam_controller_reset","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_init","externalName":"steam_controller_init","kind":1,"help":"steam_controller_init() : Should be called on game start if you use Steam Controller","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_update","externalName":"steam_controller_update","kind":1,"help":"steam_controller_update() : Can be called prior to other controller functions for lower latency. Called by steam_gml_update.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_max_count_raw","externalName":"steam_controller_get_max_count_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_ids_raw","externalName":"steam_controller_get_ids_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_type","externalName":"steam_controller_get_type","kind":1,"help":"steam_controller_get_type()","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_actionset_id","externalName":"steam_controller_get_actionset_id","kind":1,"help":"steam_controller_get_actionset_id() : Assigns and returns ActionSet ID for given name, -1 if actionset is not found","hidden":false,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_actionset","externalName":"steam_controller_get_actionset","kind":1,"help":"steam_controller_get_actionset() : Returns action set ID (generated by steam_controller_get_actionset_id), as per GetCurrentActionSet","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_set_actionset","externalName":"steam_controller_set_actionset","kind":1,"help":"steam_controller_set_actionset(, ) : Changes controller action set, as per ActivateActionSet","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_digital_id","externalName":"steam_controller_get_digital_id","kind":1,"help":"steam_controller_get_digital_id()","hidden":false,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_digital_value","externalName":"steam_controller_get_digital_value","kind":1,"help":"steam_controller_get_digital_value(, ) : Retreives digital action state (true/false)","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_digital_status","externalName":"steam_controller_get_digital_status","kind":1,"help":"steam_controller_get_digital_status(, ) : Returns whether the given digital action is currently active (true/false)","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_digital_origins_raw","externalName":"steam_controller_get_digital_origins_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":4,"args":[
+            2,
+            2,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_id","externalName":"steam_controller_get_analog_id","kind":1,"help":"steam_controller_get_analog_id()","hidden":false,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_data","externalName":"steam_controller_get_analog_data","kind":11,"help":"","hidden":true,"returnType":2,"argCount":3,"args":[
+            2,
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_origins_raw","externalName":"steam_controller_get_analog_origins_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":4,"args":[
+            2,
+            2,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_max_origins_raw","externalName":"steam_controller_get_max_origins_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"RegisterCallbacks","externalName":"RegisterCallbacks","kind":11,"help":"","hidden":true,"returnType":2,"argCount":4,"args":[
+            1,
+            1,
+            1,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_chat_message_text","externalName":"steam_lobby_get_chat_message_text","kind":1,"help":"steam_lobby_get_chat_message_text()","hidden":false,"returnType":1,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_chat_message_size","externalName":"steam_lobby_get_chat_message_size","kind":1,"help":"steam_lobby_get_chat_message_size()","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_lobby_id_high","externalName":"steam_lobby_get_lobby_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_lobby_id_low","externalName":"steam_lobby_get_lobby_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_leave","externalName":"steam_lobby_leave","kind":1,"help":"steam_lobby_leave() : Leaves the current lobby (if any)","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_is_owner","externalName":"steam_lobby_is_owner","kind":1,"help":"steam_lobby_is_owner() : Returns whether the local user is the owner of the current lobby.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_owner_id_high","externalName":"steam_lobby_get_owner_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_owner_id_low","externalName":"steam_lobby_get_owner_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_set_owner_id_raw","externalName":"steam_lobby_set_owner_id_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_member_count","externalName":"steam_lobby_get_member_count","kind":1,"help":"steam_lobby_get_member_count() : Returns the number of users in the lobby.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_member_id_high","externalName":"steam_lobby_get_member_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_member_id_low","externalName":"steam_lobby_get_member_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_activate_invite_overlay","externalName":"steam_lobby_activate_invite_overlay","kind":1,"help":"steam_lobby_activate_invite_overlay() : Opens an overlay to invite users to the current lobby.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_request","externalName":"steam_lobby_list_request","kind":1,"help":"steam_lobby_list_request() : Requests the list of lobbies to be (re-)loaded.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_is_loading","externalName":"steam_lobby_list_is_loading","kind":1,"help":"steam_lobby_list_is_loading() : Returns whether the list of lobbies is currently loading.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_add_string_filter","externalName":"steam_lobby_list_add_string_filter","kind":1,"help":"steam_lobby_list_add_string_filter(, , ) : Sets a string filter for the next lobby list request.","hidden":false,"returnType":2,"argCount":3,"args":[
+            1,
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_add_numerical_filter","externalName":"steam_lobby_list_add_numerical_filter","kind":1,"help":"steam_lobby_list_add_numerical_filter(, , ) : Sets a numerical filter for the next lobby list request.","hidden":false,"returnType":2,"argCount":3,"args":[
+            1,
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_add_near_filter","externalName":"steam_lobby_list_add_near_filter","kind":1,"help":"steam_lobby_list_add_near_filter(, ) : Sorts the results of the next lobby list request based to proximity to the given value.","hidden":false,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_add_distance_filter","externalName":"steam_lobby_list_add_distance_filter","kind":1,"help":"steam_lobby_list_add_distance_filter() : Restricts results by region","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_count","externalName":"steam_lobby_list_get_count","kind":1,"help":"steam_lobby_list_get_count() : Returns the number of the matching lobbies.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_data","externalName":"steam_lobby_list_get_data","kind":1,"help":"steam_lobby_list_get_data(, ) : Retrieves given information about the given lobby","hidden":false,"returnType":1,"argCount":2,"args":[
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_id_high","externalName":"steam_lobby_list_get_lobby_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_id_low","externalName":"steam_lobby_list_get_lobby_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_owner_id_high","externalName":"steam_lobby_list_get_lobby_owner_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_owner_id_low","externalName":"steam_lobby_list_get_lobby_owner_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_member_count","externalName":"steam_lobby_list_get_lobby_member_count","kind":1,"help":"steam_lobby_list_get_lobby_member_count() : Returns the number of members in the given lobby in search results.","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_member_id_high","externalName":"steam_lobby_list_get_lobby_member_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_member_id_low","externalName":"steam_lobby_list_get_lobby_member_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_join","externalName":"steam_lobby_list_join","kind":1,"help":"steam_lobby_list_join() : [async] Starts joining the given lobby.","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_join_id_raw","externalName":"steam_lobby_join_id_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_create","externalName":"steam_lobby_create","kind":1,"help":"steam_lobby_create(, ) : [async] Creates a lobby.","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_set_data","externalName":"steam_lobby_set_data","kind":1,"help":"steam_lobby_set_data(, ) : [lobby owner only] Sets the data for the current lobby.","hidden":false,"returnType":2,"argCount":2,"args":[
+            1,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_data","externalName":"steam_lobby_get_data","kind":1,"help":"steam_lobby_get_data() : [anyone] Retrieves previously set data for the current lobby.","hidden":false,"returnType":1,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_set_type","externalName":"steam_lobby_set_type","kind":1,"help":"steam_lobby_set_type() : [lobby owner only] Changes the type of the current lobby.","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"int64_from_string_high","externalName":"int64_from_string_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"int64_from_string_low","externalName":"int64_from_string_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"int64_combine_string","externalName":"int64_combine_string","kind":11,"help":"","hidden":true,"returnType":1,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_update","externalName":"steam_gml_update","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_restart_if_necessary","externalName":"steam_restart_if_necessary","kind":1,"help":"steam_restart_if_necessary() : Detects if the app was run from Steam client and restarts if needed. Returns whether app should quit.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_api_flags","externalName":"steam_gml_api_flags","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_init_cpp","externalName":"steam_gml_init_cpp","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_is_ready","externalName":"steam_gml_is_ready","kind":1,"help":"steam_gml_is_ready() : Returns whether the extension has initialized successfully.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_get_version","externalName":"steam_gml_get_version","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_is_available","externalName":"steam_gml_is_available","kind":1,"help":"steam_gml_is_available() : Returns whether the extension was loaded at all (GML returns 0 for unloaded extension calls).","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_init_cpp_pre","externalName":"steam_gml_init_cpp_pre","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_set_auto_accept_p2p_sessions","externalName":"steam_net_set_auto_accept_p2p_sessions","kind":1,"help":"steam_net_set_auto_accept_p2p_sessions() : Sets whether to auto-accept all incoming P2P session requests.","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_accept_p2p_session_raw","externalName":"steam_net_accept_p2p_session_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_close_p2p_session_raw","externalName":"steam_net_close_p2p_session_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_set_type","externalName":"steam_net_packet_set_type","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_send_raw","externalName":"steam_net_packet_send_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":4,"args":[
+            2,
+            2,
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_receive","externalName":"steam_net_packet_receive","kind":1,"help":"steam_net_packet_receive() : Receives a packet, returns whether successful (retrieve data via steam_net_packet_).","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_get_size","externalName":"steam_net_packet_get_size","kind":1,"help":"steam_net_packet_get_size() : Returns the size of the last received packet (in bytes).","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_get_data_raw","externalName":"steam_net_packet_get_data_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_get_sender_id_high","externalName":"steam_net_packet_get_sender_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_get_sender_id_low","externalName":"steam_net_packet_get_sender_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_user_steam_id_high","externalName":"steam_get_user_steam_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_user_steam_id_low","externalName":"steam_get_user_steam_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_user_set_played_with","externalName":"steam_user_set_played_with","kind":1,"help":"steam_user_set_played_with(, ) : Can be called on lobby session start, adds the user to \"recently played with\" list.","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_activate_overlay_raw","externalName":"steam_activate_overlay_raw","kind":1,"help":"steam_activate_overlay_raw() : Activates an overlay by it's raw Steam API name.","hidden":false,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_set_rich_presence","externalName":"steam_set_rich_presence","kind":1,"help":"steam_set_rich_presence(, ) : Sets rich text presence for the active user. See: https://partner.steamgames.com/doc/api/ISteamFriends#SetRichPresence","hidden":false,"returnType":2,"argCount":2,"args":[
+            1,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_clear_rich_presence","externalName":"steam_clear_rich_presence","kind":1,"help":"steam_clear_rich_presence() : Clears rich text presence.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_set_overlay_notification_position","externalName":"steam_set_overlay_notification_position","kind":1,"help":"steam_set_overlay_notification_position()","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_set_overlay_notification_inset","externalName":"steam_set_overlay_notification_inset","kind":1,"help":"steam_set_overlay_notification_inset(, )","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_ugc_delete_item_raw","externalName":"steam_ugc_delete_item_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_app_ownership_ticket_data_raw","externalName":"steam_get_app_ownership_ticket_data_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_user_request_encrypted_app_ticket_raw","externalName":"steam_user_request_encrypted_app_ticket_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+      ],"constants":[
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_net_version","value":"1300","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_unknown","value":"0","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_steam_controller","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_xbox360","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_xboxone","value":"3","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_generic_xinput","value":"4","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_ps4","value":"5","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_apple_mfi","value":"6","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_android","value":"7","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_switch_joycon_pair","value":"8","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_switch_joycon_single","value":"9","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_switch_pro","value":"10","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_mobile_touch","value":"11","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_ps3","value":"12","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_invalid","value":"(-1 /*#as steam_inventory_result*/)","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_invalid","value":"-1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_ok","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_fail","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_invalid_param","value":"8","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_service_unavailable","value":"20","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_pending","value":"22","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_limit_exceeded","value":"25","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_expired","value":"27","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_max_chat_message_size","value":"4096","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_member_change_entered","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_member_change_left","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_member_change_disconnected","value":"4","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_member_change_kicked","value":"8","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_member_change_banned","value":"16","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_filter_eq","value":"0","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_filter_ne","value":"3","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_filter_lt","value":"-1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_filter_gt","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_filter_le","value":"-2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_filter_ge","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_distance_filter_close","value":"0","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_distance_filter_default","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_distance_filter_far","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_distance_filter_worldwide","value":"3","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_type_private","value":"0","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_type_friends_only","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_type_public","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_net_packet_type_unreliable","value":"0","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_net_packet_type_unreliable_nodelay","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_net_packet_type_reliable","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_net_packet_type_reliable_buffer","value":"3","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_user_avatar_size_small","value":"0","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_user_avatar_size_medium","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_user_avatar_size_large","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_overlay_notification_position_top_left","value":"0","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_overlay_notification_position_top_right","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_overlay_notification_position_bottom_left","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_overlay_notification_position_bottom_right","value":"3","hidden":false,},
+      ],"ProxyFiles":[],"copyToTargets":17592320262272,"usesRunnerInterface":false,"order":[
+        {"name":"steam_net_set_auto_accept_p2p_sessions","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_accept_p2p_session_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_close_p2p_session_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_set_type","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_send_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_receive","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_get_size","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_get_data_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_get_sender_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_get_sender_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_leave","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_is_owner","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_owner_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_owner_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_member_count","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_member_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_member_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_activate_invite_overlay","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_request","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_is_loading","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_add_string_filter","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_add_numerical_filter","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_add_near_filter","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_add_distance_filter","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_count","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_data","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_owner_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_owner_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_member_count","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_member_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_member_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_join","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_join_id_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_create","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_set_data","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_data","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_set_type","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_reset","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_init","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_update","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_max_count_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_ids_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_actionset_id","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_actionset","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_digital_id","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_digital_value","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_digital_status","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_digital_origins_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_analog_id","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_analog_data","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_analog_origins_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_max_origins_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_get_user_steam_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_get_user_steam_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_user_set_played_with","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_activate_overlay_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"int64_from_string_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"int64_from_string_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"int64_combine_string","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_update","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_restart_if_necessary","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_api_flags","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_init_cpp","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_is_ready","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_get_version","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_is_available","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_init_cpp_pre","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+      ],},
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"Steamworks.gml.dylib","origname":"extensions\\Steamworks.gml.dylib","init":"steam_gml_init_cpp_pre","final":"","kind":1,"uncompress":false,"functions":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_get_status_raw","externalName":"steam_inventory_result_get_status_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_get_unix_timestamp_raw","externalName":"steam_inventory_result_get_unix_timestamp_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_get_item_property_raw","externalName":"steam_inventory_result_get_item_property_raw","kind":11,"help":"","hidden":true,"returnType":1,"argCount":3,"args":[
+            1,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_get_items_raw","externalName":"steam_inventory_result_get_items_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_get_items_raw_post","externalName":"steam_inventory_result_get_items_raw_post","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_destroy_raw","externalName":"steam_inventory_result_destroy_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_trigger_item_drop_raw","externalName":"steam_inventory_trigger_item_drop_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_add_promo_item_raw","externalName":"steam_inventory_add_promo_item_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_add_promo_items_raw","externalName":"steam_inventory_add_promo_items_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_consume_item_raw","externalName":"steam_inventory_consume_item_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_exchange_items_raw","externalName":"steam_inventory_exchange_items_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_generate_items_raw","externalName":"steam_inventory_generate_items_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_get_all_items_raw","externalName":"steam_inventory_get_all_items_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_start_purchase_raw","externalName":"steam_inventory_start_purchase_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_request_eligible_promo_item_defs_raw","externalName":"steam_inventory_request_eligible_promo_item_defs_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_get_items_by_id_raw","externalName":"steam_inventory_get_items_by_id_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_start_update_properties_raw","externalName":"steam_inventory_start_update_properties_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_set_property_bool_raw","externalName":"steam_inventory_set_property_bool_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":3,"args":[
+            1,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_set_property_float_raw","externalName":"steam_inventory_set_property_float_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":3,"args":[
+            1,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_set_property_int_raw","externalName":"steam_inventory_set_property_int_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":3,"args":[
+            1,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_set_property_string_raw","externalName":"steam_inventory_set_property_string_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":4,"args":[
+            1,
+            2,
+            1,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_remove_property_raw","externalName":"steam_inventory_remove_property_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":3,"args":[
+            1,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_submit_update_properties_raw","externalName":"steam_inventory_submit_update_properties_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_load_item_definitions_raw","externalName":"steam_inventory_load_item_definitions_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_get_item_price_raw","externalName":"steam_inventory_get_item_price_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_get_items_with_prices_raw","externalName":"steam_inventory_get_items_with_prices_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_get_items_with_prices_raw_post","externalName":"steam_inventory_get_items_with_prices_raw_post","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_request_prices_raw","externalName":"steam_inventory_request_prices_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_transfer_item_quantity_raw","externalName":"steam_inventory_transfer_item_quantity_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_send_chat_message_raw","externalName":"steam_lobby_send_chat_message_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":3,"args":[
+            1,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_send_chat_message_buffer_raw","externalName":"steam_lobby_send_chat_message_buffer_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_chat_message_data_raw","externalName":"steam_lobby_get_chat_message_data_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_set_joinable_raw","externalName":"steam_lobby_set_joinable_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_friends_game_info_raw","externalName":"steam_get_friends_game_info_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_friends_game_info_raw_post","externalName":"steam_get_friends_game_info_raw_post","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_user_persona_name_sync_raw","externalName":"steam_get_user_persona_name_sync_raw","kind":11,"help":"","hidden":true,"returnType":1,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_user_avatar_raw","externalName":"steam_get_user_avatar_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_image_get_size_raw","externalName":"steam_image_get_size_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_image_get_rgba_raw","externalName":"steam_image_get_rgba_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_image_get_bgra_raw","externalName":"steam_image_get_bgra_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_reset","externalName":"steam_controller_reset","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_init","externalName":"steam_controller_init","kind":1,"help":"steam_controller_init() : Should be called on game start if you use Steam Controller","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_update","externalName":"steam_controller_update","kind":1,"help":"steam_controller_update() : Can be called prior to other controller functions for lower latency. Called by steam_gml_update.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_max_count_raw","externalName":"steam_controller_get_max_count_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_ids_raw","externalName":"steam_controller_get_ids_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_type","externalName":"steam_controller_get_type","kind":1,"help":"steam_controller_get_type()","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_actionset_id","externalName":"steam_controller_get_actionset_id","kind":1,"help":"steam_controller_get_actionset_id() : Assigns and returns ActionSet ID for given name, -1 if actionset is not found","hidden":false,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_actionset","externalName":"steam_controller_get_actionset","kind":1,"help":"steam_controller_get_actionset() : Returns action set ID (generated by steam_controller_get_actionset_id), as per GetCurrentActionSet","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_set_actionset","externalName":"steam_controller_set_actionset","kind":1,"help":"steam_controller_set_actionset(, ) : Changes controller action set, as per ActivateActionSet","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_digital_id","externalName":"steam_controller_get_digital_id","kind":1,"help":"steam_controller_get_digital_id()","hidden":false,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_digital_value","externalName":"steam_controller_get_digital_value","kind":1,"help":"steam_controller_get_digital_value(, ) : Retreives digital action state (true/false)","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_digital_status","externalName":"steam_controller_get_digital_status","kind":1,"help":"steam_controller_get_digital_status(, ) : Returns whether the given digital action is currently active (true/false)","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_digital_origins_raw","externalName":"steam_controller_get_digital_origins_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":4,"args":[
+            2,
+            2,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_id","externalName":"steam_controller_get_analog_id","kind":1,"help":"steam_controller_get_analog_id()","hidden":false,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_data","externalName":"steam_controller_get_analog_data","kind":11,"help":"","hidden":true,"returnType":2,"argCount":3,"args":[
+            2,
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_origins_raw","externalName":"steam_controller_get_analog_origins_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":4,"args":[
+            2,
+            2,
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_max_origins_raw","externalName":"steam_controller_get_max_origins_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"RegisterCallbacks","externalName":"RegisterCallbacks","kind":11,"help":"","hidden":true,"returnType":2,"argCount":4,"args":[
+            1,
+            1,
+            1,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_chat_message_text","externalName":"steam_lobby_get_chat_message_text","kind":1,"help":"steam_lobby_get_chat_message_text()","hidden":false,"returnType":1,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_chat_message_size","externalName":"steam_lobby_get_chat_message_size","kind":1,"help":"steam_lobby_get_chat_message_size()","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_lobby_id_high","externalName":"steam_lobby_get_lobby_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_lobby_id_low","externalName":"steam_lobby_get_lobby_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_leave","externalName":"steam_lobby_leave","kind":1,"help":"steam_lobby_leave() : Leaves the current lobby (if any)","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_is_owner","externalName":"steam_lobby_is_owner","kind":1,"help":"steam_lobby_is_owner() : Returns whether the local user is the owner of the current lobby.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_owner_id_high","externalName":"steam_lobby_get_owner_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_owner_id_low","externalName":"steam_lobby_get_owner_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_set_owner_id_raw","externalName":"steam_lobby_set_owner_id_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_member_count","externalName":"steam_lobby_get_member_count","kind":1,"help":"steam_lobby_get_member_count() : Returns the number of users in the lobby.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_member_id_high","externalName":"steam_lobby_get_member_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_member_id_low","externalName":"steam_lobby_get_member_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_activate_invite_overlay","externalName":"steam_lobby_activate_invite_overlay","kind":1,"help":"steam_lobby_activate_invite_overlay() : Opens an overlay to invite users to the current lobby.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_request","externalName":"steam_lobby_list_request","kind":1,"help":"steam_lobby_list_request() : Requests the list of lobbies to be (re-)loaded.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_is_loading","externalName":"steam_lobby_list_is_loading","kind":1,"help":"steam_lobby_list_is_loading() : Returns whether the list of lobbies is currently loading.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_add_string_filter","externalName":"steam_lobby_list_add_string_filter","kind":1,"help":"steam_lobby_list_add_string_filter(, , ) : Sets a string filter for the next lobby list request.","hidden":false,"returnType":2,"argCount":3,"args":[
+            1,
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_add_numerical_filter","externalName":"steam_lobby_list_add_numerical_filter","kind":1,"help":"steam_lobby_list_add_numerical_filter(, , ) : Sets a numerical filter for the next lobby list request.","hidden":false,"returnType":2,"argCount":3,"args":[
+            1,
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_add_near_filter","externalName":"steam_lobby_list_add_near_filter","kind":1,"help":"steam_lobby_list_add_near_filter(, ) : Sorts the results of the next lobby list request based to proximity to the given value.","hidden":false,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_add_distance_filter","externalName":"steam_lobby_list_add_distance_filter","kind":1,"help":"steam_lobby_list_add_distance_filter() : Restricts results by region","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_count","externalName":"steam_lobby_list_get_count","kind":1,"help":"steam_lobby_list_get_count() : Returns the number of the matching lobbies.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_data","externalName":"steam_lobby_list_get_data","kind":1,"help":"steam_lobby_list_get_data(, ) : Retrieves given information about the given lobby","hidden":false,"returnType":1,"argCount":2,"args":[
+            2,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_id_high","externalName":"steam_lobby_list_get_lobby_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_id_low","externalName":"steam_lobby_list_get_lobby_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_owner_id_high","externalName":"steam_lobby_list_get_lobby_owner_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_owner_id_low","externalName":"steam_lobby_list_get_lobby_owner_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_member_count","externalName":"steam_lobby_list_get_lobby_member_count","kind":1,"help":"steam_lobby_list_get_lobby_member_count() : Returns the number of members in the given lobby in search results.","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_member_id_high","externalName":"steam_lobby_list_get_lobby_member_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_member_id_low","externalName":"steam_lobby_list_get_lobby_member_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_join","externalName":"steam_lobby_list_join","kind":1,"help":"steam_lobby_list_join() : [async] Starts joining the given lobby.","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_join_id_raw","externalName":"steam_lobby_join_id_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_create","externalName":"steam_lobby_create","kind":1,"help":"steam_lobby_create(, ) : [async] Creates a lobby.","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_set_data","externalName":"steam_lobby_set_data","kind":1,"help":"steam_lobby_set_data(, ) : [lobby owner only] Sets the data for the current lobby.","hidden":false,"returnType":2,"argCount":2,"args":[
+            1,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_data","externalName":"steam_lobby_get_data","kind":1,"help":"steam_lobby_get_data() : [anyone] Retrieves previously set data for the current lobby.","hidden":false,"returnType":1,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_set_type","externalName":"steam_lobby_set_type","kind":1,"help":"steam_lobby_set_type() : [lobby owner only] Changes the type of the current lobby.","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"int64_from_string_high","externalName":"int64_from_string_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"int64_from_string_low","externalName":"int64_from_string_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"int64_combine_string","externalName":"int64_combine_string","kind":11,"help":"","hidden":true,"returnType":1,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_update","externalName":"steam_gml_update","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_restart_if_necessary","externalName":"steam_restart_if_necessary","kind":1,"help":"steam_restart_if_necessary() : Detects if the app was run from Steam client and restarts if needed. Returns whether app should quit.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_api_flags","externalName":"steam_gml_api_flags","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_init_cpp","externalName":"steam_gml_init_cpp","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_is_ready","externalName":"steam_gml_is_ready","kind":1,"help":"steam_gml_is_ready() : Returns whether the extension has initialized successfully.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_get_version","externalName":"steam_gml_get_version","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_is_available","externalName":"steam_gml_is_available","kind":1,"help":"steam_gml_is_available() : Returns whether the extension was loaded at all (GML returns 0 for unloaded extension calls).","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_init_cpp_pre","externalName":"steam_gml_init_cpp_pre","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_set_auto_accept_p2p_sessions","externalName":"steam_net_set_auto_accept_p2p_sessions","kind":1,"help":"steam_net_set_auto_accept_p2p_sessions() : Sets whether to auto-accept all incoming P2P session requests.","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_accept_p2p_session_raw","externalName":"steam_net_accept_p2p_session_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_close_p2p_session_raw","externalName":"steam_net_close_p2p_session_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_set_type","externalName":"steam_net_packet_set_type","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_send_raw","externalName":"steam_net_packet_send_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":4,"args":[
+            2,
+            2,
+            1,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_receive","externalName":"steam_net_packet_receive","kind":1,"help":"steam_net_packet_receive() : Receives a packet, returns whether successful (retrieve data via steam_net_packet_).","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_get_size","externalName":"steam_net_packet_get_size","kind":1,"help":"steam_net_packet_get_size() : Returns the size of the last received packet (in bytes).","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_get_data_raw","externalName":"steam_net_packet_get_data_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_get_sender_id_high","externalName":"steam_net_packet_get_sender_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_get_sender_id_low","externalName":"steam_net_packet_get_sender_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_user_steam_id_high","externalName":"steam_get_user_steam_id_high","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_user_steam_id_low","externalName":"steam_get_user_steam_id_low","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_user_set_played_with","externalName":"steam_user_set_played_with","kind":1,"help":"steam_user_set_played_with(, ) : Can be called on lobby session start, adds the user to \"recently played with\" list.","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_activate_overlay_raw","externalName":"steam_activate_overlay_raw","kind":1,"help":"steam_activate_overlay_raw() : Activates an overlay by it's raw Steam API name.","hidden":false,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_set_rich_presence","externalName":"steam_set_rich_presence","kind":1,"help":"steam_set_rich_presence(, ) : Sets rich text presence for the active user. See: https://partner.steamgames.com/doc/api/ISteamFriends#SetRichPresence","hidden":false,"returnType":2,"argCount":2,"args":[
+            1,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_clear_rich_presence","externalName":"steam_clear_rich_presence","kind":1,"help":"steam_clear_rich_presence() : Clears rich text presence.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_set_overlay_notification_position","externalName":"steam_set_overlay_notification_position","kind":1,"help":"steam_set_overlay_notification_position()","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_set_overlay_notification_inset","externalName":"steam_set_overlay_notification_inset","kind":1,"help":"steam_set_overlay_notification_inset(, )","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_ugc_delete_item_raw","externalName":"steam_ugc_delete_item_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_app_ownership_ticket_data_raw","externalName":"steam_get_app_ownership_ticket_data_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            1,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_user_request_encrypted_app_ticket_raw","externalName":"steam_user_request_encrypted_app_ticket_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+            1,
+            2,
+          ],"documentation":"",},
+      ],"constants":[
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_net_version","value":"1300","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_unknown","value":"0","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_steam_controller","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_xbox360","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_xboxone","value":"3","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_generic_xinput","value":"4","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_ps4","value":"5","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_apple_mfi","value":"6","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_android","value":"7","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_switch_joycon_pair","value":"8","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_switch_joycon_single","value":"9","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_switch_pro","value":"10","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_mobile_touch","value":"11","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_controller_ps3","value":"12","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_invalid","value":"(-1 /*#as steam_inventory_result*/)","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_invalid","value":"-1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_ok","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_fail","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_invalid_param","value":"8","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_service_unavailable","value":"20","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_pending","value":"22","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_limit_exceeded","value":"25","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_inventory_result_status_expired","value":"27","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_max_chat_message_size","value":"4096","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_member_change_entered","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_member_change_left","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_member_change_disconnected","value":"4","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_member_change_kicked","value":"8","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_member_change_banned","value":"16","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_filter_eq","value":"0","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_filter_ne","value":"3","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_filter_lt","value":"-1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_filter_gt","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_filter_le","value":"-2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_filter_ge","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_distance_filter_close","value":"0","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_distance_filter_default","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_distance_filter_far","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_list_distance_filter_worldwide","value":"3","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_type_private","value":"0","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_type_friends_only","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_lobby_type_public","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_net_packet_type_unreliable","value":"0","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_net_packet_type_unreliable_nodelay","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_net_packet_type_reliable","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_net_packet_type_reliable_buffer","value":"3","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_user_avatar_size_small","value":"0","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_user_avatar_size_medium","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_user_avatar_size_large","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_overlay_notification_position_top_left","value":"0","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_overlay_notification_position_top_right","value":"1","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_overlay_notification_position_bottom_left","value":"2","hidden":false,},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_overlay_notification_position_bottom_right","value":"3","hidden":false,},
+      ],"ProxyFiles":[],"copyToTargets":67108866,"usesRunnerInterface":false,"order":[
+        {"name":"steam_net_set_auto_accept_p2p_sessions","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_accept_p2p_session_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_close_p2p_session_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_set_type","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_send_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_receive","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_get_size","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_get_data_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_get_sender_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_get_sender_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_leave","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_is_owner","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_owner_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_owner_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_member_count","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_member_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_member_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_activate_invite_overlay","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_request","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_is_loading","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_add_string_filter","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_add_numerical_filter","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_add_near_filter","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_add_distance_filter","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_count","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_data","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_owner_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_owner_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_member_count","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_member_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_member_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_join","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_join_id_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_create","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_set_data","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_data","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_set_type","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_reset","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_init","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_update","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_max_count_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_ids_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_actionset_id","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_actionset","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_digital_id","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_digital_value","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_digital_status","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_digital_origins_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_analog_id","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_analog_data","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_analog_origins_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_max_origins_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_get_user_steam_id_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_get_user_steam_id_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_user_set_played_with","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_activate_overlay_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"int64_from_string_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"int64_from_string_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"int64_combine_string","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_update","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_restart_if_necessary","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_api_flags","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_init_cpp","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_is_ready","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_get_version","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_is_available","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_init_cpp_pre","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+      ],},
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"steam_networking.gml","origname":"","init":"","final":"","kind":2,"uncompress":false,"functions":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_accept_p2p_session","externalName":"steam_net_accept_p2p_session","kind":2,"help":"steam_net_accept_p2p_session(user_id) : Accepts a P2P session with the given user. Should only be called in the \"p2p_session_request\" event.","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_close_p2p_session","externalName":"steam_net_close_p2p_session","kind":2,"help":"steam_net_close_p2p_session(user_id) : Closes the P2P session with the given user (if any)","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_get_sender_id","externalName":"steam_net_packet_get_sender_id","kind":2,"help":"steam_net_packet_get_sender_id() : Returns the sender ID (int64) of the last received packet.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_get_data","externalName":"steam_net_packet_get_data","kind":2,"help":"steam_net_packet_get_data(buffer) : Copies the current packet data to the given buffer.","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_send","externalName":"steam_net_packet_send","kind":2,"help":"steam_net_packet_send(steam_id, buffer, size, type) : Sends a packet to the given destination.","hidden":false,"returnType":2,"argCount":4,"args":[
+            2,
+            2,
+            2,
+            2,
+          ],"documentation":"",},
+      ],"constants":[],"ProxyFiles":[],"copyToTargets":-1,"usesRunnerInterface":false,"order":[
+        {"name":"steam_net_accept_p2p_session","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_close_p2p_session","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_get_sender_id","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_get_data","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_packet_send","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+      ],},
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"steam_misc.gml","origname":"","init":"","final":"","kind":2,"uncompress":false,"functions":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_ugc_delete_item","externalName":"steam_ugc_delete_item","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_app_ownership_ticket_data","externalName":"steam_get_app_ownership_ticket_data","kind":2,"help":"steam_get_app_ownership_ticket_data(buffer, ?app_id)->[size_total, ofs_app_id, ofs_steam_id, ofs_signature, size_signature]","hidden":false,"returnType":2,"argCount":-1,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_user_request_encrypted_app_ticket","externalName":"steam_user_request_encrypted_app_ticket","kind":2,"help":"steam_user_request_encrypted_app_ticket(?bufferOrStringToInclude, ?bufferToIncludeSize)","hidden":false,"returnType":2,"argCount":-1,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_image_create_sprite","externalName":"steam_image_create_sprite","kind":2,"help":"steam_image_create_sprite(img:steam_image_id)->sprite","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+      ],"constants":[],"ProxyFiles":[],"copyToTargets":-1,"usesRunnerInterface":false,"order":[
+        {"name":"steam_get_app_ownership_ticket_data","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_user_request_encrypted_app_ticket","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_ugc_delete_item","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+      ],},
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"steam_matchmaking.gml","origname":"","init":"","final":"","kind":2,"uncompress":false,"functions":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_join_id","externalName":"steam_lobby_join_id","kind":2,"help":"steam_lobby_join_id(lobby_id)->ok? : Joins the given lobby","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_lobby_id","externalName":"steam_lobby_get_lobby_id","kind":2,"help":"steam_lobby_get_lobby_id()->lobby_id : Returns the lobby ID of the current lobby","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_owner_id","externalName":"steam_lobby_get_owner_id","kind":2,"help":"steam_lobby_get_owner_id()->user_id : Returns the user ID of the authoritative user in the lobby.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_set_owner_id","externalName":"steam_lobby_set_owner_id","kind":2,"help":"steam_lobby_set_owner_id(user_id)->bool : Transfers lobby ownership","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_member_id","externalName":"steam_lobby_get_member_id","kind":2,"help":"steam_lobby_get_member_id(index)->user_id : Returns the user ID of the given user in the lobby.","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_id","externalName":"steam_lobby_list_get_lobby_id","kind":2,"help":"steam_lobby_list_get_lobby_id(index)->lobby_id : Returns the ID of the given lobby.","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_owner_id","externalName":"steam_lobby_list_get_lobby_owner_id","kind":2,"help":"steam_lobby_list_get_lobby_owner_id(index)->user_id : Returns the user ID of the owner of the given lobby.","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_member_id","externalName":"steam_lobby_list_get_lobby_member_id","kind":2,"help":"steam_lobby_list_get_lobby_owner_id(lobby_index, member_index)->user_id : Returns the user ID of the given member of the given lobby.","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+      ],"constants":[],"ProxyFiles":[],"copyToTargets":-1,"usesRunnerInterface":false,"order":[
+        {"name":"steam_lobby_join_id","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_lobby_id","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_owner_id","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_get_member_id","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_id","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_owner_id","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_list_get_lobby_member_id","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_lobby_set_owner_id","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+      ],},
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"steam_id.gml","origname":"","init":"","final":"","kind":2,"uncompress":false,"functions":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_id_create","externalName":"steam_id_create","kind":2,"help":"steam_id_create(high, low)->steam_id","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_id_get_high","externalName":"steam_id_get_high","kind":2,"help":"steam_id_get_high(steam_id)->int","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_id_get_low","externalName":"steam_id_get_low","kind":2,"help":"steam_id_get_low(steam_id)->int","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_id_equals","externalName":"steam_id_equals","kind":2,"help":"steam_id_equals(steam_id1, steam_id2)->bool","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_id_from_int64","externalName":"steam_id_from_int64","kind":2,"help":"steam_id_from_int64(int64)->steam_id","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_id_to_int64","externalName":"steam_id_to_int64","kind":2,"help":"steam_id_to_int64(steam_id)->int64","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+      ],"constants":[
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_id_use_int64","value":"true","hidden":false,},
+      ],"ProxyFiles":[],"copyToTargets":-1,"usesRunnerInterface":false,"order":[
+        {"name":"steam_id_create","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_id_get_high","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_id_get_low","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_id_equals","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_id_from_int64","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_id_to_int64","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+      ],},
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"steam_core.gml","origname":"","init":"steam_gml_init_gml","final":"","kind":2,"uncompress":false,"functions":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_init_gml","externalName":"steam_gml_init_gml","kind":2,"help":"steam_gml_init_gml()","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_check_version","externalName":"steam_gml_check_version","kind":2,"help":"steam_gml_check_version() : Returns whether the DLL matches the extension version.","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_prepare_buffer","externalName":"steam_gml_prepare_buffer","kind":2,"help":"steam_gml_prepare_buffer(min_size)->buffer~","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_read_chars","externalName":"steam_gml_read_chars","kind":2,"help":"steam_gml_read_chars(buffer:buffer, len:int)->string~","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_write_chars","externalName":"steam_gml_write_chars","kind":11,"help":"","hidden":true,"returnType":2,"argCount":3,"args":[
+            2,
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_is_available","externalName":"steam_net_is_available","kind":2,"help":"steam_net_is_available()->bool","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_update","externalName":"steam_net_update","kind":2,"help":"steam_net_update()->bool","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_check_version","externalName":"steam_net_check_version","kind":11,"help":"","hidden":true,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+      ],"constants":[
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"steam_gml_use_structs","value":"true","hidden":false,},
+      ],"ProxyFiles":[],"copyToTargets":-1,"usesRunnerInterface":false,"order":[
+        {"name":"steam_gml_init_gml","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_check_version","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_gml_prepare_buffer","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_is_available","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_update","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_net_check_version","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+      ],},
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"steam_controller.gml","origname":"","init":"","final":"","kind":2,"uncompress":false,"functions":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_max_count","externalName":"steam_controller_get_max_count","kind":2,"help":"steam_controller_get_max_count()->int: Returns the maximum number of controllers","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_ids","externalName":"steam_controller_get_ids","kind":2,"help":"steam_controller_get_ids(?out:array<index>)->array","hidden":false,"returnType":2,"argCount":-1,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_max_origins","externalName":"steam_controller_get_max_origins","kind":2,"help":"steam_controller_get_max_origins()->int","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_origins_raw","externalName":"steam_controller_get_origins_raw","kind":2,"help":"steam_controller_get_origins_raw(found, buffer, out)->array~","hidden":false,"returnType":2,"argCount":3,"args":[
+            2,
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_digital_origins","externalName":"steam_controller_get_digital_origins","kind":2,"help":"steam_controller_get_digital_origins(controller, actionset_id, digital_id, ?out:array<origin>): as per GetDigitalActionOrigins","hidden":false,"returnType":2,"argCount":-1,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_origins","externalName":"steam_controller_get_analog_origins","kind":2,"help":"steam_controller_get_digital_origins(controller, actionset_id, analog_id, ?out:array<origin>): as per GetAnalogActionOrigins","hidden":false,"returnType":2,"argCount":-1,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_x","externalName":"steam_controller_get_analog_x","kind":2,"help":"steam_controller_get_analog_x(controller, analog_id)->number: (-1..1) for sticks, delta for mouse","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_y","externalName":"steam_controller_get_analog_y","kind":2,"help":"steam_controller_get_analog_y(controller, analog_id)->number: (-1..1) for sticks, delta for mouse","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_mode","externalName":"steam_controller_get_analog_mode","kind":2,"help":"steam_controller_get_analog_mode(controller, analog_id)->EControllerSourceMode","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_status","externalName":"steam_controller_get_analog_status","kind":2,"help":"steam_controller_get_analog_status(controller, analog_id)->bool","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+      ],"constants":[],"ProxyFiles":[],"copyToTargets":-1,"usesRunnerInterface":false,"order":[
+        {"name":"steam_controller_get_max_count","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_ids","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_max_origins","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_origins_raw","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_digital_origins","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_analog_origins","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_analog_x","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_analog_y","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_analog_mode","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+        {"name":"steam_controller_get_analog_status","path":"extensions/Steamworks_gml/Steamworks_gml.yy",},
+      ],},
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"steam_inventory.gml","origname":"","init":"","final":"","kind":2,"uncompress":false,"functions":[],"constants":[],"ProxyFiles":[],"copyToTargets":-1,"usesRunnerInterface":false,"order":[],},
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"steam_autogen.gml","origname":"","init":"","final":"","kind":2,"uncompress":false,"functions":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_get_status","externalName":"steam_inventory_result_get_status","kind":2,"help":"steam_inventory_result_get_status(inv_result:steam_inventory_result)->int","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_get_unix_timestamp","externalName":"steam_inventory_result_get_unix_timestamp","kind":2,"help":"steam_inventory_result_get_unix_timestamp(result:steam_inventory_result)->int","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_get_item_property","externalName":"steam_inventory_result_get_item_property","kind":2,"help":"steam_inventory_result_get_item_property(inv_result:steam_inventory_result, item_index:int, prop_name:string)->string","hidden":false,"returnType":2,"argCount":3,"args":[
+            2,
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_get_items","externalName":"steam_inventory_result_get_items","kind":2,"help":"steam_inventory_result_get_items(inv_result:steam_inventory_result)->array<any>","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_result_destroy","externalName":"steam_inventory_result_destroy","kind":2,"help":"steam_inventory_result_destroy(inv_result:steam_inventory_result)->bool","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_trigger_item_drop","externalName":"steam_inventory_trigger_item_drop","kind":2,"help":"steam_inventory_trigger_item_drop(item_def:steam_inventory_item_def)->steam_inventory_result","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_add_promo_item","externalName":"steam_inventory_add_promo_item","kind":2,"help":"steam_inventory_add_promo_item(item_def:steam_inventory_item_def)->steam_inventory_result","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_add_promo_items","externalName":"steam_inventory_add_promo_items","kind":2,"help":"steam_inventory_add_promo_items(item_defs:array<steam_inventory_item_def>)->steam_inventory_result","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_consume_item","externalName":"steam_inventory_consume_item","kind":2,"help":"steam_inventory_consume_item(item_id:steam_inventory_item_id, quantity:int)->steam_inventory_result","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_exchange_items","externalName":"steam_inventory_exchange_items","kind":2,"help":"steam_inventory_exchange_items(create:array<any>, destroy:array<any>)->steam_inventory_result","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_generate_items","externalName":"steam_inventory_generate_items","kind":2,"help":"steam_inventory_generate_items(create:array<any>)->steam_inventory_result","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_get_all_items","externalName":"steam_inventory_get_all_items","kind":2,"help":"steam_inventory_get_all_items()->steam_inventory_result","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_start_purchase","externalName":"steam_inventory_start_purchase","kind":2,"help":"steam_inventory_start_purchase(items:array<any>)->bool","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_request_eligible_promo_item_defs","externalName":"steam_inventory_request_eligible_promo_item_defs","kind":2,"help":"steam_inventory_request_eligible_promo_item_defs(user_id:int = 0)->bool","hidden":false,"returnType":2,"argCount":-1,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_get_items_by_id","externalName":"steam_inventory_get_items_by_id","kind":2,"help":"steam_inventory_get_items_by_id(item_ids:array<steam_inventory_item_id>)->steam_inventory_result","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_start_update_properties","externalName":"steam_inventory_start_update_properties","kind":2,"help":"steam_inventory_start_update_properties()->steam_inventory_update_handle","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_set_property_bool","externalName":"steam_inventory_set_property_bool","kind":2,"help":"steam_inventory_set_property_bool(handle:steam_inventory_update_handle, item_id:steam_inventory_item_id, prop_name:string, value:bool)->bool","hidden":false,"returnType":2,"argCount":4,"args":[
+            2,
+            2,
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_set_property_float","externalName":"steam_inventory_set_property_float","kind":2,"help":"steam_inventory_set_property_float(handle:steam_inventory_update_handle, item_id:steam_inventory_item_id, prop_name:string, value:number)->bool","hidden":false,"returnType":2,"argCount":4,"args":[
+            2,
+            2,
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_set_property_int","externalName":"steam_inventory_set_property_int","kind":2,"help":"steam_inventory_set_property_int(handle:steam_inventory_update_handle, item_id:steam_inventory_item_id, prop_name:string, value:int)->bool","hidden":false,"returnType":2,"argCount":4,"args":[
+            2,
+            2,
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_set_property_string","externalName":"steam_inventory_set_property_string","kind":2,"help":"steam_inventory_set_property_string(handle:steam_inventory_update_handle, item_id:steam_inventory_item_id, prop_name:string, value:string)->bool","hidden":false,"returnType":2,"argCount":4,"args":[
+            2,
+            2,
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_remove_property","externalName":"steam_inventory_remove_property","kind":2,"help":"steam_inventory_remove_property(handle:steam_inventory_update_handle, item_id:steam_inventory_item_id, prop_name:string)->bool","hidden":false,"returnType":2,"argCount":3,"args":[
+            2,
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_submit_update_properties","externalName":"steam_inventory_submit_update_properties","kind":2,"help":"steam_inventory_submit_update_properties(handle:steam_inventory_update_handle)->steam_inventory_result","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_load_item_definitions","externalName":"steam_inventory_load_item_definitions","kind":2,"help":"steam_inventory_load_item_definitions()->bool","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_get_item_price","externalName":"steam_inventory_get_item_price","kind":2,"help":"steam_inventory_get_item_price(item_def:steam_inventory_item_def)->int?","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_get_items_with_prices","externalName":"steam_inventory_get_items_with_prices","kind":2,"help":"steam_inventory_get_items_with_prices()->array<any>?","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_request_prices","externalName":"steam_inventory_request_prices","kind":2,"help":"steam_inventory_request_prices()->bool","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_inventory_transfer_item_quantity","externalName":"steam_inventory_transfer_item_quantity","kind":2,"help":"steam_inventory_transfer_item_quantity(source_item_id:steam_inventory_item_id, quantity:int, dest_item_id:steam_inventory_item_id)->steam_inventory_result","hidden":false,"returnType":2,"argCount":3,"args":[
+            2,
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_send_chat_message","externalName":"steam_lobby_send_chat_message","kind":2,"help":"steam_lobby_send_chat_message(text:string)->bool ","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_send_chat_message_buffer","externalName":"steam_lobby_send_chat_message_buffer","kind":2,"help":"steam_lobby_send_chat_message_buffer(buf:buffer, size:int = -1)->number","hidden":false,"returnType":2,"argCount":-1,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_chat_message_data","externalName":"steam_lobby_get_chat_message_data","kind":2,"help":"steam_lobby_get_chat_message_data(message_index:int, buf:buffer)->bool","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_set_joinable","externalName":"steam_lobby_set_joinable","kind":2,"help":"steam_lobby_set_joinable(joinable:bool)->bool","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_friends_game_info","externalName":"steam_get_friends_game_info","kind":2,"help":"steam_get_friends_game_info()->array<any>","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_user_persona_name_sync","externalName":"steam_get_user_persona_name_sync","kind":2,"help":"steam_get_user_persona_name_sync(user_id:int)->string","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_user_avatar","externalName":"steam_get_user_avatar","kind":2,"help":"steam_get_user_avatar(user_id:int, avatar_size:int)->int","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_image_get_size","externalName":"steam_image_get_size","kind":2,"help":"steam_image_get_size(img:int)->","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_image_get_rgba","externalName":"steam_image_get_rgba","kind":2,"help":"steam_image_get_rgba(img:int, dest_buf:buffer)->bool","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
+            2,
+          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_image_get_bgra","externalName":"steam_image_get_bgra","kind":2,"help":"steam_image_get_bgra(img:int, dest_buf:buffer)->bool","hidden":false,"returnType":2,"argCount":2,"args":[
+            2,
             2,
           ],"documentation":"",},
       ],"constants":[],"ProxyFiles":[],"copyToTargets":-1,"usesRunnerInterface":false,"order":[],},
-    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"Steamworks.gml.gml","origname":"","init":"steam_gml_init_gml","final":"","kind":2,"uncompress":false,"functions":[
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_init_gml","externalName":"steam_gml_init_gml","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_check_version","externalName":"steam_gml_check_version","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_gml_prepare_buffer","externalName":"steam_gml_prepare_buffer","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_id_create","externalName":"steam_id_create","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_id_equals","externalName":"steam_id_equals","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_id_from_int64","externalName":"steam_id_from_int64","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_id_to_int64","externalName":"steam_id_to_int64","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_id_get_high","externalName":"steam_id_get_high","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_id_get_low","externalName":"steam_id_get_low","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_friends_game_info","externalName":"steam_get_friends_game_info","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_get_app_ownership_ticket_data","externalName":"steam_get_app_ownership_ticket_data","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_join_id","externalName":"steam_lobby_join_id","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_lobby_id","externalName":"steam_lobby_get_lobby_id","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_member_id","externalName":"steam_lobby_get_member_id","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_get_owner_id","externalName":"steam_lobby_get_owner_id","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_id","externalName":"steam_lobby_list_get_lobby_id","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_memeber_id","externalName":"steam_lobby_list_get_lobby_memeber_id","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_lobby_list_get_lobby_owner_id","externalName":"steam_lobby_list_get_lobby_owner_id","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_accept_p2p_session","externalName":"steam_net_accept_p2p_session","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_check_version","externalName":"steam_net_check_version","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_close_p2p_session","externalName":"steam_net_close_p2p_session","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_is_available","externalName":"steam_net_is_available","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_get_data","externalName":"steam_net_packet_get_data","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_get_sender_id","externalName":"steam_net_packet_get_sender_id","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_packet_send","externalName":"steam_net_packet_send","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-            2,
-            2,
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_net_update","externalName":"steam_net_update","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_user_request_encrypted_app_ticket","externalName":"steam_user_request_encrypted_app_ticket","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_ids","externalName":"steam_controller_get_ids","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_digital_origins","externalName":"steam_controller_get_digital_origins","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-            2,
-            2,
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_origins_raw","externalName":"steam_controller_get_origins_raw","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-            2,
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_max_origins","externalName":"steam_controller_get_max_origins","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_max_count","externalName":"steam_controller_get_max_count","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_origins","externalName":"steam_controller_get_analog_origins","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-            2,
-            2,
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_mode","externalName":"steam_controller_get_analog_mode","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_status","externalName":"steam_controller_get_analog_status","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_x","externalName":"steam_controller_get_analog_x","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-            2,
-          ],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"steam_controller_get_analog_y","externalName":"steam_controller_get_analog_y","kind":2,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-            2,
-          ],"documentation":"",},
-      ],"constants":[],"ProxyFiles":[],"copyToTargets":3035426170322551022,"usesRunnerInterface":false,"order":[],},
   ],
   "HTML5CodeInjection": "",
   "classname": "",
-  "tvosclassname": null,
-  "tvosdelegatename": null,
+  "tvosclassname": "",
+  "tvosdelegatename": "",
   "iosdelegatename": "",
   "androidclassname": "",
   "sourcedir": "",
@@ -369,9 +1911,11 @@
   "tvosSystemFrameworkEntries": [],
   "iosThirdPartyFrameworkEntries": [],
   "tvosThirdPartyFrameworkEntries": [],
-  "IncludedResources": [],
+  "IncludedResources": [
+    "Included Files\\steamworks.gml.html",
+  ],
   "androidPermissions": [],
-  "copyToTargets": -1,
+  "copyToTargets": 105554163798254,
   "iosCocoaPods": "",
   "tvosCocoaPods": "",
   "iosCocoaPodDependencies": "",
