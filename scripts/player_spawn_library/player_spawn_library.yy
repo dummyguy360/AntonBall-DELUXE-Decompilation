@@ -3,10 +3,10 @@
   "isCompatibility": false,
   "parent": {
     "name": "Scripts",
-    "path": "folders/Scripts.yy"
+    "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
   "name": "player_spawn_library",
   "tags": [],
-  "resourceType": "GMScript"
+  "resourceType": "GMScript",
 }

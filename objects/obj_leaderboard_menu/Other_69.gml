@@ -12,9 +12,9 @@ for (var i = 0; i < array_length(scoreCallbacks); i++)
             var _entryMap = ds_list_find_value(_entriesList, j);
             _scoresArray[j] = 
             {
-                name: argument[0],
-                myScore: argument[1],
-                rank: argument[2]
+                name: ds_map_find_value(_entryMap, "name"),
+                myScore: ds_map_find_value(_entryMap, "score"),
+                rank: ds_map_find_value(_entryMap, "rank")
             };
         }
         

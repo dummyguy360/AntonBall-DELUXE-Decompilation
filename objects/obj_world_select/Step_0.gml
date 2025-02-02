@@ -42,7 +42,7 @@ else if (obj_menu_input.confirm || _dotMatrixSelected)
     {
         _selectedItem = 
         {
-            myUnlockIndex: argument[0],
+            myUnlockIndex: undefined,
             myRoom: 55
         };
     }

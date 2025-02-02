@@ -20,7 +20,7 @@ switch (room)
         break;
     
     case rm_menu_punchball:
-        _scoreString = get_score_string(global.scores.punchball);
+        _scoreString = get_score_string(global.scores_punchball);
         break;
     
     case rm_menu_vs:

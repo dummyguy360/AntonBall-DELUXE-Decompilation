@@ -28,8 +28,8 @@ while (!file_text_eof(_creditsFile))
     var _string = file_text_readln(_creditsFile);
     var _lineData = 
     {
-        myFont: 0,
-        myString: argument[0]
+        myFont: fnt_chat,
+        myString: _string
     };
     
     if (string_char_at(_string, 1) == "!")

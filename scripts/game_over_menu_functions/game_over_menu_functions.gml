@@ -18,7 +18,7 @@ function game_over_menu()
         if (global.classic_stage)
             global.scores_arcade = add_score(global.scores_arcade, global.points_p1);
         else
-            global.scores.punchball = add_score(global.scores.punchball, global.points_p1 + global.points_p2);
+            global.scores_punchball = add_score(global.scores_punchball, global.points_p1 + global.points_p2);
         
         global.points = 0;
         global.points_p1 = 0;

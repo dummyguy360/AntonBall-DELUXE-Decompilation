@@ -48,7 +48,7 @@ if (ds_list_size(global.activePlayers) < global.max_players)
             
             _newPlayerData = 
             {
-                controller_slot: argument[0]
+                controller_slot: i
             };
         }
         

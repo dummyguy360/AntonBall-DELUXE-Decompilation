@@ -2,7 +2,7 @@ function spawn_default_player(argument0)
 {
     var _newPlayerData = 
     {
-        controller_slot: argument[0]
+        controller_slot: argument0
     };
     _newPlayerData.key_data = load_key_data(argument0);
     add_player(_newPlayerData);

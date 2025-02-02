@@ -211,11 +211,12 @@ function cmn_chat_add(argument0, argument1)
 {
     var l_item = 
     {
-        text: argument[0],
-        time: argument[1],
-        width: argument[2],
-        height: argument[3],
-        data: argument[4]
+		// i THINK its this
+        text: argument0,
+        time: current_time,
+        width: undefined,
+        height: undefined,
+        data: argument1
     };
     var l_items = global.cmn_chat_log_items;
     var l_m = global.cmn_chat_log_max_size;
@@ -420,12 +421,12 @@ function cmn_chat_comp_add_ext(argument0, argument1, argument2, argument3 = 1)
     
     var l_item = 
     {
-        chain: argument[0],
-        args: argument[1],
-        comp: argument[2],
-        argsJoined: argument[3],
-        command: argument[4],
-        help: argument[5]
+        chain: argument0,
+        args: argument1,
+        comp: l_comp,
+        argsJoined: l_argsJoined,
+        command: argument0,
+        help: argument2
     };
     
     if (ds_map_exists(global.cmn_chat_comp_map, argument0))
@@ -556,8 +557,8 @@ function cmn_chat_comp_add_arg(argument0, argument1, argument2, argument3 = "")
         l_map = ds_map_create();
         l_data = 
         {
-            list: argument[0],
-            map: argument[1]
+            list: l_list,
+            map: l_map
         };
         array_set(l_comp, argument1, l_data);
     }
@@ -583,8 +584,8 @@ function cmn_chat_comp_add_arg(argument0, argument1, argument2, argument3 = "")
     
     l_item = 
     {
-        value: argument[0],
-        help: argument[1]
+        value: argument2,
+        help: argument3
     };
     ds_map_set(l_map, argument2, l_item);
     ds_list_add(l_list, l_item);
@@ -2138,7 +2139,7 @@ function cmn_chat_log_draw(argument0, argument1, argument2, argument3)
         }
         else
         {
-            var l_bw = string_width_ext(l_s, -1, l_mw) + l_x1 + l_x2;
+            var l_bw = string_width_ext(l_s, -1, l_mw) + l_x1 + l_x2;//-------------------
             l_item.width = l_bw;
             l_bh = string_height_ext(l_s, -1, l_mw) + l_y1 + l_y2;
             l_item.height = l_bh;
