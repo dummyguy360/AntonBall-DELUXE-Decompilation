@@ -1,16 +1,23 @@
 cmn_menu_init();
 subMenus = 
 {
-    mainMenu: argument[0],
-    findGame: argument[1],
-    createGame: argument[2],
-    browseGames: argument[3],
-    lobbyMenu: argument[4],
-    lobbyPlayers: argument[5],
-    searchMenu: argument[6],
-    connecting: argument[7],
-    creatingLobby: argument[8]
+    mainMenu: cmn_menu_create(netplay_main_menu),
+    findGame: cmn_menu_create(netplay_find_game_menu),
+    createGame: cmn_menu_create(netplay_create_game_menu),
+    browseGames: cmn_menu_create(netplay_browse_games_menu),
+    lobbyMenu: cmn_menu_create(netplay_lobby_menu),
+    lobbyPlayers: cmn_menu_create(netplay_lobby_players),
+    searchMenu: cmn_menu_create(netplay_search_menu),
+    connecting: cmn_menu_create(function()
+    {
+        scr_label("Connecting...")
+    }),
+    creatingLobby: cmn_menu_create(function()
+    {
+        scr_label("Creating...")
+    })
 };
+
 currentMenu = subMenus.mainMenu;
 visibleMenu = currentMenu;
 gameMode = new option_selector_data("Game Mode", "Arcade", "Punch Ball", "VS.");

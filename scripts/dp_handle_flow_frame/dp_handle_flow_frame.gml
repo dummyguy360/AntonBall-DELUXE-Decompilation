@@ -90,13 +90,13 @@ function dp_flow_packet_read(argument0, argument1)
                 _unlocks[_unlock_index] = buffer_read(argument1, buffer_s8);
             
             var _newPlayerData = 
-            {
-                controller_slot: argument[0],
-                key_data: argument[1],
-                remote: argument[2],
-                net_index: argument[3],
-                unlocks: argument[4]
-            };
+			{
+				controller_slot: _slot,
+				key_data: undefined,
+				remote: (!_local),
+				net_index: argument0,
+				unlocks: _unlocks
+			};
             
             if (_local)
             {

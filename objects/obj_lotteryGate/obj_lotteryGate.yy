@@ -1,14 +1,10 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_lotteryGate",
   "spriteId": {
     "name": "spr_lotteryGate",
     "path": "sprites/spr_lotteryGate/spr_lotteryGate.yy",
   },
   "solid": true,
   "visible": false,
-  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -30,7 +26,7 @@
     {"x":0.0,"y":4.0,},
   ],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -38,4 +34,8 @@
     "name": "Lottery",
     "path": "folders/Objects/Mechanics/Lottery.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_lotteryGate",
+  "tags": [],
+  "resourceType": "GMObject",
 }

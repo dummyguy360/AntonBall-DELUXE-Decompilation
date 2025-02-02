@@ -111,7 +111,7 @@ function cmn_chat_string_split(argument0, argument1)
 function cmn_chat_string_substr(argument0, argument1, argument2)
 {
     if (argument1 < 0)
-        self.argument1 += string_length(argument0);
+        argument1 += string_length(argument0);
     
     if (argument2 == undefined)
         return string_delete(argument0, 1, argument1);
@@ -1696,7 +1696,7 @@ function cmn_chat_input_draw(argument0, argument1, argument2, argument3)
     }
     
     if (l_sw > argument1)
-        self.argument0 -= clamp(l_beamX - (argument1 / 2), 0, (l_sw - argument1) + l_x2);
+        argument0 -= clamp(l_beamX - (argument1 / 2), 0, (l_sw - argument1) + l_x2);
     
     var l_c = l_open ? global.cmn_chat_input_back_color_active : global.cmn_chat_input_back_color_inactive;
     var l_a = l_open ? global.cmn_chat_input_back_alpha_active : global.cmn_chat_input_back_alpha_inactive;
@@ -1707,7 +1707,7 @@ function cmn_chat_input_draw(argument0, argument1, argument2, argument3)
     if (l_a == undefined)
         l_a = global.cmn_chat_item_back_alpha;
     
-    self.argument2 -= l_bh;
+    argument2 -= l_bh;
     var l_data = global.cmn_chat_input_custom_data;
     var l_scrBack = global.cmn_chat_item_script_back;
     
@@ -1716,7 +1716,7 @@ function cmn_chat_input_draw(argument0, argument1, argument2, argument3)
         var l_offset = l_scrBack(argument0, argument2, l_bw, l_bh, l_c, l_a, argument3, l_data);
         
         if (is_numeric(l_offset))
-            self.argument0 += l_offset;
+            argument0 += l_offset;
     }
     else
     {
@@ -2091,7 +2091,7 @@ function cmn_chat_log_draw(argument0, argument1, argument2, argument3)
     
     if (argument3 < 0)
     {
-        self.argument3 *= -1;
+        argument3 *= -1;
         l_m = 1;
     }
     

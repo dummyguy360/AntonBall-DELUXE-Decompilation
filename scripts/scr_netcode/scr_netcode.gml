@@ -258,7 +258,7 @@ function dp_StringTools_hex(argument0, argument1)
     var l_h = "0123456789ABCDEF";
     
     if (argument0 < 0)
-        self.argument0 += 4294967295;
+        argument0 += 4294967295;
     
     while (argument0 > 0)
     {
@@ -268,7 +268,7 @@ function dp_StringTools_hex(argument0, argument1)
     
     if (argument1 != undefined)
     {
-        self.argument1 -= string_length(l_s);
+        argument1 -= string_length(l_s);
         
         if (argument1 > 0)
             l_s = string_repeat("0", argument1) + l_s;
@@ -7510,7 +7510,7 @@ function dp_input_ast_in_func_def_call3_hx(argument0, argument1, argument2, argu
         case 3:
             if (argument1 < argument2)
             {
-                self.argument1 += argument3;
+                argument1 += argument3;
                 
                 if (argument1 < argument2)
                     return argument1;
@@ -7519,7 +7519,7 @@ function dp_input_ast_in_func_def_call3_hx(argument0, argument1, argument2, argu
             }
             else
             {
-                self.argument1 -= argument3;
+                argument1 -= argument3;
                 
                 if (argument1 > argument2)
                     return argument1;

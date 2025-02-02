@@ -16,7 +16,7 @@ var _scoreString;
 switch (room)
 {
     case rm_menu_antonball:
-        _scoreString = get_score_string(global.scores.arcade);
+        _scoreString = get_score_string(global.scores_arcade);
         break;
     
     case rm_menu_punchball:
