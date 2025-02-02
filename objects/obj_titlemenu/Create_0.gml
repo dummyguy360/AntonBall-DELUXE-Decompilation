@@ -1,0 +1,1 @@
+gamestart = 0;

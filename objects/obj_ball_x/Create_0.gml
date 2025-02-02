@@ -1,0 +1,14 @@
+hit = 0;
+xcounter = 0;
+ycounter = 0;
+currentstate = 0;
+global.ballspeed = 2;
+b_hitting_wall = 0;
+alarm[1] = 5;
+spiked = 0;
+spikecounter = 0;
+ballspeed = 1.5;
+hsp = lengthdir_x(1.7, 22.5);
+vsp = lengthdir_y(1.7, 22.5);
+global.go = 1;
+alarm[0] = 300;

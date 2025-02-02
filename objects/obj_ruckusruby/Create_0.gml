@@ -1,0 +1,10 @@
+alarm[0] = choose(60, 30, 45, 15);
+image_speed = 0;
+bounce = 2;
+alarm[1] = 300;
+hsp = 0;
+vsp = 0;
+gsp = 0.25;
+xcounter = 0;
+ycounter = 0;
+maxfall = 2;

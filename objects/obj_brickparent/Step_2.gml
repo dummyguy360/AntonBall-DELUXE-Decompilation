@@ -1,0 +1,10 @@
+xpos = x;
+ypos = y;
+xcounter += hsp;
+ycounter += vsp;
+var h = floor(xcounter);
+var v = floor(ycounter);
+xcounter -= h;
+ycounter -= v;
+x += sign(h);
+y += sign(v);

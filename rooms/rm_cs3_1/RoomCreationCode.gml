@@ -1,0 +1,12 @@
+global.classic_stage = 0;
+global.adventure_stage = 0;
+global.punchball_stage = 0;
+global.bonus_stage = 0;
+global.go = 0;
+global.stage_name = "";
+global.stage_name_long = "";
+global.intermission = 0;
+global.music_playing = 0;
+global.music_song = -4;
+global.coincount = 0;
+global.cutscene = 3;

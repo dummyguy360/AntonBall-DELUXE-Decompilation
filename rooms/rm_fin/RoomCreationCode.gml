@@ -1,0 +1,14 @@
+global.classic_stage = 1;
+global.adventure_stage = 0;
+global.go = 1;
+global.player_lives = 0;
+global.stage_name = "";
+global.stage_name_long = "";
+global.ball_oob = 0;
+obj_controller.b_intro_playing = 1;
+global.achievementFlags.gameWon = 1;
+global.bonus_stage = 0;
+global.bonuslost = 0;
+global.music_playing = 1;
+global.music_song = 31;
+global.coincount = 0;

@@ -1,0 +1,12 @@
+animation_init();
+hsp = 0;
+vsp = 0;
+asp = 0.1;
+dsp = 0.1;
+msp = 1.5;
+gsp = 0.035;
+maxfall = 2;
+xcounter = 0;
+ycounter = 0;
+bounce = 0;
+currentstate = 0;

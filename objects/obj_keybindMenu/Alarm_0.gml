@@ -1,0 +1,1 @@
+currentlyBinding = 0;

@@ -1,0 +1,43 @@
+spawn_players = function()
+{
+};
+
+enum_init();
+alarm[9] = 2;
+global.gamestart = 0;
+global.go = 0;
+global.ball_oob = 0;
+global.win = 0;
+global.options.ballTrails = 1;
+global.ballspeed = 0;
+global.ballhits = 0;
+global.combo = 0;
+global.wavytimer = 0;
+scorebenchmark = 1;
+scorebenchmark_pb = [1, 1];
+playerBallHits = 0;
+ruckusrubies = 0;
+ruckusrubycollected = 0;
+global.points_p1 = 0;
+global.points_p2 = 0;
+global.adventure_stage = 0;
+global.classic_stage = 0;
+global.punchball_stage = 0;
+global.vs_stage = 0;
+global.bonus_stage = 0;
+global.snickschallenge = 0;
+global.bonuslost = 0;
+global.continues = 1;
+global.player_lives = 5;
+global.music = 0;
+global.coop = 0;
+gameover = 0;
+playerdead = 0;
+shake = 0;
+shakeDur = 60;
+shakeForce = 1;
+snickunlocked = 0;
+b_showphasename = 0;
+global.controller_1 = -1;
+wavy_effect_layers = ["Background", "Steam", "Waterfall"];
+application_surface_draw_enable(false);

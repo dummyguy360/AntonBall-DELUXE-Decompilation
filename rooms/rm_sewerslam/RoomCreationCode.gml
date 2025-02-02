@@ -1,0 +1,10 @@
+global.classic_stage = 0;
+global.adventure_stage = 0;
+global.punchball_stage = 0;
+global.vs_stage = 1;
+global.win = 0;
+global.music_started = 0;
+global.music_song = 36;
+global.go = 0;
+global.red_pressed = 1;
+global.blue_pressed = 0;

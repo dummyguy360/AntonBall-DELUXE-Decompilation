@@ -1,0 +1,1 @@
+global.coincount = 0;

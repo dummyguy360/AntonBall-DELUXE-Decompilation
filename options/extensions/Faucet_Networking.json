@@ -1,0 +1,9 @@
+{
+  "extensionId": {
+    "name": "Faucet_Networking",
+    "path": "extensions/Faucet_Networking/Faucet_Networking.yy"
+  },
+  "resourceVersion": "1.0",
+  "resourceType": "GMExtensionConfigSet",
+  "configurables": null
+}

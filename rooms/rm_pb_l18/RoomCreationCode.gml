@@ -1,0 +1,14 @@
+global.classic_stage = 0;
+global.punchball_stage = 1;
+global.adventure_stage = 0;
+global.go = 0;
+global.stage_name = "P=18";
+global.bonusIndex = 2;
+global.stage_name_long = "BEAT BONUS\nEARN CONTINUE!";
+global.ball_oob = 0;
+global.intermission = 0;
+global.bonus_stage = 1;
+global.bonuslost = 0;
+obj_punchballWinManager.alarm[0] = 4200;
+global.music_playing = 0;
+global.music_song = 50;

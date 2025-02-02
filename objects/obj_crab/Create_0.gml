@@ -1,0 +1,9 @@
+facing = 1;
+steppedon = 0;
+turning = 0;
+notstepping = 1;
+wsp = 0.25;
+hsp = 0;
+vsp = 0;
+xcounter = 0;
+ycounter = 0;

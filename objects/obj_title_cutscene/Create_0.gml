@@ -1,0 +1,11 @@
+startup = 1;
+image_xscale = 0;
+image_yscale = 0;
+scale = 0;
+image_blend = c_black;
+blendVal = 0;
+startupDuration = 360;
+backgroundSurface = -1;
+backgroundRotation = 0;
+backgroundRotationSpeed = 0.7;
+titleMusic = audio_play_sound(mus_intro, 0, false);

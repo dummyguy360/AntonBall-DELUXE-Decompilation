@@ -1,0 +1,1 @@
+global.currentTime = 0;

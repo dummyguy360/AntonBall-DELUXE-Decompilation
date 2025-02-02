@@ -1,0 +1,9 @@
+alarm[0] = 800;
+alarm[1] = 60;
+lethal = 0;
+flash = 0.8;
+facing = 1;
+image_alpha = 0.8;
+alarm[2] = 2;
+hsp = 0;
+vsp = 0;
